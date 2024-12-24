@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+    @font-face {
+        font-family: irlight;
+        src: url(../font/IRANSansLight.woff);
+    }
+}
+
+@layer components {
+    
+
+}

@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html style="overflow-x: hidden;" lang="en" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./main/css/main.css" />
+    <link rel="stylesheet" href="./node_modules/animate.css/animate.min.css" />
+
+    <title>Document</title>
+  </head>
+  <body style="overflow-x: hidden;" class="bg-white text-black transition-colors duration-300 dark:bg-gray-900 dark:text-white font-[irlight]">
+    <!-- Header -->
+     
+    <div class="main">
+      <div class="desktop:h-[105px] mobile:h-auto mobile:bg-[#4A4A4A]">
+        <div class="
+            desktop:bg-[#333333] desktop:h-[100px] desktop:mx-auto desktop:flex desktop:items-center desktop:justify-between desktop:px-8 desktop:relative">
+          
+          <!-- Logo -->
+          <div class="h-[105px] w-full flex flex-col items-center justify-center mobile:h-[105px] desktop:absolute desktop:right-[320px] desktop:top-[50px] desktop:h-[105px] desktop:w-[170px] desktop:flex desktop:items-center desktop:justify-center desktop:rounded-full">
+            <img class="mobile:w-[170px] mobile:h-[105px]" src="./main/images/logo-fr.png" alt="Logo" />            
+          </div>
+          
+          <!-- Nav Toggle Button -->
+          <button id="nav-toggle" class="mobile:block desktop:hidden text-white p-4 rounded-full hover:bg-gray-600 flex items-center justify-center h-[32px] w-[32px] mt-4">
+            <div class="h-[20px] w-[20px] flex items-center justify-center">
+              <img src="./main/images/menu_icon.svg" alt="Menu Icon" class="h-full w-full">
+            </div>
+          </button>
+    
+          <!-- Navigation Menu and Dark Mode Toggle -->
+          <nav id="mobile-nav" class="hidden mobile:bg-[#4A4A4A] mobile:flex-col mobile:w-full mobile:items-center mobile:pt-2 mobile:overflow-hidden desktop:flex desktop:gap-8 desktop:text-[#AFB2B4] desktop:text-[16px] desktop:text-sm desktop:pr-[140px] desktop:pt-[15px] desktop:justify-center desktop:items-center desktop:mx-auto" style="height: auto;">
+            <a href="#" class="mobile:w-full mobile:h-[44px] mobile:block mobile:pr-[20px] mobile:text-white mobile:text-[14px] mobile:pt-2 desktop:pr-4 desktop:flex desktop:items-center desktop:justify-center desktop:text-white">صفحه اصلی</a>
+            <a href="#" class="mobile:w-full mobile:h-[44px] mobile:block mobile:pr-[20px] mobile:text-white mobile:text-[14px] mobile:pt-2 desktop:border-r desktop:pr-4 desktop:flex desktop:items-center desktop:justify-center">شرکت گلستان</a>
+            <a href="#" class="mobile:w-full mobile:h-[44px] mobile:block mobile:pr-[20px] mobile:text-white mobile:text-[14px] mobile:pt-2 desktop:border-r desktop:pr-4 desktop:flex desktop:items-center desktop:justify-center">محصولات</a>
+            <a href="#" class="mobile:w-full mobile:h-[44px] mobile:block mobile:pr-[20px] mobile:text-white mobile:text-[14px] mobile:pt-2 desktop:border-r desktop:pr-4 desktop:flex desktop:items-center desktop:justify-center">وبلاگ</a>
+            <a href="#" class="mobile:w-full mobile:h-[44px] mobile:block mobile:pr-[20px] mobile:text-white mobile:text-[14px] mobile:pt-2 desktop:border-r desktop:pr-4 desktop:flex desktop:items-center desktop:justify-center">قرعه کشی</a>
+            <a href="#" class="mobile:w-full mobile:h-[44px] mobile:block mobile:pr-[20px] mobile:text-white mobile:text-[14px] mobile:pt-2 desktop:border-r desktop:pr-4 desktop:flex desktop:items-center desktop:justify-center">استخدام</a>
+            <a href="#" class="mobile:w-full mobile:h-[44px] mobile:block mobile:pr-[20px] mobile:text-white mobile:text-[14px] mobile:pt-2 desktop:border-r desktop:pr-4 desktop:flex desktop:items-center desktop:justify-center">تماس با ما</a>
+    
+            <!-- Dark Mode Toggle -->
+            <div id="theme-toggle-container" class="mobile:flex mobile:items-center mobile:justify-center mobile:pt-2">
+              <button id="theme-toggle" class="bg-gray-800 text-white p-4 rounded-full hover:bg-gray-600 mt-4">
+                🌙
+              </button>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+    
+    
+<!-- Section 2 -->
+<div class="desktop:mx-auto mobile:h-[760px] desktop:h-[450px] desktop:dark:bg-gray-800">
+  <div class="desktop:flex desktop:justify-center desktop:dark:bg-gray-900">
+    <div class="desktop:text-right desktop:w-[500px]">
+      <div class="
+      mobile:block
+      desktop:text-gray-800 desktop:mt-[100px] desktop:w-[800px] desktop:h-[450px] desktop:relative desktop:left-[50px] desktop:dark:text-white">
+        <h1 class="
+        mobile:w-[345px] mobile:h-[60px] mobile:text-[30px] mobile:block mobile:mt-[40px] mobile:mx-auto mobile:text-red-600 mobile:pr-[20px]
+        
+        desktop:text-red-600 desktop:text-[30px] desktop:dark:text-red-400">قرعه‌کشی مصرف‌کنندگان گلستان</h1>
+        <h2 class="
+        mobile:w-[345px] mobile:h-[40px] mobile:text-[20px] mobile:block mobile:mt-[10px] mobile:mx-auto mobile:text-[#58595B] mobile:pt-[10px] mobile:pr-[20px]
+        desktop:text-[#58595B] desktop:text-[20px] desktop:leading-[3] desktop:dark:text-[#B0B3B8]">
+          قرعه‌کشی دوره‌ای مصرف‌کنندگان چای گلستان
+        </h2>
+        <h2 class="
+        mobile:w-[345px] mobile:h-[55px] mobile:text-[16px] mobile:block mobile:mt-[10px] mobile:mx-auto mobile:text-[#898989]  mobile:pr-[20px] pt-[20px]
+        desktop:opacity-[0.5] desktop:dark:opacity-[0.7] desktop:animate__animated desktop:animate__slideInDown">هر یک از مصرف‌کنندگان محصولات چای گلستان می‌توانند با ارسال کد</h2>
+        <h2 class="
+        mobile:w-[345px] mobile:h-[55px] mobile:text-[16px] mobile:block mobile:mt-[10px] mobile:mx-auto mobile:text-[#898989]  mobile:pr-[20px]
+        desktop:opacity-[0.5] desktop:dark:opacity-[0.7] desktop:animate__animated desktop:animate__slideInDown">قرعه کشی روی بسته به شماره 30007405 در قرعه کشی‌های دوره‌ای</h2>
+        <h2 class="
+        mobile:w-[345px] mobile:h-[55px] mobile:text-[16px] mobile:block mobile:mt-[10px] mobile:mx-auto mobile:text-[#898989]  mobile:pr-[20px]
+        desktop:opacity-[0.5] desktop:dark:opacity-[0.7] desktop:animate__animated desktop:animate__slideInDown">سال 1403شرکت کنند. نگهداری از بسته‌بندی محصول برای اهدای جایزه الزامی است.</h2>
+        <div class="desktop:flex desktop:mt-[100px] desktop:w-[133px] desktop:h-[41px]">
+          <div class="desktop:bg-white desktop:border desktop:opacity-[0.5] desktop:hover:bg-red-600 desktop:hover:opacity-[1] desktop:hover:text-white desktop:rounded-[5px] desktop:dark:bg-gray-600 desktop:dark:border-gray-500 desktop:dark:hover:bg-red-600 mobile:bg-white mobile:border mobile:opacity-[0.5] mobile:hover:bg-red-600 mobile:hover:opacity-[1] mobile:hover:text-white mobile:rounded-[5px] mobile:dark:bg-gray-600 mobile:dark:border-gray-500 mobile:dark:hover:bg-red-600 mobile:h-[41px] mobile:w-[144px] mobile:text-[15px] mobile:flex mobile:justify-center mobile:items-center mobile:mt-[30px] mr-[30px]">
+            <a class="desktop:py-[10px] desktop:px-[24px] desktop:text-center desktop:flex desktop:text-[14px] desktop:dark:text-white mobile:h-[15px] mobile:w-[84px] mobile:text-center mobile:flex mobile:dark:text-white">اطلاعات بیشتر</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="desktop:relative desktop:mt-[50px] desktop:right-[100px] mobile:relative mobile:mt-[30px] mobile:right-[50px] mobile:block mobile:items-start ">
+      <img src="./main/images/tea-pic1.png" alt="Image" class="desktop:w-[350px] desktop:h-[400px] desktop:object-cover desktop:animate__animated desktop:animate__slideInDown mobile:w-[315px] mobile:h-[360px] mobile:object-cover mobile:animate__animated mobile:animate__slideInDown" />
+    </div>
+  </div>
+</div>
+
+<!-- end Section 2 -->
+
+    
+    <!-- Section 3 -->
+    <div class="desktop:h-[1px] desktop:w-[1500px] desktop:bg-gray-300 desktop:block desktop:mx-auto desktop:opacity-[0.5] desktop:mt-[110px]"></div>
+<div class="desktop:mx-auto desktop:h-[618px] desktop:mt-[100px]">
+  <div class="
+  mobile:h-[600px]
+  desktop:w-[1580px] desktop:mx-auto desktop:animate__animated desktop:animate__slideInRight">
+    <div class="
+    mobile:w-[370px]  mobile:h-[40px] mobile:text-[#FF0000] mobile:font-bold mobile:text-[20px] mobile:text-start mobile:mx-auto
+    desktop:mx-auto desktop:w-[700px] desktop:h-[40px] desktop:text-[#FF0000] desktop:font-bold desktop:text-[20px] desktop:text-start pr-[20px]">
+      <h2>معرفی گلستان</h2>
+    </div>
+    <div class="
+    mobile:mx-auto mobile:w-[350px] mobile:h-[500px]
+    desktop:mx-auto desktop:w-[680px] desktop:h-[180px]">
+      <h2 class="
+      mobile:text-[16px] mobile:text-[#7A7A7A] mobile:leading-[36px]
+      desktop:text-[16px] desktop:text-[#7A7A7A] desktop:leading-[36px]">
+        آنچه که امروز با نام مجموعه
+        <span class="
+        mobile:text-base mobile:not-italic mobile:font-normal mobile:text-[#FF0000] mobile:whitespace-normal
+        desktop:text-base desktop:not-italic desktop:font-normal desktop:text-[#FF0000] desktop:whitespace-normal">گلستان</span>
+        می‌شناسیم در سال 1329 بنیان نهاده شد. زمانی که شرکت گلستان فعالیت خود را با بسته‌بندی و توزیع چای پاکتی آغاز کرد. با گذر زمان و رشد اقتصاد کشور، نهال «گلستان» به تدریج تقویت شد و شاخ و برگ گرفت. فعالیت‌های «گلستان» با تهیه، تولید و بسته‌بندی بهترین محصولات غذایی گسترش پیدا کرد.      
+        <span class="
+        mobile:text-base mobile:not-italic mobile:font-normal mobile:text-[#FF0000] mobile:whitespace-normal
+        desktop:text-base desktop:not-italic desktop:font-normal desktop:text-[#FF0000] desktop:whitespace-normal">گلستان</span>
+        پس از سال‌ها تلاش همچنان می‌کوشد تا به کمک تجربه‌های اندوخته شده در این سال‌ها کالاهایی قابل اعتماد و با کیفیت تولید نماید.
+      
+      </h2>
+
+      <h2 class="
+      mobile:text-[16px] mobile:text-[#7A7A7A] mobile:leading-[36px] mobile:pt-[30px]
+      desktop:text-[16px] desktop:text-[#7A7A7A] desktop:leading-[36px] desktop:pt-[30px]">
+      هدفمندی و برنامه‌ریزی موثر، ایمان و عزم راسخ برای دستیابی به اهداف تعیین شده، به کار گیری همکاران مجرب و دلسوز، استفاده از روش های نوین بازاریابی و مشتری محوری از جمله عوامل مهم در استراتژی 
+        <span class="
+        mobile:text-base mobile:not-italic mobile:font-normal mobile:text-[#FF0000] mobile:whitespace-normal
+        desktop:text-base desktop:not-italic desktop:font-normal desktop:text-[#FF0000] desktop:whitespace-normal">شرکت گلستان </span>
+        است.
+      </h2>
+      
+    </div>
+  </div>
+
+  <div class="desktop:mx-auto desktop:w-[680px] desktop:h-[125px] desktop:mt-[170px] desktop:animate__animated desktop:animate__slideInRight">
+    <div class="
+    mobile:w-[370px]  mobile:h-[40px] mobile:text-[#FF0000] mobile:font-bold mobile:text-[20px] mobile:text-start mobile:mx-auto
+    desktop:mx-auto desktop:w-[700px] desktop:h-[40px] desktop:text-[#FF0000] desktop:font-bold desktop:text-[20px] desktop:text-start desktop:mt-[70px]">
+      محصولات گلستان
+    </div>
+
+    <h2 class="
+    mobile:text-[16px] mobile:text-[#7A7A7A] mobile:leading-[36px] mobile:pt-[30px] mobile:w-[350px] mobile:w-[144px] mobile:mx-auto
+    desktop:text-[16px] desktop:text-[#7A7A7A]">
+      <span class="
+      mobile:text-base mobile:not-italic mobile:font-normal mobile:text-[#FF0000] mobile:whitespace-normal
+      desktop:text-base desktop:not-italic desktop:font-normal desktop:text-[#FF0000] desktop:whitespace-normal">نام تجاری گلستان</span>
+      قدمتی به اندازه عمر شرکت گلستان دارد. گلستان ممتازترین محصولات خود را با این نام تجاری عرضه می‌کند. مصرف‌کنندگان محصولات گلستان همواره از این نام تجاری خاطره محصولاتی ممتاز و منحصر بفرد دارند و با اطمینان از نهایت کیفیت این نام تجاری حمایت می‌کنند.
+    </h2>
+  </div>
+
+  <div class=" 
+  mobile:hidden
+  flex desktop:justify-center desktop:space-x-4 desktop:my-8 desktop:flex-row-reverse desktop:animate__animated desktop:animate__zoomIn">
+    <!-- Box 1 -->
+    <div class="
+    desktop:flex desktop:flex-col desktop:items-center desktop:p-8 desktop:w-[250px] desktop:text-center">
+      <div class="desktop:relative desktop:w-[185px] desktop:h-[185px] desktop:mb-4">
+        <img src="./main/images/page1/golestan-1.png" alt="Image 1" class="desktop:w-[185px] desktop:h-[185px] desktop:object-cover" />
+      </div>
+      <p class="desktop:text-sm desktop:text-gray-500 desktop:mt-2 desktop:mb-5">مشتریان گلستان</p>
+      <div class="desktop:border-t desktop:border-gray-300 desktop:w-full desktop:mt-5"></div>
+    </div>
+
+    <!-- Box 2 -->
+    <div class="desktop:flex desktop:flex-col desktop:items-center desktop:p-8 desktop:w-[250px] desktop:text-center">
+      <div class="desktop:relative desktop:w-[185px] desktop:h-[185px] desktop:mb-4">
+        <img src="./main/images/page1/golestan-2.png" alt="Image 2" class="desktop:w-[185px] desktop:h-[185px] desktop:object-cover" />
+      </div>
+      <p class="desktop:text-sm desktop:text-gray-500 desktop:mt-2 desktop:mb-5">محصولات گلستان</p>
+      <div class="desktop:border-t desktop:border-gray-300 desktop:w-full desktop:mt-5"></div>
+    </div>
+
+    <!-- Box 3 -->
+    <div class="desktop:flex desktop:flex-col desktop:items-center desktop:p-8 desktop:w-[250px] desktop:text-center">
+      <div class="desktop:relative desktop:w-[185px] desktop:h-[185px] desktop:mb-4">
+        <img src="./main/images/page1/golestan-3.png" alt="Image 3" class="desktop:w-[185px] desktop:h-[185px] desktop:object-cover" />
+      </div>
+      <p class="desktop:text-sm desktop:text-gray-500 desktop:mt-2 desktop:mb-5">مراکز فروش</p>
+      <div class="desktop:border-t desktop:border-gray-300 desktop:w-full desktop:mt-5"></div>
+    </div>
+
+    <!-- Box 4 -->
+    <div class="desktop:flex desktop:flex-col desktop:items-center desktop:p-8 desktop:w-[250px] desktop:text-center">
+      <div class="desktop:relative desktop:w-[185px] desktop:h-[185px] desktop:mb-4">
+        <img src="./main/images/page1/golestan-4.png" alt="Image 4" class="desktop:w-[185px] desktop:h-[185px] desktop:object-cover" />
+      </div>
+      <p class="desktop:text-sm desktop:text-gray-500 desktop:mt-2 desktop:mb-5">سرمایه انسانی</p>
+      <div class="desktop:border-t desktop:border-gray-300 desktop:w-full desktop:mt-5"></div>
+    </div>
+  </div>
+</div>
+
+    <!-- end Section 3 -->
+    <div
+    class="
+    mobile:h-[1px] mobile:bg-gray-300 mobile:block mobile:mx-auto mobile:opacity-[0.5] mobile:w-[95%] mobile:mt-[40px]
+    desktop:h-[1px] desktop:bg-gray-300 desktop:block desktop:mx-auto desktop:opacity-[0.5] desktop:mt-[260px]"
+></div>
+
+    <!-- 4 -->
+    <div class="desktop:h-[500px] desktop:mt-[50px]">
+      <img
+        src="./main/images/page1/image2-new-1.png"
+        alt=""
+        class="
+        mobile:h-[241px]
+        desktop:flex desktop:justify-center desktop:items-center desktop:h-[500px] desktop:mx-auto"
+      />
+      <div
+        class="
+        mobile-[93px] mobile:bg-red-600   mobile:relative  mobile:top-[-70px]
+        desktop:flex desktop:w-[290px] desktop:h-[97px] desktop:bg-red-600 desktop:text-center desktop:relative desktop:right-[550px] desktop:bottom-[80px]"
+      >
+        <div class="desktop:text-white">
+          <p class="
+          mobile:text-[29px] mobile:h-[49px] pr-[20px]
+          desktop:text-[29px] desktop:pr-[40px] desktop:pt-[10px]">برنج گلستان</p>
+          <p class="
+          mobile:text-[16px] mobile:h-[44px] pr-[20px]
+          desktop:text-[16px]">معرفی محصول</p>
+        </div>
+      </div>
+    </div>
+    
+    <div
+      class="desktop:h-[1px] bg-gray-300 block mx-auto opacity-[0.5] mt-[50px]"
+    ></div>
+    <div class="
+    mobile:h-[500px]
+    desktop:mx-auto desktop:w-[680px] desktop:h-[266px] desktop:mt-[170px]">
+      <div
+        class="
+        mobile:w-[370px]  mobile:h-[40px] mobile:text-[#FF0000] mobile:font-bold mobile:text-[20px] mobile:text-start mobile:mx-auto
+        desktop:mx-auto desktop:w-[660px] desktop:h-[20px] desktop:text-[#FF0000] desktop:font-bold desktop:text-[20px] desktop:text-start desktop:mt-[70px]"
+      >
+        رکن اول غذای ایرانی
+      </div>
+    
+      <h2
+        class="
+        mobile:text-[16px] mobile:text-[#7A7A7A] mobile:leading-[36px] mobile:pt-[10px] mobile:w-[350px] mobile:h-[288px] mobile:mx-auto
+
+        desktop:text-[15px] desktop:text-[#7A7A7A] desktop:w-[660px] desktop:h-[144px] desktop:mt-[30px] desktop:leading-8"
+      >
+        مرغوب‌ترین برنج دنیا، برنج ایران است و بهترین نوع برنج ایرانی،‌ طارم و
+        هاشمی. این برنج‌ها از بهترین شالیزارهای مازندران برداشت شده، پس از كنترل
+        كیفیت در آزمایشگاه‌های تخصصی گلستان وارد چرخه بسته‌بندی و در وزن‌های
+        مختلف به بازار عرضه می‌شوند. عطر و طعم بی‌نظیر برنج گلستان با هیچ برنج
+        دیگری قابل مقایسه نیست. با گلستان،‌ كیفیت زندگی بالاتر از همیشه است چرا
+        كه مشتریان گلستان؛‌ لایق بهترین‌ها هستند.
+      </h2>
+      <div class="desktop:flex desktop:mt-[50px] desktop:w-[400px] desktop:h-[41px] mobile:flex mobile:flex-row mobile:pt-[30px] mobile:mt-[0px] mobile:mr-[50px]">
+        <div class="
+            mobile:bg-white mobile:border mobile:opacity-[0.5] mobile:hover:bg-red-600 mobile:hover:opacity-[1] mobile:hover:text-white mobile:rounded-[5px] mobile:dark:bg-gray-600 mobile:dark:border-gray-500 mobile:dark:hover:bg-red-600 mobile:h-[41px] mobile:w-[144px] mobile:text-[14px] mobile:flex mobile:justify-center mobile:items-center
+            desktop:bg-white desktop:border desktop:opacity-[0.5] desktop:hover:bg-red-600 desktop:hover:opacity-[1] desktop:hover:text-white desktop:rounded-[5px] desktop:dark:bg-gray-600 desktop:dark:border-gray-500 desktop:dark:hover:bg-red-600 desktop:ml-[10px]">
+            <a class="
+              mobile:h-[15px] mobile:w-[84px] mobile:text-center mobile:flex mobile:dark:text-white mobile:text-[12px]
+              desktop:py-[12px] desktop:px-[24px] desktop:text-center desktop:flex desktop:text-[14px] desktop:dark:text-white">
+                محصولات برنج
+            </a>
+        </div>
+        <div class="
+            mobile:bg-white mobile:border mobile:opacity-[0.5] mobile:hover:bg-red-600 mobile:hover:opacity-[1] mobile:hover:text-white mobile:rounded-[5px] mobile:dark:bg-gray-600 mobile:dark:border-gray-500 mobile:dark:hover:bg-red-600 mobile:h-[41px] mobile:w-[144px] mobile:text-[14px] mobile:flex mobile:justify-center mobile:items-center mobile:mr-[10px]
+            desktop:bg-white desktop:border desktop:opacity-[0.5] desktop:hover:bg-red-600 desktop:hover:opacity-[1] desktop:hover:text-white desktop:rounded-[5px] desktop:dark:bg-gray-600 desktop:dark:border-gray-500 desktop:dark:hover:bg-red-600">
+            <a class="
+              mobile:h-[15px] mobile:w-[84px] mobile:text-center mobile:flex mobile:dark:text-white mobile:text-[12px]
+              desktop:py-[12px] desktop:px-[24px] desktop:text-center desktop:flex desktop:text-[14px] desktop:dark:text-white">
+                آشپزخانه گلستان
+            </a>
+        </div>
+    </div>
+    
+    </div>
+    
+
+    <!-- end 4 -->
+    <!-- 5 -->
+    <div class="desktop:h-[500px] desktop:mt-[50px]">
+      <img
+        src="./main/images/page1/image3-new.png"
+        alt=""
+        class="
+        mobile:h-[241px]
+        desktop:flex desktop:justify-center desktop:items-center desktop:h-[500px] desktop:mx-auto"
+      />
+      <div
+        class="
+        mobile-[93px] mobile:bg-red-600   mobile:relative  mobile:top-[-70px]
+        desktop:flex desktop:w-[290px] desktop:h-[97px] desktop:bg-red-600 desktop:text-center desktop:relative desktop:right-[550px] desktop:bottom-[80px]"
+      >
+        <div class="desktop:text-white">
+          <p class="
+          mobile:text-[29px] mobile:h-[49px] pr-[20px]
+          desktop:text-[29px] desktop:pr-[40px] desktop:pt-[10px]">چای گلستان</p>
+          <p class="
+          mobile:text-[16px] mobile:h-[44px] pr-[20px]
+          desktop:text-[16px]">معرفی محصول</p>
+        </div>
+      </div>
+    </div>
+    
+    <div
+      class="desktop:h-[1px] bg-gray-300 block mx-auto opacity-[0.5] mt-[50px]"></div>
+      <div class="desktop:mx-auto desktop:w-[680px] desktop:h-[266px] desktop:mt-[170px]">
+        <div
+          class="
+          mobile:w-[370px]  mobile:h-[40px] mobile:text-[#FF0000] mobile:font-bold mobile:text-[20px] mobile:text-start mobile:mx-auto
+          desktop:mx-auto desktop:w-[660px] desktop:h-[20px] desktop:text-[#FF0000] desktop:font-bold desktop:text-[20px] desktop:text-start desktop:mt-[70px]"
+        >
+          سابقه‌ای به قدمت یک عمر
+        </div>
+      
+        <h2
+          class="
+          mobile:text-[16px] mobile:text-[#7A7A7A] mobile:leading-[36px] mobile:pt-[10px] mobile:w-[350px] mobile:h-[288px] mobile:mx-auto
+          desktop:text-[15px] desktop:text-[#7A7A7A] desktop:w-[660px] desktop:h-[144px] desktop:mt-[30px] desktop:leading-8"
+        >
+          چای تنها یك نوشیدنی گرم نیست.‌ یک گفتمان است؛‌ گرمابخش وجود و بهانه‌ای برای آغاز یك معاشرت دل‌چسب. بی‌دلیل نیست كه نام «محبوب‌ترین نوشیدنی دنیا» را با خود یدک می‌كشد. نوشیدنش خستگی‌ها را فراری داده،‌ حس خوب آرامش را به همراه دارد.
+        </h2>
+        <h2
+          class="
+          mobile:text-[16px] mobile:text-[#7A7A7A] mobile:leading-[36px] mobile:pt-[10px] mobile:w-[350px] mobile:h-[288px] mobile:mx-auto
+          desktop:text-[15px] desktop:text-[#7A7A7A] desktop:w-[660px] desktop:h-[144px] desktop:mt-[30px] desktop:leading-8"
+        >
+          برای مردمان ایران زمین نام 
+          <span class="
+          mobile:text-base mobile:not-italic mobile:font-normal mobile:text-[#FF0000] mobile:whitespace-normal
+          desktop:text-base desktop:not-italic desktop:font-normal desktop:text-[#FF0000] desktop:whitespace-normal">
+            گلستان
+          </span>
+          با چای پیوند خورده است؛‌ قدیمی‌ترین محصول مجموعه گلستان،‌ با مدرن‌ترین و بهداشتی‌ترین دستگاه‌های روز دنیا تهیه و بسته‌بندی می‌شود. چیزی كه باعث شده مشتریانش یك عمر به نام گلستان اعتماد كنند، كیفیت، ‌عطر و طعم به یادماندنی آن است.
+        </h2>
+        <div class="desktop:flex desktop:mt-[50px] desktop:w-[400px] desktop:h-[41px] mobile:mr-[50px]">
+          <div class="
+          mobile:bg-white mobile:border mobile:opacity-[0.5] mobile:hover:bg-red-600 mobile:hover:opacity-[1] mobile:hover:text-white mobile:rounded-[5px] mobile:dark:bg-gray-600 mobile:dark:border-gray-500 mobile:dark:hover:bg-red-600 mobile:h-[41px] mobile:w-[144px] mobile:text-[14px] mobile:flex mobile:justify-center mobile:items-center 
+          desktop:bg-white desktop:border desktop:opacity-[0.5] desktop:hover:bg-red-600 desktop:hover:opacity-[1] desktop:hover:text-white desktop:rounded-[5px] desktop:dark:bg-gray-600 desktop:dark:border-gray-500 desktop:dark:hover:bg-red-600">
+            <a class="
+            mobile:h-[15px] mobile:w-[84px] mobile:text-center mobile:flex mobile:dark:text-white
+            desktop:py-[12px] desktop:px-[24px] desktop:text-center desktop:flex desktop:text-[14px] desktop:dark:text-white">
+              محصولات چای
+            </a>
+          </div>
+        </div>
+      </div>
+      
+  </div>
+    <!-- end 5 -->
+    <!-- 6 -->
+    <div class="desktop:h-[500px] desktop:mt-[300px]">
+      <img
+        src="./main/images/page1/image4-new.png"
+        alt=""
+        class="desktop:flex desktop:justify-center desktop:items-center desktop:h-[500px] desktop:mx-auto"
+      />
+      <div
+        class="desktop:flex desktop:w-[290px] desktop:h-[97px] desktop:bg-red-600 desktop:text-center desktop:relative desktop:right-[550px] desktop:bottom-[80px]"
+      >
+        <div class="desktop:text-white">
+          <p class="desktop:text-[29px] desktop:pr-[40px] desktop:pt-[10px]">پسته گلستان</p>
+          <p class="desktop:text-[16px]">معرفی محصول</p>
+        </div>
+      </div>
+    </div>
+    <div
+      class="desktop:h-[1px] desktop:bg-gray-300 desktop:block desktop:mx-auto desktop:opacity-[0.5] desktop:mt-[50px]"></div>
+    <div class="desktop:mx-auto desktop:w-[680px] desktop:h-[266px] desktop:mt-[170px]">
+      <div
+        class="desktop:mx-auto desktop:w-[660px] desktop:h-[20px] desktop:text-[#FF0000] desktop:font-bold desktop:text-[20px] desktop:text-start desktop:mt-[70px]"
+      >
+        آجيل‌های خوش خنده
+      </div>
+    
+      <h2
+        class="desktop:text-[15px] desktop:text-[#7A7A7A] desktop:w-[660px] desktop:h-[144px] desktop:mt-[30px] desktop:leading-8"
+      >
+        خواص فوق‌العاده پسته بر كسی پوشیده نیست. پسته را منبع ویتامین و مواد معدنی می‌نامند، یك پمپ خون‌ساز قوی و تسكین دهنده قلب و اعصاب.
+      </h2>
+      <h2
+        class="desktop:text-[15px] desktop:text-[#7A7A7A] desktop:w-[660px] desktop:h-[144px] desktop:mt-[0px] desktop:leading-8"
+      >
+        <span class="desktop:text-base desktop:not-italic desktop:font-normal desktop:text-[#FF0000] desktop:whitespace-normal">پسته گلستان</span>
+        اما حسابش از دیگر پسته‌های بازار جداست. مرغوب‌ترین پسته خام از بهترین باغ‌های پسته ایران دستچین می‌شود.‌ پس از كنترل كیفیت در آزمایشگاه و اطمینان از سلامت محصول،‌ با زعفران درجه یک و نمک، بوداده و برشته شده و‌ پسته گلستان را با طعم و رنگ و عطری بی‌نظیر به ارمغان می‌آورد.
+      </h2>
+      <div class="desktop:flex desktop:mt-[40px] desktop:w-[400px] desktop:h-[41px]">
+        <div class="desktop:bg-white desktop:border desktop:opacity-[0.5] desktop:hover:bg-red-600 desktop:hover:opacity-[1] desktop:hover:text-white desktop:rounded-[5px] desktop:dark:bg-gray-600 desktop:dark:border-gray-500 desktop:dark:hover:bg-red-600">
+          <a class="desktop:py-[12px] desktop:px-[24px] desktop:text-center desktop:flex desktop:text-[14px] desktop:dark:text-white">
+            ناتس گلستان
+          </a>
+        </div>
+      </div>
+    </div>
+    
+    <!-- end 6 -->
+    <!-- 7 -->
+     <!-- Parallax -->
+     <div class="mobile:w-full mobile:h-[250px] mobile:bg-[url('./main/images/page%201/recipe-baner-1.png')] 
+     mobile:bg-center mobile:bg-no-repeat mobile:bg-scroll 
+     desktop:w-full desktop:h-[250px] desktop:bg-[url('./main/images/page1/recipe-baner-1.png')] 
+     desktop:bg-center desktop:bg-fixed desktop:bg-no-repeat desktop:bg-cover desktop:relative desktop:top-[200px] ">
+     </div>
+     
+<!-- End Parallax -->
+    <!-- 7 -->
+    <div class="desktop:w-full desktop:h-[50px] desktop:flex desktop:justify-start desktop:items-center desktop:pr-8 desktop:bg-white desktop:dark:bg-gray-900 desktop:relative desktop:top-[200px]">
+      <h1 class="desktop:text-lg desktop:font-bold desktop:text-red-500 desktop:dark:text-red-400">
+        مجله گلستان
+      </h1>
+    </div>
+    
+    
+     <!-- 8 -->
+     <div class="desktop:w-full desktop:h-[705px] desktop:bg-green-200 dark:bg-gray-900 desktop:flex desktop:justify-center desktop:items-center desktop:gap-6 desktop:px-4 desktop:relative desktop:top-[200px]">
+  
+      <!-- Card 1 -->
+      <div class="desktop:w-[334px] desktop:bg-white dark:bg-gray-800 desktop:rounded-lg desktop:shadow-lg desktop:overflow-hidden">
+        <!-- Image -->
+        <img src="./main/images/page1/recipe-pic2.png" alt="Food Image" 
+          class="desktop:w-[334px] desktop:h-[312px] desktop:object-cover desktop:pb-[20px]">
+        <!-- Text Content -->
+        <div class="desktop:p-4">
+          <h2 class="desktop:text-xl desktop:font-bold desktop:text-red-500 dark:text-red-400 desktop:mb-2 desktop:pb-[20px]">
+            چیلاکیله
+          </h2>
+          <p class="desktop:text-gray-700 dark:text-gray-300 desktop:text-sm desktop:mb-4 desktop:pb-[10px]">
+            ابتدا ماکارانی‌ها را در ظرفی‌ به‌ همراه‌ آب‌، روغن‌ مایع‌ و نمک‌ می‌ریزیم‌ تا کمی‌ بپزد. در این‌ حین‌ پیازها را خرد کرده‌ و روی‌ روغن‌ تفت‌ می‌دهیم‌ تا طلایی‌ شود…
+          </p>
+          <!-- Button -->
+          <div class="desktop:bg-white dark:bg-gray-700 desktop:border desktop:opacity-[0.5] desktop:hover:bg-red-600 dark:hover:bg-red-500 desktop:hover:opacity-[1] desktop:w-[115px] desktop:hover:text-white desktop:rounded-[10px]">
+            <a class="desktop:py-[12px] desktop:px-[24px] desktop:text-center desktop:flex desktop:text-[14px] desktop:text-gray-700 dark:text-gray-200">
+              ادامه مطلب
+            </a>
+          </div>
+        </div>
+      </div>
+    
+      <!-- Card 2 -->
+      <div class="desktop:w-[334px] desktop:bg-white dark:bg-gray-800 desktop:rounded-lg desktop:shadow-lg desktop:overflow-hidden">
+        <!-- Image -->
+        <img src="./main/images/page1/recipe-pic3.png" alt="Food Image" 
+          class="desktop:w-[334px] desktop:h-[312px] desktop:object-cover desktop:pb-[20px]">
+        <!-- Text Content -->
+        <div class="desktop:p-4">
+          <h2 class="desktop:text-xl desktop:font-bold desktop:text-red-500 dark:text-red-400 desktop:mb-2 desktop:pb-[20px]">
+            سوپ مکزیکی
+          </h2>
+          <p class="desktop:text-gray-700 dark:text-gray-300 desktop:text-sm desktop:mb-4 desktop:pb-[20px]">
+            گوشت بوقلمون را در یک ماهیتابه بزرگ ریخته، آب روی آن بریزید تا روی آن را بپوشاند و به مدت نیم ساعت آن را بپزید…
+          </p>
+          <!-- Button -->
+          <div class="desktop:bg-white dark:bg-gray-700 desktop:border desktop:opacity-[0.5] desktop:hover:bg-red-600 dark:hover:bg-red-500 desktop:hover:opacity-[1] desktop:w-[115px] desktop:hover:text-white desktop:rounded-[10px]">
+            <a class="desktop:py-[12px] desktop:px-[24px] desktop:text-center desktop:flex desktop:text-[14px] desktop:text-gray-700 dark:text-gray-200">
+              ادامه مطلب
+            </a>
+          </div>
+        </div>
+      </div>
+    
+      <!-- Card 3 -->
+      <div class="desktop:w-[334px] desktop:bg-white dark:bg-gray-800 desktop:rounded-lg desktop:shadow-lg desktop:overflow-hidden">
+        <!-- Image -->
+        <img src="./main/images/page1/recipe-pic-Chilakile-1401.png" alt="Food Image" 
+          class="desktop:w-[334px] desktop:h-[312px] desktop:object-cover desktop:pb-[20px]">
+        <!-- Text Content -->
+        <div class="desktop:p-4">
+          <h2 class="desktop:text-[20px] desktop:font-bold desktop:text-red-500 dark:text-red-400 desktop:mb-2 desktop:pb-[20px]">
+            ماکارونی با سبزیجات
+          </h2>
+          <p class="desktop:text-gray-700 dark:text-gray-300 desktop:text-sm desktop:mb-4 desktop:pb-[20px]">
+            احتمالا نام چیلا کیله را نشنیده باشید ولی اگر یکبار این غذای فوق‌العاده خوشمزه را تهیه کنید و نوش جان کنید جزئی جدانشدنی از فهرست…
+          </p>
+          <!-- Button -->
+          <div class="desktop:bg-white dark:bg-gray-700 desktop:border desktop:opacity-[0.5] desktop:hover:bg-red-600 dark:hover:bg-red-500 desktop:hover:opacity-[1] desktop:w-[115px] desktop:hover:text-white desktop:rounded-[10px]">
+            <a class="desktop:py-[12px] desktop:px-[24px] desktop:text-center desktop:flex desktop:text-[14px] desktop:text-gray-700 dark:text-gray-200">
+              ادامه مطلب
+            </a>
+          </div>
+        </div>
+      </div>
+    
+    </div>
+      <!-- 8 -->
+
+
+      <!-- 9 -->
+      <div class="desktop:w-full desktop:h-[500px] desktop:bg-gray-100 desktop:dark:bg-gray-900 desktop:flex desktop:justify-center desktop:items-center desktop:gap-6 desktop:px-4 desktop:relative desktop:top-[200px]">
+  
+        <!-- Card 1 -->
+        <div class="desktop:w-[318px] desktop:h-[450px] desktop:bg-white desktop:dark:bg-gray-800 desktop:rounded-lg desktop:shadow-lg desktop:overflow-hidden">
+          <!-- Video -->
+          <div class="desktop:h-[240px]">
+            <iframe 
+              src="https://www.aparat.com/video/video/embed/videohash/xyz/videoid/123" 
+              class="desktop:w-full desktop:h-full"
+              frameborder="0" allowfullscreen></iframe>
+          </div>
+          <!-- Text Content -->
+          <div class="desktop:p-4">
+            <h2 class="desktop:text-lg desktop:font-bold desktop:text-red-500 desktop:dark:text-red-400 desktop:mb-2">برنج گلستان</h2>
+            <p class="desktop:text-gray-700 desktop:dark:text-gray-300 desktop:text-sm desktop:mb-4">
+              عطر و طعم بی‌نظیر برنج گلستان با هیچ برنج دیگری قابل مقایسه نیست. با گلستان، کیفیت زندگی بالاتر از همیشه است.
+            </p>
+            <!-- Button -->
+            <div class="desktop:bg-white desktop:dark:bg-gray-700 desktop:border desktop:opacity-[0.5] desktop:hover:bg-red-600 desktop:hover:opacity-[1] desktop:w-[140px] desktop:hover:text-white desktop:rounded-[10px] desktop:dark:hover:bg-red-500">
+              <a class="desktop:py-[12px] desktop:px-[24px] desktop:flex desktop:text-[14px] desktop:text-gray-700 desktop:dark:text-gray-200 desktop:text-center">
+                ویدیوهای بیشتر
+              </a>
+            </div>
+          </div>
+        </div>
+      
+        <!-- Card 2 -->
+        <div class="desktop:w-[318px] desktop:h-[450px] desktop:bg-white desktop:dark:bg-gray-800 desktop:rounded-lg desktop:shadow-lg desktop:overflow-hidden">
+          <!-- Video -->
+          <div class="desktop:h-[240px]">
+            <iframe 
+              src="https://www.aparat.com/video/video/embed/videohash/xyz/videoid/456" 
+              class="desktop:w-full desktop:h-full"
+              frameborder="0" allowfullscreen></iframe>
+          </div>
+          <!-- Text Content -->
+          <div class="desktop:p-4">
+            <h2 class="desktop:text-lg desktop:font-bold desktop:text-red-500 desktop:dark:text-red-400 desktop:mb-2">اینستاگرام هاتی نودل</h2>
+            <p class="desktop:text-gray-700 desktop:dark:text-gray-300 desktop:text-sm desktop:mb-4">
+              نودل‌های هاتی کارا را می‌توان جایگزین سالمی برای غذاهای فست‌فودی دانست. طعم عالی، ارزش غذایی بالا و قیمت مناسب.
+            </p>
+            <!-- Button -->
+            <div class="desktop:bg-white desktop:dark:bg-gray-700 desktop:border desktop:opacity-[0.5] desktop:hover:bg-red-600 desktop:hover:opacity-[1] desktop:w-[115px] desktop:hover:text-white desktop:rounded-[10px] desktop:dark:hover:bg-red-500">
+              <a class="desktop:py-[12px] desktop:px-[24px] desktop:flex desktop:text-[14px] desktop:text-gray-700 desktop:dark:text-gray-200 desktop:text-center">
+                ادامه مطلب
+              </a>
+            </div>
+          </div>
+        </div>
+      
+        <!-- Card 3 -->
+        <div class="desktop:w-[318px] desktop:h-[450px] desktop:bg-white desktop:dark:bg-gray-800 desktop:rounded-lg desktop:shadow-lg desktop:overflow-hidden">
+          <!-- Video -->
+          <div class="desktop:h-[240px]">
+            <iframe 
+              src="https://www.aparat.com/video/video/embed/videohash/xyz/videoid/789" 
+              class="desktop:w-full desktop:h-full"
+              frameborder="0" allowfullscreen></iframe>
+          </div>
+          <!-- Text Content -->
+          <div class="desktop:p-4">
+            <h2 class="desktop:text-lg desktop:font-bold desktop:text-red-500 desktop:dark:text-red-400 desktop:mb-2">سالاد نودل</h2>
+            <p class="desktop:text-gray-700 desktop:dark:text-gray-300 desktop:text-sm desktop:mb-4">
+              نودل هاتی کارا یک میان‌وعده‌ی مغذی و سالم است که می‌توانید از غذای سالم و خوشمزه لذت ببرید.
+            </p>
+            <!-- Button -->
+            <div class="desktop:bg-white desktop:dark:bg-gray-700 desktop:border desktop:opacity-[0.5] desktop:hover:bg-red-600 desktop:hover:opacity-[1] desktop:w-[155px] desktop:hover:text-white desktop:rounded-[10px] desktop:dark:hover:bg-red-500 desktop:mt-[35px]">
+              <a class="desktop:py-[12px] desktop:px-[24px] desktop:flex desktop:text-[14px] desktop:text-gray-700 desktop:dark:text-gray-200 desktop:text-center">
+                مشاهده محصولات
+              </a>
+            </div>
+          </div>
+        </div>
+      
+      </div>
+      
+      <!-- 9 -->
+
+      <!-- 10 -->
+      <div class="desktop:relative desktop:w-full desktop:h-[600px] desktop:bg-[#004f4f]  desktop:top-[200px] desktop:mb-[200px]">
+        <!-- Matn bala -->
+        <div class="desktop:text-center desktop:pt-[200px]">
+          <!-- Khat balaye matn -->
+          <p class="desktop:text-gray-300 desktop:text-lg desktop:mb-2">مسئولیت‌های اجتماعی شرکت گلستان</p>
+          <div class="desktop:w-full desktop:h-[1px] desktop:bg-cyan-600 desktop:mx-auto desktop:mb-4"></div>
+          <h1 class="desktop:text-[30px] desktop:text-cyan-600">
+            Golestan <span class="desktop:text-cyan-400 desktop:text-[20px]">Social Responsibility</span>
+          </h1>
+          <p class="desktop:text-gray-400 desktop:mt-2 desktop:text-[17px]">Mahdi Hospital</p>
+        </div>
+      
+        <!-- Image overflow -->
+        <div class="desktop:absolute desktop:bottom-[-20%] desktop:left-1/2 desktop:transform desktop:-translate-x-1/2 desktop:w-[395px] desktop:h-[344px]">
+          <img 
+            src="./main/images/page1/csr-pic1.png" 
+            alt="Building" 
+            class="desktop:w-full desktop:h-full desktop:object-cover">
+        </div>
+      </div>
+      
+      
+      <!-- Line Zire Section -->
+      <div class="desktop:bg-yellow-500 desktop:h-[20px]"></div>
+<div class="desktop:mx-auto desktop:w-[680px] desktop:h-[266px] desktop:mt-[170px]">
+  <div
+    class="desktop:mx-auto desktop:w-[660px] desktop:h-[20px] desktop:text-[#FF0000] desktop:font-bold desktop:text-[20px] desktop:text-start desktop:mt-[70px]"
+  >
+    مسئوليت‌های اجتماعی گلستان
+  </div>
+
+  <h2
+    class="desktop:text-[15px] desktop:text-[#7A7A7A] desktop:w-[660px] desktop:h-[144px] desktop:mt-[30px] desktop:leading-8"
+  >
+    كسب‌وكارها اجزای قدرتمند جامعه به شمار می‌آیند و موفق‌ترین، قابل‌احترام‌ترین و مطلوب‌ترین كسب‌وكارها آنهایی هستند كه كاری فراتر از درآمدزایی ایجاد كنند؛‌ آنهایی كه آمده‌اند تا از تجربه و امکاناتشان برای حل مشكلات جامعه و محیط زندگی خود استفاده كنند. 
+    <span class="desktop:text-base desktop:not-italic desktop:font-normal desktop:text-[#FF0000] desktop:whitespace-normal">گلستان </span>
+    در فعالیت‌های‌ اجتماعی خود،‌ گسترده وسیعی از فعالیت‌های عام‌المنفعه را در دستوركار خود قرار داده است.
+  </h2>
+  <div class="desktop:flex desktop:mt-[50px] desktop:w-[400px] desktop:h-[41px]">
+    <div class="desktop:bg-white desktop:border desktop:opacity-[0.5] desktop:hover:bg-red-600 desktop:hover:opacity-[1] desktop:hover:text-white desktop:rounded-[5px] desktop:dark:bg-gray-600 desktop:dark:border-gray-500 desktop:dark:hover:bg-red-600 desktop:ml-[10px]">
+      <a class="desktop:py-[12px] desktop:px-[24px] desktop:text-center desktop:flex desktop:text-[14px] desktop:dark:text-white">
+        اطلاعات بيشتر
+      </a>
+    </div>
+  </div>
+</div>
+
+      
+      
+      <!-- 10 -->
+    <!-- social -->
+    <div class="desktop:w-full desktop:h-[95px] desktop:bg-gray-100 dark:bg-gray-900 desktop:flex desktop:justify-center desktop:items-center desktop:gap-4 desktop:relative desktop:top-[200px] ">
+  
+      
+    
+    </div>
+    
+    <!-- social -->
+    <div class="desktop:h-[25px] desktop:bg-[#ED1C24] desktop:relative desktop:top-[200px]"></div>
+
+    <!-- footer -->
+    <div class="desktop:bg-gray-800 desktop:text-white desktop:w-full desktop:h-[490px] desktop:flex desktop:flex-col desktop:justify-between desktop:mt-[200px]">
+      <div class="desktop:flex desktop:flex-row-reverse desktop:justify-center desktop:items-start desktop:pt-8 desktop:gap-12">
+        <!-- Box 1 -->
+        <div class="desktop:flex desktop:flex-col desktop:items-center desktop:gap-3">
+          <div class="desktop:h-[90px] desktop:w-[115px] desktop:flex desktop:items-center desktop:justify-center">
+            <span><img class="desktop:h-[90px] desktop:w-[115px] desktop:flex desktop:items-center desktop:justify-center" src="./main/images/footer/footer-icon2.png" alt=""></span>
+          </div>
+          <div class="desktop:border-t desktop:border-gray-600 desktop:pt-[10px] desktop:h-[5px] desktop:w-[150px]"></div>
+          <h3 class="desktop:text-lg desktop:font-semibold">حبوبات گلستان</h3>
+          <div class="desktop:border-t desktop:border-gray-600 desktop:pt-[10px] desktop:h-[5px] desktop:w-[150px]"></div>
+          <ul class="desktop:text-gray-400 desktop:text-sm desktop:space-y-2">
+            <li>لوبیا قرمز ممتاز</li>
+            <li>لوبیا چیتی گلستان</li>
+            <li>عدس کانادایی</li>
+            <li>نخود زودپز کرمانشاه</li>
+            <li>لوبیا سفید گلستان</li>
+          </ul>
+        </div>
+        <!-- Box 2 -->
+        <div class="desktop:flex desktop:flex-col desktop:items-center desktop:gap-3">
+          <div class="desktop:h-[90px] desktop:w-[115px] desktop:flex desktop:items-center desktop:justify-center">
+            <span><img class="desktop:h-[90px] desktop:w-[115px] desktop:flex desktop:items-center desktop:justify-center" src="./main/images/footer/footer-icon3.png" alt=""></span>
+          </div>
+          <div class="desktop:border-t desktop:border-gray-600 desktop:pt-[10px] desktop:h-[5px] desktop:w-[150px]"></div>
+          <h3 class="desktop:text-lg desktop:font-semibold">ادویه گلستان</h3>
+          <div class="desktop:border-t desktop:border-gray-600 desktop:pt-[10px] desktop:h-[5px] desktop:w-[150px]"></div>
+          <ul class="desktop:text-gray-400 desktop:text-sm desktop:space-y-2">
+            <li>زعفران ممتاز خراسان</li>
+            <li>ادویه کاری</li>
+            <li>ادویه ماست و خیار</li>
+            <li>فلفل سیاه خالص</li>
+            <li>زرچوبه ممتاز</li>
+          </ul>
+        </div>
+        <!-- Box 3 -->
+        <div class="desktop:flex desktop:flex-col desktop:items-center desktop:gap-3">
+          <div class="desktop:h-[90px] desktop:w-[115px] desktop:flex desktop:items-center desktop:justify-center">
+            <span><img class="desktop:h-[90px] desktop:w-[115px] desktop:flex desktop:items-center desktop:justify-center" src="./main/images/footer/footer-icon4.png" alt=""></span>
+          </div>
+          <div class="desktop:border-t desktop:border-gray-600 desktop:pt-[10px] desktop:h-[5px] desktop:w-[150px]"></div>
+          <h3 class="desktop:text-lg desktop:font-semibold">تی بگ گلستان</h3>
+          <div class="desktop:border-t desktop:border-gray-600 desktop:pt-[10px] desktop:h-[5px] desktop:w-[150px]"></div>
+          <ul class="desktop:text-gray-400 desktop:text-sm desktop:space-y-2">
+            <li>تی بگ بلک لاین</li>
+            <li>تی بگ ارل گری</li>
+            <li>دمنوش نعناع</li>
+            <li>دمنوش بابونه</li>
+            <li>منوی چای سبز</li>
+          </ul>
+        </div>
+        <!-- Box 4 -->
+        <div class="desktop:flex desktop:flex-col desktop:items-center desktop:gap-3">
+          <div class="desktop:h-[90px] desktop:w-[115px] desktop:flex desktop:items-center desktop:justify-center">
+            <span><img class="desktop:h-[90px] desktop:w-[115px] desktop:flex desktop:items-center desktop:justify-center" src="./main/images/footer/footer-icon1.png" alt=""></span>
+          </div>
+          <div class="desktop:border-t desktop:border-gray-600 desktop:pt-[10px] desktop:h-[5px] desktop:w-[150px]"></div>
+          <h3 class="desktop:text-lg desktop:font-semibold">چای گلستان</h3>
+          <div class="desktop:border-t desktop:border-gray-600 desktop:pt-[10px] desktop:h-[5px] desktop:w-[150px]"></div>
+          <ul class="desktop:text-gray-400 desktop:text-sm desktop:space-y-2">
+            <li>چای ممتاز هندوستان</li>
+            <li>چای ممتاز ارل گری</li>
+            <li>چای سیلان عطری</li>
+            <li>چای ممتاز سیلان</li>
+            <li>چای صبحانه گلستان</li>
+          </ul>
+        </div>
+      </div>
+    
+      <!-- Footer -->
+      <div class="desktop:border-t desktop:border-gray-600 desktop:py-4 desktop:text-center">
+        <p class="desktop:text-gray-400 desktop:text-sm">All Right Reserved Golestan Company 2022-2025</p>
+        <p class="desktop:text-gray-500 desktop:text-xs">Design By: Golestan Studio</p>
+      </div>
+    </div>
+    
+    
+
+    <script src="./main/js/main.js"></script>
+  </body>
+</html>
