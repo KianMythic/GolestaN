@@ -1678,7 +1678,23 @@ html {
   }
 
   .mobile\:bg-recipe-banner {
-    background-image: url('blob/main/main/images/social-icon/recipe-baner-1.png');
+    background-image: url('/main/images/page1/recipe-baner-1.png');
+  }
+
+  .mobile\:bg-\[url\(\'\/main\/images\/page\%201\/recipe-baner-1\.png\'\)\] {
+    background-image: url('/main/images/page%201/recipe-baner-1.png');
+  }
+
+  .mobile\:bg-\[url\(\'main\/images\/page\%201\/recipe-baner-1\.png\'\)\] {
+    background-image: url('main/images/page%201/recipe-baner-1.png');
+  }
+
+  .mobile\:bg-\[url\(\'main\/images\/page1\/recipe-baner-1\.png\'\)\] {
+    background-image: url('main/images/page1/recipe-baner-1.png');
+  }
+
+  .mobile\:bg-\[url\(\'\/main\/images\/page1\/recipe-baner-1\.png\'\)\] {
+    background-image: url('/main/images/page1/recipe-baner-1.png');
   }
 
   .mobile\:bg-scroll {
@@ -2558,7 +2574,15 @@ html {
   }
 
   .desktop\:bg-recipe-banner {
-    background-image: url('blob/main/main/images/social-icon/recipe-baner-1.png');
+    background-image: url('/main/images/page1/recipe-baner-1.png');
+  }
+
+  .desktop\:bg-\[url\(\'main\/images\/page1\/recipe-baner-1\.png\'\)\] {
+    background-image: url('main/images/page1/recipe-baner-1.png');
+  }
+
+  .desktop\:bg-\[url\(\'\/main\/images\/page1\/recipe-baner-1\.png\'\)\] {
+    background-image: url('/main/images/page1/recipe-baner-1.png');
   }
 
   .desktop\:bg-cover {
