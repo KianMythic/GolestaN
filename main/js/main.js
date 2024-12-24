@@ -34,28 +34,23 @@ else {
         setLightMode();
     }
 }
-// انتخاب عناصر مورد نیاز
 var navToggle = document.getElementById('nav-toggle');
 var mobileNav = document.getElementById('mobile-nav');
-// بررسی وجود عناصر
 if (navToggle && mobileNav) {
-    // افزودن Event Listener برای باز و بسته کردن منو
     navToggle.addEventListener('click', function () {
-        // بررسی اینکه آیا منوی ناوبری باز است یا نه
         if (mobileNav.classList.contains('hidden')) {
-            // نمایش منو و افزایش ارتفاع
+            // باز کردن منو
             mobileNav.classList.remove('hidden');
-            mobileNav.style.height = '550px'; // ارتفاع باز
+            requestAnimationFrame(function () {
+                mobileNav.style.height = '400px'; // تنظیم ارتفاع باز
+            });
         }
         else {
-            // کاهش ارتفاع و سپس مخفی کردن منو
-            mobileNav.style.height = '150px'; // ارتفاع بسته
+            // بستن منو با انیمیشن
+            mobileNav.style.height = '0px'; // کاهش ارتفاع
             setTimeout(function () {
-                mobileNav.classList.add('hidden'); // افزودن کلاس hidden پس از تغییر ارتفاع
-            }, 300); // مدت زمان برای همگام شدن با انیمیشن
+                mobileNav.classList.add('hidden'); // افزودن کلاس hidden پس از انیمیشن
+            }, 300); // مدت زمان انیمیشن بسته شدن
         }
     });
-}
-else {
-    console.error("Required elements not found: nav-toggle or mobile-nav.");
 }

@@ -12,24 +12,23 @@
     <!-- Header -->
      
     <div class="main">
-      <div class="desktop:h-[105px] mobile:h-auto mobile:bg-[#4A4A4A]">
-        <div class="
-            desktop:bg-[#333333] desktop:h-[100px] desktop:mx-auto desktop:flex desktop:items-center desktop:justify-between desktop:px-8 desktop:relative">
+      <div class="mobile:fixed mobile:top-0 mobile:left-0 mobile:right-0 mobile:h-[160px] mobile:bg-customDark mobile:z-[999] desktop:fixed desktop:top-0 desktop:left-0 desktop:right-0 desktop:h-[105px] desktop:bg-customDark desktop:z-[999]">
+        <div class="desktop:bg-customDark desktop:h-[100px] desktop:mx-auto desktop:flex desktop:items-center desktop:justify-between desktop:px-8 desktop:relative">
           
           <!-- Logo -->
-          <div class="h-[105px] w-full flex flex-col items-center justify-center mobile:h-[105px] desktop:absolute desktop:right-[320px] desktop:top-[50px] desktop:h-[105px] desktop:w-[170px] desktop:flex desktop:items-center desktop:justify-center desktop:rounded-full">
+          <div class="mobile:h-[105px] mobile:w-full mobile:flex mobile:flex-col mobile:items-center mobile:justify-center desktop:absolute desktop:right-[320px] desktop:top-[50px] desktop:h-[105px] desktop:w-[170px] desktop:flex desktop:items-center desktop:justify-center desktop:rounded-full">
             <img class="mobile:w-[170px] mobile:h-[105px]" src="./main/images/logo-fr.png" alt="Logo" />            
           </div>
           
           <!-- Nav Toggle Button -->
-          <button id="nav-toggle" class="mobile:block desktop:hidden text-white p-4 rounded-full hover:bg-gray-600 flex items-center justify-center h-[32px] w-[32px] mt-4">
+          <button id="nav-toggle" class="mobile:block desktop:hidden text-white p-4 rounded-full flex items-center justify-center h-[32px] w-[32px] mt-4">
             <div class="h-[20px] w-[20px] flex items-center justify-center">
               <img src="./main/images/menu_icon.svg" alt="Menu Icon" class="h-full w-full">
             </div>
           </button>
-    
-          <!-- Navigation Menu and Dark Mode Toggle -->
-          <nav id="mobile-nav" class="hidden mobile:bg-[#4A4A4A] mobile:flex-col mobile:w-full mobile:items-center mobile:pt-2 mobile:overflow-hidden desktop:flex desktop:gap-8 desktop:text-[#AFB2B4] desktop:text-[16px] desktop:text-sm desktop:pr-[140px] desktop:pt-[15px] desktop:justify-center desktop:items-center desktop:mx-auto" style="height: auto;">
+          
+          <!-- Navigation Menu -->
+          <nav id="mobile-nav" class="hidden mobile:bg-customDark mobile:flex-col mobile:w-full mobile:items-center mobile:pt-2 mobile:overflow-hidden mobile:transition-all mobile:duration-300 mobile:ease-in-out mobile:h-0 desktop:flex desktop:gap-8 desktop:text-[#AFB2B4] desktop:text-[16px] desktop:text-sm desktop:pr-[140px] desktop:pt-[15px] desktop:justify-center desktop:items-center desktop:mx-auto">
             <a href="#" class="mobile:w-full mobile:h-[44px] mobile:block mobile:pr-[20px] mobile:text-white mobile:text-[14px] mobile:pt-2 desktop:pr-4 desktop:flex desktop:items-center desktop:justify-center desktop:text-white">صفحه اصلی</a>
             <a href="#" class="mobile:w-full mobile:h-[44px] mobile:block mobile:pr-[20px] mobile:text-white mobile:text-[14px] mobile:pt-2 desktop:border-r desktop:pr-4 desktop:flex desktop:items-center desktop:justify-center">شرکت گلستان</a>
             <a href="#" class="mobile:w-full mobile:h-[44px] mobile:block mobile:pr-[20px] mobile:text-white mobile:text-[14px] mobile:pt-2 desktop:border-r desktop:pr-4 desktop:flex desktop:items-center desktop:justify-center">محصولات</a>
@@ -37,7 +36,8 @@
             <a href="#" class="mobile:w-full mobile:h-[44px] mobile:block mobile:pr-[20px] mobile:text-white mobile:text-[14px] mobile:pt-2 desktop:border-r desktop:pr-4 desktop:flex desktop:items-center desktop:justify-center">قرعه کشی</a>
             <a href="#" class="mobile:w-full mobile:h-[44px] mobile:block mobile:pr-[20px] mobile:text-white mobile:text-[14px] mobile:pt-2 desktop:border-r desktop:pr-4 desktop:flex desktop:items-center desktop:justify-center">استخدام</a>
             <a href="#" class="mobile:w-full mobile:h-[44px] mobile:block mobile:pr-[20px] mobile:text-white mobile:text-[14px] mobile:pt-2 desktop:border-r desktop:pr-4 desktop:flex desktop:items-center desktop:justify-center">تماس با ما</a>
-    
+          
+          
             <!-- Dark Mode Toggle -->
             <div id="theme-toggle-container" class="mobile:flex mobile:items-center mobile:justify-center mobile:pt-2">
               <button id="theme-toggle" class="bg-gray-800 text-white p-4 rounded-full hover:bg-gray-600 mt-4">
@@ -48,6 +48,9 @@
         </div>
       </div>
     </div>
+    
+    
+    <div class="desktop:h-[110px] mobile:h-[160px]"></div>
     
     
 <!-- Section 2 -->
@@ -68,14 +71,14 @@
         </h2>
         <h2 class="
         mobile:w-[345px] mobile:h-[55px] mobile:text-[16px] mobile:block mobile:mt-[10px] mobile:mx-auto mobile:text-[#898989]  mobile:pr-[20px] pt-[20px]
-        desktop:opacity-[0.5] desktop:dark:opacity-[0.7] desktop:animate__animated desktop:animate__slideInDown">هر یک از مصرف‌کنندگان محصولات چای گلستان می‌توانند با ارسال کد</h2>
+        desktop:opacity-[0.5] desktop:dark:opacity-[0.7] animate__animated animate__slideInDown">هر یک از مصرف‌کنندگان محصولات چای گلستان می‌توانند با ارسال کد</h2>
         <h2 class="
         mobile:w-[345px] mobile:h-[55px] mobile:text-[16px] mobile:block mobile:mt-[10px] mobile:mx-auto mobile:text-[#898989]  mobile:pr-[20px]
-        desktop:opacity-[0.5] desktop:dark:opacity-[0.7] desktop:animate__animated desktop:animate__slideInDown">قرعه کشی روی بسته به شماره 30007405 در قرعه کشی‌های دوره‌ای</h2>
+        desktop:opacity-[0.5] desktop:dark:opacity-[0.7] animate__animated animate__slideInDown">قرعه کشی روی بسته به شماره 30007405 در قرعه کشی‌های دوره‌ای</h2>
         <h2 class="
         mobile:w-[345px] mobile:h-[55px] mobile:text-[16px] mobile:block mobile:mt-[10px] mobile:mx-auto mobile:text-[#898989]  mobile:pr-[20px]
-        desktop:opacity-[0.5] desktop:dark:opacity-[0.7] desktop:animate__animated desktop:animate__slideInDown">سال 1403شرکت کنند. نگهداری از بسته‌بندی محصول برای اهدای جایزه الزامی است.</h2>
-        <div class="desktop:flex desktop:mt-[100px] desktop:w-[133px] desktop:h-[41px]">
+        desktop:opacity-[0.5] desktop:dark:opacity-[0.7] animate__animated animate__slideInDown">سال 1403شرکت کنند. نگهداری از بسته‌بندی محصول برای اهدای جایزه الزامی است.</h2>
+        <div class="desktop:flex desktop:mt-[100px] desktop:w-[163px] desktop:h-[41px]">
           <div class="desktop:bg-white desktop:border desktop:opacity-[0.5] desktop:hover:bg-red-600 desktop:hover:opacity-[1] desktop:hover:text-white desktop:rounded-[5px] desktop:dark:bg-gray-600 desktop:dark:border-gray-500 desktop:dark:hover:bg-red-600 mobile:bg-white mobile:border mobile:opacity-[0.5] mobile:hover:bg-red-600 mobile:hover:opacity-[1] mobile:hover:text-white mobile:rounded-[5px] mobile:dark:bg-gray-600 mobile:dark:border-gray-500 mobile:dark:hover:bg-red-600 mobile:h-[41px] mobile:w-[144px] mobile:text-[15px] mobile:flex mobile:justify-center mobile:items-center mobile:mt-[30px] mr-[30px]">
             <a class="desktop:py-[10px] desktop:px-[24px] desktop:text-center desktop:flex desktop:text-[14px] desktop:dark:text-white mobile:h-[15px] mobile:w-[84px] mobile:text-center mobile:flex mobile:dark:text-white">اطلاعات بیشتر</a>
           </div>
@@ -84,7 +87,7 @@
     </div>
 
     <div class="desktop:relative desktop:mt-[50px] desktop:right-[100px] mobile:relative mobile:mt-[30px] mobile:right-[50px] mobile:block mobile:items-start ">
-      <img src="./main/images/tea-pic1.png" alt="Image" class="desktop:w-[350px] desktop:h-[400px] desktop:object-cover desktop:animate__animated desktop:animate__slideInDown mobile:w-[315px] mobile:h-[360px] mobile:object-cover mobile:animate__animated mobile:animate__slideInDown" />
+      <img src="./main/images/tea-pic1.png" alt="Image" class="desktop:w-[350px] desktop:h-[400px] desktop:object-cover animate__animated animate__slideInDown mobile:w-[315px] mobile:h-[360px] mobile:object-cover  " />
     </div>
   </div>
 </div>
@@ -97,7 +100,7 @@
 <div class="desktop:mx-auto desktop:h-[618px] desktop:mt-[100px]">
   <div class="
   mobile:h-[600px]
-  desktop:w-[1580px] desktop:mx-auto desktop:animate__animated desktop:animate__slideInRight">
+  desktop:w-[1580px] desktop:mx-auto animate__animated animate__slideInRight">
     <div class="
     mobile:w-[370px]  mobile:h-[40px] mobile:text-[#FF0000] mobile:font-bold mobile:text-[20px] mobile:text-start mobile:mx-auto
     desktop:mx-auto desktop:w-[700px] desktop:h-[40px] desktop:text-[#FF0000] desktop:font-bold desktop:text-[20px] desktop:text-start pr-[20px]">
@@ -134,7 +137,7 @@
     </div>
   </div>
 
-  <div class="desktop:mx-auto desktop:w-[680px] desktop:h-[125px] desktop:mt-[170px] desktop:animate__animated desktop:animate__slideInRight">
+  <div class="desktop:mx-auto desktop:w-[680px] desktop:h-[125px] desktop:mt-[170px] animate__animated animate__slideInRight">
     <div class="
     mobile:w-[370px]  mobile:h-[40px] mobile:text-[#FF0000] mobile:font-bold mobile:text-[20px] mobile:text-start mobile:mx-auto
     desktop:mx-auto desktop:w-[700px] desktop:h-[40px] desktop:text-[#FF0000] desktop:font-bold desktop:text-[20px] desktop:text-start desktop:mt-[70px]">
@@ -153,7 +156,7 @@
 
   <div class=" 
   mobile:hidden
-  flex desktop:justify-center desktop:space-x-4 desktop:my-8 desktop:flex-row-reverse desktop:animate__animated desktop:animate__zoomIn">
+  flex desktop:justify-center desktop:space-x-4 desktop:my-8 desktop:flex-row-reverse animate__animated animate__zoomIn">
     <!-- Box 1 -->
     <div class="
     desktop:flex desktop:flex-col desktop:items-center desktop:p-8 desktop:w-[250px] desktop:text-center">
@@ -214,7 +217,9 @@
         mobile-[93px] mobile:bg-red-600   mobile:relative  mobile:top-[-70px]
         desktop:flex desktop:w-[290px] desktop:h-[97px] desktop:bg-red-600 desktop:text-center desktop:relative desktop:right-[550px] desktop:bottom-[80px]"
       >
-        <div class="desktop:text-white">
+        <div class="
+        mobile:text-white
+        desktop:text-white">
           <p class="
           mobile:text-[29px] mobile:h-[49px] pr-[20px]
           desktop:text-[29px] desktop:pr-[40px] desktop:pt-[10px]">برنج گلستان</p>
@@ -291,7 +296,9 @@
         mobile-[93px] mobile:bg-red-600   mobile:relative  mobile:top-[-70px]
         desktop:flex desktop:w-[290px] desktop:h-[97px] desktop:bg-red-600 desktop:text-center desktop:relative desktop:right-[550px] desktop:bottom-[80px]"
       >
-        <div class="desktop:text-white">
+        <div class="
+        mobile:text-white
+        desktop:text-white">
           <p class="
           mobile:text-[29px] mobile:h-[49px] pr-[20px]
           desktop:text-[29px] desktop:pr-[40px] desktop:pt-[10px]">چای گلستان</p>
@@ -349,7 +356,9 @@
   </div>
     <!-- end 5 -->
     <!-- 6 -->
-    <div class="desktop:h-[500px] desktop:mt-[300px]">
+    <div class="
+    mobile:mt-[50px]
+    desktop:h-[500px] desktop:mt-[300px]">
       <img
         src="./main/images/page1/image4-new.png"
         alt=""
@@ -362,7 +371,9 @@
         mobile-[93px] mobile:bg-red-600   mobile:relative  mobile:top-[-70px]
         desktop:flex desktop:w-[290px] desktop:h-[97px] desktop:bg-red-600 desktop:text-center desktop:relative desktop:right-[550px] desktop:bottom-[80px]"
       >
-        <div class="desktop:text-white">
+        <div class="
+        mobile:text-white
+        desktop:text-white">
           <p class="
           mobile:text-[29px] mobile:h-[49px] pr-[20px]
           desktop:text-[29px] desktop:pr-[40px] desktop:pt-[10px]">پسته گلستان</p>
@@ -519,10 +530,10 @@ desktop:bg-white dark:bg-gray-700 desktop:border desktop:opacity-[0.5] desktop:h
 
 
       <!-- 9 -->
-      <div class="desktop:w-full desktop:h-[500px] desktop:bg-gray-100 desktop:dark:bg-gray-900 desktop:flex desktop:justify-center desktop:items-center desktop:gap-6 desktop:px-4 desktop:relative desktop:top-[200px]">
-  
-        <!-- Card 1 -->
-        <div class="desktop:w-[318px] desktop:h-[450px] desktop:bg-white desktop:dark:bg-gray-800 desktop:rounded-lg desktop:shadow-lg desktop:overflow-hidden">
+      <div class="mobile:mt-[50px] mobile:flex mobile:flex-col-reverse mobile:items-center mobile:gap-[40px] desktop:w-full desktop:h-[500px] desktop:bg-gray-100 desktop:dark:bg-gray-900 desktop:flex desktop:justify-center desktop:items-center desktop:gap-6 desktop:px-4 desktop:relative desktop:top-[200px]">
+
+        <!-- Card 1 (Hidden on mobile) -->
+        <div class="mobile:hidden desktop:w-[318px] desktop:h-[450px] desktop:bg-white desktop:dark:bg-gray-800 desktop:rounded-lg desktop:shadow-lg desktop:overflow-hidden">
           <div class="desktop:h-[240px]">
             <iframe 
               src="https://www.aparat.com/video/video/embed/videohash/xyz/videoid/123" 
@@ -530,11 +541,13 @@ desktop:bg-white dark:bg-gray-700 desktop:border desktop:opacity-[0.5] desktop:h
               frameborder="0" allowfullscreen></iframe>
           </div>
           <div class="desktop:p-4">
-            <h2 class="desktop:text-lg desktop:font-bold desktop:text-red-500 desktop:dark:text-red-400 desktop:mb-2">برنج گلستان</h2>
+            <h2 class="desktop:text-lg desktop:font-bold desktop:text-red-500 desktop:dark:text-red-400 desktop:mb-2">
+              برنج گلستان
+            </h2>
             <p class="desktop:text-gray-700 desktop:dark:text-gray-300 desktop:text-sm desktop:mb-4">
               عطر و طعم بی‌نظیر برنج گلستان با هیچ برنج دیگری قابل مقایسه نیست. با گلستان، کیفیت زندگی بالاتر از همیشه است.
             </p>
-            <div class="desktop:bg-white desktop:dark:bg-gray-700 desktop:border desktop:opacity-[0.5] desktop:hover:bg-red-600 desktop:hover:opacity-[1] desktop:w-[140px] desktop:hover:text-white desktop:rounded-[10px] desktop:dark:hover:bg-red-500">
+            <div class="desktop:bg-white desktop:dark:bg-gray-700 desktop:border desktop:opacity-[0.5] desktop:hover:bg-red-600 desktop:hover:opacity-[1] desktop:w-[115px] desktop:hover:text-white desktop:rounded-[10px]">
               <a class="desktop:py-[12px] desktop:px-[24px] desktop:flex desktop:text-[14px] desktop:text-gray-700 desktop:dark:text-gray-200 desktop:text-center">
                 ویدیوهای بیشتر
               </a>
@@ -543,41 +556,45 @@ desktop:bg-white dark:bg-gray-700 desktop:border desktop:opacity-[0.5] desktop:h
         </div>
       
         <!-- Card 2 -->
-        <div class="desktop:w-[318px] desktop:h-[450px] desktop:bg-white desktop:dark:bg-gray-800 desktop:rounded-lg desktop:shadow-lg desktop:overflow-hidden">
-          <div class="desktop:h-[240px]">
+        <div class="mobile:w-[320px] mobile:h-[494px] mobile:rounded-lg mobile:shadow-lg mobile:bg-white mobile:dark:bg-gray-800 desktop:w-[318px] desktop:h-[450px] desktop:bg-white desktop:dark:bg-gray-800 desktop:rounded-lg desktop:shadow-lg desktop:overflow-hidden">
+          <div class="mobile:h-[200px] desktop:h-[240px]">
             <iframe 
               src="https://www.aparat.com/video/video/embed/videohash/xyz/videoid/456" 
-              class="desktop:w-full desktop:h-full"
+              class="mobile:w-full mobile:h-full desktop:w-full desktop:h-full"
               frameborder="0" allowfullscreen></iframe>
           </div>
-          <div class="desktop:p-4">
-            <h2 class="desktop:text-lg desktop:font-bold desktop:text-red-500 desktop:dark:text-red-400 desktop:mb-2">اینستاگرام هاتی نودل</h2>
-            <p class="desktop:text-gray-700 desktop:dark:text-gray-300 desktop:text-sm desktop:mb-4">
+          <div class="mobile:p-2 desktop:p-4">
+            <h2 class="mobile:w-[298px] mobile:h-[35px] mobile:text-[17px] mobile:font-bold mobile:text-red-500 mobile:mt-[20px] mobile:mr-[20px] desktop:text-lg desktop:font-bold desktop:text-red-500 desktop:dark:text-red-400 desktop:mb-2">
+              اینستاگرام هاتی نودل
+            </h2>
+            <p class="mobile:w-[278px] mobile:h-[108px] mobile:text-[14px] mobile:text-gray-700 mobile:dark:text-gray-300 mobile:mt-[20px] mobile:mr-[20px] desktop:text-gray-700 desktop:dark:text-gray-300 desktop:text-sm desktop:mb-4">
               نودل‌های هاتی کارا را می‌توان جایگزین سالمی برای غذاهای فست‌فودی دانست. طعم عالی، ارزش غذایی بالا و قیمت مناسب.
             </p>
-            <div class="desktop:bg-white desktop:dark:bg-gray-700 desktop:border desktop:opacity-[0.5] desktop:hover:bg-red-600 desktop:hover:opacity-[1] desktop:w-[115px] desktop:hover:text-white desktop:rounded-[10px] desktop:dark:hover:bg-red-500">
-              <a class="desktop:py-[12px] desktop:px-[24px] desktop:flex desktop:text-[14px] desktop:text-gray-700 desktop:dark:text-gray-200 desktop:text-center">
+            <div class="mobile:h-[52px] mobile:bg-white mobile:border mobile:opacity-[0.8] mobile:hover:bg-red-600 mobile:hover:opacity-[1] mobile:w-[100px] mobile:mt-[20px] mobile:mr-[20px] mobile:hover:text-white mobile:rounded-lg flex items-center justify-center desktop:bg-white desktop:dark:bg-gray-700 desktop:border desktop:opacity-[0.5] desktop:hover:bg-red-600 desktop:hover:opacity-[1] desktop:w-[115px] desktop:hover:text-white desktop:rounded-[10px]">
+              <a class="mobile:py-2 mobile:px-4 mobile:text-center mobile:text-sm mobile:text-gray-700 desktop:py-[12px] desktop:px-[24px] desktop:text-center desktop:flex desktop:text-[14px] desktop:text-gray-700 desktop:dark:text-gray-200">
                 ادامه مطلب
               </a>
             </div>
           </div>
         </div>
       
-        <!-- Card 3 -->
-        <div class="desktop:w-[318px] desktop:h-[450px] desktop:bg-white desktop:dark:bg-gray-800 desktop:rounded-lg desktop:shadow-lg desktop:overflow-hidden">
-          <div class="desktop:h-[240px]">
+        <!-- Card 3 (Now visible on mobile with Card 1's styles) -->
+        <div class="mobile:w-[320px] mobile:h-[494px] mobile:rounded-lg mobile:shadow-lg mobile:bg-white mobile:dark:bg-gray-800 desktop:w-[318px] desktop:h-[450px] desktop:bg-white desktop:dark:bg-gray-800 desktop:rounded-lg desktop:shadow-lg desktop:overflow-hidden">
+          <div class="mobile:h-[200px] desktop:h-[240px]">
             <iframe 
               src="https://www.aparat.com/video/video/embed/videohash/xyz/videoid/789" 
-              class="desktop:w-full desktop:h-full"
+              class="mobile:w-full mobile:h-full desktop:w-full desktop:h-full"
               frameborder="0" allowfullscreen></iframe>
           </div>
-          <div class="desktop:p-4">
-            <h2 class="desktop:text-lg desktop:font-bold desktop:text-red-500 desktop:dark:text-red-400 desktop:mb-2">سالاد نودل</h2>
-            <p class="desktop:text-gray-700 desktop:dark:text-gray-300 desktop:text-sm desktop:mb-4">
+          <div class="mobile:p-2 desktop:p-4">
+            <h2 class="mobile:w-[298px] mobile:h-[35px] mobile:text-[17px] mobile:font-bold mobile:text-red-500 mobile:mt-[20px] mobile:mr-[20px] desktop:text-lg desktop:font-bold desktop:text-red-500 desktop:dark:text-red-400 desktop:mb-2">
+              سالاد نودل
+            </h2>
+            <p class="mobile:w-[278px] mobile:h-[108px] mobile:text-[14px] mobile:text-gray-700 mobile:dark:text-gray-300 mobile:mt-[20px] mobile:mr-[20px] desktop:text-gray-700 desktop:dark:text-gray-300 desktop:text-sm desktop:mb-4">
               نودل هاتی کارا یک میان‌وعده‌ی مغذی و سالم است که می‌توانید از غذای سالم و خوشمزه لذت ببرید.
             </p>
-            <div class="desktop:bg-white desktop:dark:bg-gray-700 desktop:border desktop:opacity-[0.5] desktop:hover:bg-red-600 desktop:hover:opacity-[1] desktop:w-[155px] desktop:hover:text-white desktop:rounded-[10px] desktop:dark:hover:bg-red-500 desktop:mt-[35px]">
-              <a class="desktop:py-[12px] desktop:px-[24px] desktop:flex desktop:text-[14px] desktop:text-gray-700 desktop:dark:text-gray-200 desktop:text-center">
+            <div class="mobile:h-[52px] mobile:bg-white mobile:border mobile:opacity-[0.8] mobile:hover:bg-red-600 mobile:hover:opacity-[1] mobile:w-[140px] mobile:mt-[20px] mobile:mr-[20px] mobile:hover:text-white mobile:rounded-lg flex items-center justify-center desktop:bg-white desktop:dark:bg-gray-700 desktop:border desktop:opacity-[0.5] desktop:hover:bg-red-600 desktop:hover:opacity-[1] desktop:w-[115px] desktop:hover:text-white desktop:rounded-[10px]">
+              <a class="mobile:py-2 mobile:px-4 mobile:text-center mobile:text-sm mobile:text-gray-700 desktop:py-[12px] desktop:px-[24px] desktop:text-center desktop:flex desktop:text-[14px] desktop:text-gray-700 desktop:dark:text-gray-200">
                 مشاهده محصولات
               </a>
             </div>
@@ -589,52 +606,62 @@ desktop:bg-white dark:bg-gray-700 desktop:border desktop:opacity-[0.5] desktop:h
       <!-- 9 -->
 
       <!-- 10 -->
-      <div class="desktop:relative desktop:w-full desktop:h-[600px] desktop:bg-[#004f4f]  desktop:top-[200px] desktop:mb-[200px]">
-        <!-- Matn bala -->
-        <div class="desktop:text-center desktop:pt-[200px]">
-          <!-- Khat balaye matn -->
-          <p class="desktop:text-gray-300 desktop:text-lg desktop:mb-2">مسئولیت‌های اجتماعی شرکت گلستان</p>
-          <div class="desktop:w-full desktop:h-[1px] desktop:bg-cyan-600 desktop:mx-auto desktop:mb-4"></div>
-          <h1 class="desktop:text-[30px] desktop:text-cyan-600">
-            Golestan <span class="desktop:text-cyan-400 desktop:text-[20px]">Social Responsibility</span>
+      <div class="mobile:w-full mobile:h-[600px] mobile:bg-[#004f4f] mobile:relative desktop:relative desktop:w-full desktop:h-[600px] desktop:bg-[#004f4f] desktop:top-[200px] desktop:mb-[200px]">
+        <!-- Text Section -->
+        <div class="mobile:text-center mobile:pt-[150px] desktop:text-center desktop:pt-[200px]">
+          <!-- Top Text -->
+          <p class="mobile:text-gray-300 mobile:text-base mobile:mb-2 desktop:text-gray-300 desktop:text-lg desktop:mb-2">
+            مسئولیت‌های اجتماعی شرکت گلستان
+          </p>
+          <!-- Line -->
+          <div class="mobile:w-[60%] mobile:h-[1px] mobile:bg-cyan-600 mobile:mx-auto mobile:mb-4 desktop:w-full desktop:h-[1px] desktop:bg-cyan-600 desktop:mx-auto desktop:mb-4"></div>
+          <!-- Heading -->
+          <h1 class="mobile:text-[24px] mobile:text-cyan-600 desktop:text-[30px] desktop:text-cyan-600">
+            Golestan <span class="mobile:text-cyan-400 mobile:text-[16px] desktop:text-cyan-400 desktop:text-[20px]">Social Responsibility</span>
           </h1>
-          <p class="desktop:text-gray-400 desktop:mt-2 desktop:text-[17px]">Mahdi Hospital</p>
+          <!-- Subtitle -->
+          <p class="mobile:text-gray-400 mobile:mt-2 mobile:text-[14px] desktop:text-gray-400 desktop:mt-2 desktop:text-[17px]">
+            Mahdi Hospital
+          </p>
         </div>
       
-        <!-- Image overflow -->
-        <div class="desktop:absolute desktop:bottom-[-20%] desktop:left-1/2 desktop:transform desktop:-translate-x-1/2 desktop:w-[395px] desktop:h-[344px]">
+        <!-- Image Section -->
+        <div class="mobile:absolute mobile:bottom-[-15%] mobile:left-1/2 mobile:transform mobile:-translate-x-1/2 mobile:w-[395px] mobile:h-[394px] desktop:absolute desktop:bottom-[-20%] desktop:left-1/2 desktop:transform desktop:-translate-x-1/2 desktop:w-[395px] desktop:h-[344px]">
           <img 
             src="./main/images/page1/csr-pic1.png" 
             alt="Building" 
-            class="desktop:w-full desktop:h-full desktop:object-cover">
+            class="mobile:w-full mobile:h-full mobile:object-cover desktop:w-full desktop:h-full desktop:object-cover">
         </div>
       </div>
       
+      <!-- Line Under Section -->
+      <div class="mobile:bg-yellow-500 mobile:h-[15px] desktop:bg-yellow-500 desktop:h-[20px]"></div>
       
-      <!-- Line Zire Section -->
-      <div class="desktop:bg-yellow-500 desktop:h-[20px]"></div>
-<div class="desktop:mx-auto desktop:w-[680px] desktop:h-[266px] desktop:mt-[170px]">
-  <div
-    class="desktop:mx-auto desktop:w-[660px] desktop:h-[20px] desktop:text-[#FF0000] desktop:font-bold desktop:text-[20px] desktop:text-start desktop:mt-[70px]"
-  >
-    مسئوليت‌های اجتماعی گلستان
-  </div>
-
-  <h2
-    class="desktop:text-[15px] desktop:text-[#7A7A7A] desktop:w-[660px] desktop:h-[144px] desktop:mt-[30px] desktop:leading-8"
-  >
-    كسب‌وكارها اجزای قدرتمند جامعه به شمار می‌آیند و موفق‌ترین، قابل‌احترام‌ترین و مطلوب‌ترین كسب‌وكارها آنهایی هستند كه كاری فراتر از درآمدزایی ایجاد كنند؛‌ آنهایی كه آمده‌اند تا از تجربه و امکاناتشان برای حل مشكلات جامعه و محیط زندگی خود استفاده كنند. 
-    <span class="desktop:text-base desktop:not-italic desktop:font-normal desktop:text-[#FF0000] desktop:whitespace-normal">گلستان </span>
-    در فعالیت‌های‌ اجتماعی خود،‌ گسترده وسیعی از فعالیت‌های عام‌المنفعه را در دستوركار خود قرار داده است.
-  </h2>
-  <div class="desktop:flex desktop:mt-[50px] desktop:w-[400px] desktop:h-[41px]">
-    <div class="desktop:bg-white desktop:border desktop:opacity-[0.5] desktop:hover:bg-red-600 desktop:hover:opacity-[1] desktop:hover:text-white desktop:rounded-[5px] desktop:dark:bg-gray-600 desktop:dark:border-gray-500 desktop:dark:hover:bg-red-600 desktop:ml-[10px]">
-      <a class="desktop:py-[12px] desktop:px-[24px] desktop:text-center desktop:flex desktop:text-[14px] desktop:dark:text-white">
-        اطلاعات بيشتر
-      </a>
-    </div>
-  </div>
-</div>
+      <div class=" mobile:mx-auto mobile:w-[90%] mobile:h-auto mobile:mt-[200px] desktop:mx-auto desktop:w-[680px] desktop:h-[266px] desktop:mt-[170px]">
+        <div
+          class="mobile:mx-auto mobile:w-[457px] mobile:h-[18px] mobile:text-[#FF0000] mobile:font-bold mobile:text-[18px] mobile:text-right mobile:mt-[20px] desktop:mx-auto desktop:w-[660px] desktop:h-[20px] desktop:text-[#FF0000] desktop:font-bold desktop:text-[20px] desktop:text-start desktop:mt-[70px]"
+        >
+          مسئولیت‌های اجتماعی گلستان
+        </div>
+      
+        <h2
+          class="
+          mobile:text-[14px] mobile:text-[#7A7A7A]   mobile:mt-[20px] mobile:leading-9 desktop:text-[15px]  mobile:w-[457px]  mobile:h-[180px] mobile:mx-auto desktop:text-[#7A7A7A] desktop:w-[660px] desktop:h-[144px] desktop:mt-[30px] desktop:leading-8"
+        >
+          كسب‌وكارها اجزای قدرتمند جامعه به شمار می‌آیند و موفق‌ترین، قابل‌احترام‌ترین و مطلوب‌ترین كسب‌وكارها آنهایی هستند كه كاری فراتر از درآمدزایی ایجاد كنند؛‌ آنهایی كه آمده‌اند تا از تجربه و امکاناتشان برای حل مشكلات جامعه و محیط زندگی خود استفاده كنند. 
+          <span class="mobile:text-[#FF0000] desktop:text-base desktop:not-italic desktop:font-normal desktop:text-[#FF0000] desktop:whitespace-normal">گلستان </span>
+          در فعالیت‌های‌ اجتماعی خود،‌ گسترده وسیعی از فعالیت‌های عام‌المنفعه را در دستوركار خود قرار داده است.
+        </h2>
+        
+        <div class="mobile:flex mobile:mt-[30px] mobile:w-full  desktop:flex desktop:mt-[50px] desktop:w-[400px] desktop:h-[41px]">
+          <div class="mobile:bg-white  mobile:border mobile:opacity-[0.5] mobile:hover:bg-red-600 mobile:hover:opacity-[1] mobile:dark:text-white mobile:hover:text-white mobile:rounded-[5px] desktop:bg-white desktop:border desktop:opacity-[0.5] desktop:hover:bg-red-600 desktop:hover:opacity-[1] desktop:hover:text-white desktop:rounded-[5px] desktop:dark:bg-gray-600 desktop:dark:border-gray-500 desktop:dark:hover:bg-red-600 desktop:ml-[10px]">
+            <a class="mobile:py-[10px] mobile:px-[20px] mobile:text-center mobile:flex mobile:text-[14px] mobile:text-gray-800 desktop:py-[12px] desktop:px-[24px] desktop:text-center desktop:flex desktop:text-[14px] desktop:dark:text-white">
+              اطلاعات بيشتر
+            </a>
+          </div>
+        </div>
+      </div>
+      
 
       
       
@@ -647,86 +674,85 @@ desktop:bg-white dark:bg-gray-700 desktop:border desktop:opacity-[0.5] desktop:h
     </div>
     
     <!-- social -->
-    <div class="desktop:h-[25px] desktop:bg-[#ED1C24] desktop:relative desktop:top-[200px]"></div>
+    <div class="h-[25px] mobile:mt-[40px] bg-[#ED1C24] desktop:relative desktop:top-[200px]"></div>
 
     <!-- footer -->
-    <div class="desktop:bg-gray-800 desktop:text-white desktop:w-full desktop:h-[490px] desktop:flex desktop:flex-col desktop:justify-between desktop:mt-[200px]">
-      <div class="desktop:flex desktop:flex-row-reverse desktop:justify-center desktop:items-start desktop:pt-8 desktop:gap-12">
+    <div class="mobile:bg-customDark mobile:text-white mobile:w-full mobile:h-[490px] mobile:flex mobile:flex-col mobile:justify-between  desktop:bg-customDark desktop:text-white desktop:w-full desktop:h-[490px] desktop:flex desktop:flex-col desktop:justify-between desktop:mt-[200px]">
+      <div class="mobile:flex mobile:flex-col-reverse mobile:items-center mobile:gap-0 desktop:flex desktop:flex-row-reverse desktop:justify-center desktop:items-start desktop:pt-8 desktop:gap-12">
         <!-- Box 1 -->
-        <div class="desktop:flex desktop:flex-col desktop:items-center desktop:gap-3">
-          <div class="desktop:h-[90px] desktop:w-[115px] desktop:flex desktop:items-center desktop:justify-center">
-            <span><img class="desktop:h-[90px] desktop:w-[115px] desktop:flex desktop:items-center desktop:justify-center" src="./main/images/footer/footer-icon2.png" alt=""></span>
+        <div class="mobile:flex mobile:flex-col mobile:items-center mobile:w-full mobile:h-[344px] mobile:bg-customDark mobile:rounded-none mobile:p-4 desktop:flex desktop:flex-col desktop:items-center desktop:gap-3">
+          <div class="mobile:h-[90px] mobile:w-[115px] mobile:flex mobile:items-center mobile:justify-center desktop:h-[90px] desktop:w-[115px] desktop:flex desktop:items-center desktop:justify-center">
+            <span><img class="mobile:h-[90px] mobile:w-[115px] desktop:h-[90px] desktop:w-[115px]" src="./main/images/footer/footer-icon2.png" alt=""></span>
           </div>
-          <div class="desktop:border-t desktop:border-gray-600 desktop:pt-[10px] desktop:h-[5px] desktop:w-[150px]"></div>
-          <h3 class="desktop:text-lg desktop:font-semibold">حبوبات گلستان</h3>
-          <div class="desktop:border-t desktop:border-gray-600 desktop:pt-[10px] desktop:h-[5px] desktop:w-[150px]"></div>
-          <ul class="desktop:text-gray-400 desktop:text-sm desktop:space-y-2">
-            <li>لوبیا قرمز ممتاز</li>
-            <li>لوبیا چیتی گلستان</li>
-            <li>عدس کانادایی</li>
-            <li>نخود زودپز کرمانشاه</li>
-            <li>لوبیا سفید گلستان</li>
-          </ul>
+          <div class="mobile:border-t mobile:border-gray-600 mobile:w-full mobile:mt-2 desktop:border-t desktop:border-gray-600 desktop:pt-[10px] desktop:h-[5px] desktop:w-[150px]"></div>
+          <h3 class="mobile:text-white mobile:text-lg desktop:text-lg desktop:font-semibold">حبوبات گلستان</h3>
+          <div class="mobile:border-t mobile:border-gray-600 mobile:w-full mobile:mt-2 desktop:border-t desktop:border-gray-600 desktop:pt-[10px] desktop:h-[5px] desktop:w-[150px]"></div>
+          <div class="mobile:text-white mobile:text-sm mobile:mt-4 desktop:text-gray-400 desktop:text-sm desktop:space-y-2">
+            <a href="#" class="mobile:opacity-[0.5] hover:mobile:opacity-[1] mobile:mb-3 block">لوبیا قرمز ممتاز</a>
+            <a href="#" class="mobile:opacity-[0.5] hover:mobile:opacity-[1] mobile:mb-3 block">لوبیا چیتی گلستان</a>
+            <a href="#" class="mobile:opacity-[0.5] hover:mobile:opacity-[1] mobile:mb-3 block">عدس کانادایی</a>
+            <a href="#" class="mobile:opacity-[0.5] hover:mobile:opacity-[1] mobile:mb-3 block">نخود زودپز کرمانشاه</a>
+            <a href="#" class="mobile:opacity-[0.5] hover:mobile:opacity-[1] mobile:mb-3 block">لوبیا سفید گلستان</a>
+          </div>
         </div>
         <!-- Box 2 -->
-        <div class="desktop:flex desktop:flex-col desktop:items-center desktop:gap-3">
-          <div class="desktop:h-[90px] desktop:w-[115px] desktop:flex desktop:items-center desktop:justify-center">
-            <span><img class="desktop:h-[90px] desktop:w-[115px] desktop:flex desktop:items-center desktop:justify-center" src="./main/images/footer/footer-icon3.png" alt=""></span>
+        <div class="mobile:flex mobile:flex-col mobile:items-center mobile:w-full mobile:h-[344px] mobile:bg-customDark mobile:rounded-none mobile:p-4 desktop:flex desktop:flex-col desktop:items-center desktop:gap-3">
+          <div class="mobile:h-[90px] mobile:w-[115px] mobile:flex mobile:items-center mobile:justify-center desktop:h-[90px] desktop:w-[115px] desktop:flex desktop:items-center desktop:justify-center">
+            <span><img class="mobile:h-[90px] mobile:w-[115px] desktop:h-[90px] desktop:w-[115px]" src="./main/images/footer/footer-icon3.png" alt=""></span>
           </div>
-          <div class="desktop:border-t desktop:border-gray-600 desktop:pt-[10px] desktop:h-[5px] desktop:w-[150px]"></div>
-          <h3 class="desktop:text-lg desktop:font-semibold">ادویه گلستان</h3>
-          <div class="desktop:border-t desktop:border-gray-600 desktop:pt-[10px] desktop:h-[5px] desktop:w-[150px]"></div>
-          <ul class="desktop:text-gray-400 desktop:text-sm desktop:space-y-2">
-            <li>زعفران ممتاز خراسان</li>
-            <li>ادویه کاری</li>
-            <li>ادویه ماست و خیار</li>
-            <li>فلفل سیاه خالص</li>
-            <li>زرچوبه ممتاز</li>
-          </ul>
+          <div class="mobile:border-t mobile:border-gray-600 mobile:w-full mobile:mt-2 desktop:border-t desktop:border-gray-600 desktop:pt-[10px] desktop:h-[5px] desktop:w-[150px]"></div>
+          <h3 class="mobile:text-white mobile:text-lg desktop:text-lg desktop:font-semibold">ادویه گلستان</h3>
+          <div class="mobile:border-t mobile:border-gray-600 mobile:w-full mobile:mt-2 desktop:border-t desktop:border-gray-600 desktop:pt-[10px] desktop:h-[5px] desktop:w-[150px]"></div>
+          <div class="mobile:text-white mobile:text-sm mobile:mt-4 desktop:text-gray-400 desktop:text-sm desktop:space-y-2">
+            <a href="#" class="mobile:opacity-[0.5] hover:mobile:opacity-[1] mobile:mb-3 block">زعفران ممتاز خراسان</a>
+            <a href="#" class="mobile:opacity-[0.5] hover:mobile:opacity-[1] mobile:mb-3 block">ادویه کاری</a>
+            <a href="#" class="mobile:opacity-[0.5] hover:mobile:opacity-[1] mobile:mb-3 block">ادویه ماست و خیار</a>
+            <a href="#" class="mobile:opacity-[0.5] hover:mobile:opacity-[1] mobile:mb-3 block">فلفل سیاه خالص</a>
+            <a href="#" class="mobile:opacity-[0.5] hover:mobile:opacity-[1] mobile:mb-3 block">زرچوبه ممتاز</a>
+          </div>
         </div>
         <!-- Box 3 -->
-        <div class="desktop:flex desktop:flex-col desktop:items-center desktop:gap-3">
-          <div class="desktop:h-[90px] desktop:w-[115px] desktop:flex desktop:items-center desktop:justify-center">
-            <span><img class="desktop:h-[90px] desktop:w-[115px] desktop:flex desktop:items-center desktop:justify-center" src="./main/images/footer/footer-icon4.png" alt=""></span>
+        <div class="mobile:flex mobile:flex-col mobile:items-center mobile:w-full mobile:h-[344px] mobile:bg-customDark mobile:rounded-none mobile:p-4 desktop:flex desktop:flex-col desktop:items-center desktop:gap-3">
+          <div class="mobile:h-[90px] mobile:w-[115px] mobile:flex mobile:items-center mobile:justify-center desktop:h-[90px] desktop:w-[115px] desktop:flex desktop:items-center desktop:justify-center">
+            <span><img class="mobile:h-[90px] mobile:w-[115px] desktop:h-[90px] desktop:w-[115px]" src="./main/images/footer/footer-icon4.png" alt=""></span>
           </div>
-          <div class="desktop:border-t desktop:border-gray-600 desktop:pt-[10px] desktop:h-[5px] desktop:w-[150px]"></div>
-          <h3 class="desktop:text-lg desktop:font-semibold">تی بگ گلستان</h3>
-          <div class="desktop:border-t desktop:border-gray-600 desktop:pt-[10px] desktop:h-[5px] desktop:w-[150px]"></div>
-          <ul class="desktop:text-gray-400 desktop:text-sm desktop:space-y-2">
-            <li>تی بگ بلک لاین</li>
-            <li>تی بگ ارل گری</li>
-            <li>دمنوش نعناع</li>
-            <li>دمنوش بابونه</li>
-            <li>منوی چای سبز</li>
-          </ul>
+          <div class="mobile:border-t mobile:border-gray-600 mobile:w-full mobile:mt-2 desktop:border-t desktop:border-gray-600 desktop:pt-[10px] desktop:h-[5px] desktop:w-[150px]"></div>
+          <h3 class="mobile:text-white mobile:text-lg desktop:text-lg desktop:font-semibold">تی بگ گلستان</h3>
+          <div class="mobile:border-t mobile:border-gray-600 mobile:w-full mobile:mt-2 desktop:border-t desktop:border-gray-600 desktop:pt-[10px] desktop:h-[5px] desktop:w-[150px]"></div>
+          <div class="mobile:text-white mobile:text-sm mobile:mt-4 desktop:text-gray-400 desktop:text-sm desktop:space-y-2">
+            <a href="#" class="mobile:opacity-[0.5] hover:mobile:opacity-[1] mobile:mb-3 block">تی بگ بلک لاین</a>
+            <a href="#" class="mobile:opacity-[0.5] hover:mobile:opacity-[1] mobile:mb-3 block">تی بگ ارل گری</a>
+            <a href="#" class="mobile:opacity-[0.5] hover:mobile:opacity-[1] mobile:mb-3 block">دمنوش نعناع</a>
+            <a href="#" class="mobile:opacity-[0.5] hover:mobile:opacity-[1] mobile:mb-3 block">دمنوش بابونه</a>
+            <a href="#" class="mobile:opacity-[0.5] hover:mobile:opacity-[1] mobile:mb-3 block">منوی چای سبز</a>
+          </div>
         </div>
         <!-- Box 4 -->
-        <div class="desktop:flex desktop:flex-col desktop:items-center desktop:gap-3">
-          <div class="desktop:h-[90px] desktop:w-[115px] desktop:flex desktop:items-center desktop:justify-center">
-            <span><img class="desktop:h-[90px] desktop:w-[115px] desktop:flex desktop:items-center desktop:justify-center" src="./main/images/footer/footer-icon1.png" alt=""></span>
+        <div class="mobile:flex mobile:flex-col mobile:items-center mobile:w-full mobile:h-[344px] mobile:bg-customDark mobile:rounded-none mobile:p-4 desktop:flex desktop:flex-col desktop:items-center desktop:gap-3">
+          <div class="mobile:h-[90px] mobile:w-[115px] mobile:flex mobile:items-center mobile:justify-center desktop:h-[90px] desktop:w-[115px] desktop:flex desktop:items-center desktop:justify-center">
+            <span><img class="mobile:h-[90px] mobile:w-[115px] desktop:h-[90px] desktop:w-[115px]" src="./main/images/footer/footer-icon1.png" alt=""></span>
           </div>
-          <div class="desktop:border-t desktop:border-gray-600 desktop:pt-[10px] desktop:h-[5px] desktop:w-[150px]"></div>
-          <h3 class="desktop:text-lg desktop:font-semibold">چای گلستان</h3>
-          <div class="desktop:border-t desktop:border-gray-600 desktop:pt-[10px] desktop:h-[5px] desktop:w-[150px]"></div>
-          <ul class="desktop:text-gray-400 desktop:text-sm desktop:space-y-2">
-            <li>چای ممتاز هندوستان</li>
-            <li>چای ممتاز ارل گری</li>
-            <li>چای سیلان عطری</li>
-            <li>چای ممتاز سیلان</li>
-            <li>چای صبحانه گلستان</li>
-          </ul>
+          <div class="mobile:border-t mobile:border-gray-600 mobile:w-full mobile:mt-2 desktop:border-t desktop:border-gray-600 desktop:pt-[10px] desktop:h-[5px] desktop:w-[150px]"></div>
+          <h3 class="mobile:text-white mobile:text-lg desktop:text-lg desktop:font-semibold">چای گلستان</h3>
+          <div class="mobile:border-t mobile:border-gray-600 mobile:w-full mobile:mt-2 desktop:border-t desktop:border-gray-600 desktop:pt-[10px] desktop:h-[5px] desktop:w-[150px]"></div>
+          <div class="mobile:text-white mobile:text-sm mobile:mt-4 desktop:text-gray-400 desktop:text-sm desktop:space-y-2">
+            <a href="#" class="mobile:opacity-[0.5] hover:mobile:opacity-[1] mobile:mb-3 block">چای ممتاز هندوستان</a>
+            <a href="#" class="mobile:opacity-[0.5] hover:mobile:opacity-[1] mobile:mb-3 block">چای ممتاز ارل گری</a>
+            <a href="#" class="mobile:opacity-[0.5] hover:mobile:opacity-[1] mobile:mb-3 block">چای سیلان عطری</a>
+            <a href="#" class="mobile:opacity-[0.5] hover:mobile:opacity-[1] mobile:mb-3 block">چای ممتاز سیلان</a>
+            <a href="#" class="mobile:opacity-[0.5] hover:mobile:opacity-[1] mobile:mb-3 block">چای صبحانه گلستان</a>
+          </div>
         </div>
       </div>
     
       <!-- Footer -->
-      <div class="desktop:border-t desktop:border-gray-600 desktop:py-4 desktop:text-center">
-        <p class="desktop:text-gray-400 desktop:text-sm">All Right Reserved Golestan Company 2022-2025</p>
-        <p class="desktop:text-gray-500 desktop:text-xs">Design By: Golestan Studio</p>
+      <div class="mobile:bg-customDark mobile:border-t mobile:border-gray-600 mobile:py-4 mobile:text-center mobile:w-full mobile:h-[95px] desktop:bg-customDark desktop:border-t desktop:border-gray-600 desktop:py-4 desktop:text-center">
+        <p class="mobile:text-gray-400 mobile:text-[15px] desktop:text-gray-400 desktop:text-[15px]">All Right Reserved Golestan Company 2022-2025</p>
+        <p class="mobile:text-gray-500 mobile:text-[14px] desktop:text-gray-500 desktop:text-[14px]">Design By: Golestan Studio</p>
       </div>
     </div>
     
     
-
     <script src="./main/js/main.js"></script>
   </body>
 </html>
