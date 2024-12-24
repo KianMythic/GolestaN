@@ -1034,27 +1034,27 @@ html {
 }
 
 .bg-aparat {
-  background-image: url("./main/images/social-icon/aparat.png");
+  background-image: url("main/images/social-icon/aparat.png");
 }
 
 .bg-facebook {
-  background-image: url("./images/social-icon/facebook.png");
+  background-image: url("main/images/social-icon/facebook.png");
 }
 
 .bg-gl {
-  background-image: url("./main/images/social-icon/gl.png");
+  background-image: url("main/images/social-icon/gl.png");
 }
 
 .bg-insta {
-  background-image: url("./main/images/social-icon/instagram.png");
+  background-image: url("main/images/social-icon/instagram.png");
 }
 
 .bg-linkdin {
-  background-image: url("./main/images/social-icon/linkidin.png");
+  background-image: url("main/images/social-icon/linkidin.png");
 }
 
 .bg-telegram {
-  background-image: url("./main/images/social-icon/telegram.png");
+  background-image: url("main/images/social-icon/telegram.png");
 }
 
 .bg-cover {
@@ -1125,27 +1125,27 @@ html {
 }
 
 .hover\:bg-aparat-hover:hover {
-  background-image: url("./main/images/social-icon/aparatcolor.png");
+  background-image: url("main/images/social-icon/aparatcolor.png");
 }
 
 .hover\:bg-facebook-hover:hover {
-  background-image: url("./images/social-icon/facebookcolor.png");
+  background-image: url("main/images/social-icon/facebookcolor.png");
 }
 
 .hover\:bg-gl-hover:hover {
-  background-image: url("./main/images/social-icon/glcolor.png");
+  background-image: url("main/images/social-icon/glcolor.png");
 }
 
 .hover\:bg-insta-hover:hover {
-  background-image: url("./main/images/social-icon/instagramcolor.png");
+  background-image: url("main/images/social-icon/instagramcolor.png");
 }
 
 .hover\:bg-linkdin-hover:hover {
-  background-image: url("./main/images/social-icon/linkdincolor.png");
+  background-image: url("main/images/social-icon/linkdincolor.png");
 }
 
 .hover\:bg-telegram-hover:hover {
-  background-image: url("./main/images/social-icon/telegramcolor.png");
+  background-image: url("main/images/social-icon/telegramcolor.png");
 }
 
 .dark\:bg-gray-700:is(.dark *) {
@@ -1678,7 +1678,7 @@ html {
   }
 
   .mobile\:bg-recipe-banner {
-    background-image: url('./main/images/page1/recipe-baner-1.png');
+    background-image: url('main/images/page1/recipe-baner-1.png');
   }
 
   .mobile\:bg-scroll {
@@ -2558,7 +2558,7 @@ html {
   }
 
   .desktop\:bg-recipe-banner {
-    background-image: url('./main/images/page1/recipe-baner-1.png');
+    background-image: url('main/images/page1/recipe-baner-1.png');
   }
 
   .desktop\:bg-cover {
