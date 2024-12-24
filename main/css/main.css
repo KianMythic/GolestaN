@@ -1038,7 +1038,7 @@ html {
 }
 
 .bg-facebook {
-  background-image: url("./main/images/social-icon/facebook.png");
+  background-image: url("./images/social-icon/facebook.png");
 }
 
 .bg-gl {
@@ -1129,7 +1129,7 @@ html {
 }
 
 .hover\:bg-facebook-hover:hover {
-  background-image: url("./main/images/social-icon/facebookcolor.png");
+  background-image: url("./images/social-icon/facebookcolor.png");
 }
 
 .hover\:bg-gl-hover:hover {

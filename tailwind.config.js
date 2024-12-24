@@ -6,8 +6,8 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'facebook': 'url("./main/images/social-icon/facebook.png")',
-        'facebook-hover': 'url("./main/images/social-icon/facebookcolor.png")',
+        'facebook': 'url("./images/social-icon/facebook.png")',
+        'facebook-hover': 'url("./images/social-icon/facebookcolor.png")',
         'linkdin': 'url("./main/images/social-icon/linkidin.png")',
         'linkdin-hover': 'url("./main/images/social-icon/linkdincolor.png")',
         'insta': 'url("./main/images/social-icon/instagram.png")',
