@@ -900,30 +900,6 @@ html {
   }
 }
 
-.bg-facebook {
-  background-image: url("/main/images/social-icon/facebook.png");
-}
-
-.bg-linkdin {
-  background-image: url("/main/images/social-icon/linkidin.png");
-}
-
-.bg-insta {
-  background-image: url("/main/images/social-icon/instagram.png");
-}
-
-.bg-telegram {
-  background-image: url("/main/images/social-icon/telegram.png");
-}
-
-.bg-aparat {
-  background-image: url("/main/images/social-icon/aparat.png");
-}
-
-.bg-gl {
-  background-image: url("/main/images/social-icon/gl.png");
-}
-
 .visible {
   visibility: visible;
 }
@@ -1057,6 +1033,30 @@ html {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
 }
 
+.bg-aparat {
+  background-image: url("/Golestan/main/images/social-icon/aparat.png");
+}
+
+.bg-facebook {
+  background-image: url("/Golestan/main/images/social-icon/facebook.png");
+}
+
+.bg-gl {
+  background-image: url("/Golestan/main/images/social-icon/gl.png");
+}
+
+.bg-insta {
+  background-image: url("/Golestan/main/images/social-icon/instagram.png");
+}
+
+.bg-linkdin {
+  background-image: url("/Golestan/main/images/social-icon/linkidin.png");
+}
+
+.bg-telegram {
+  background-image: url("/Golestan/main/images/social-icon/telegram.png");
+}
+
 .bg-cover {
   background-size: cover;
 }
@@ -1119,45 +1119,33 @@ html {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.hover\:bg-facebook-hover:hover:hover {
-  background-image: url("/main/images/social-icon/facebookcolor.png");
-}
-
-.hover\:bg-linkdin-hover:hover:hover {
-  background-image: url("/main/images/social-icon/linkdincolor.png");
-}
-
-.hover\:bg-insta-hover:hover:hover {
-  background-image: url("/main/images/social-icon/instagramcolor.png");
-}
-
-.hover\:bg-telegram-hover:hover:hover {
-  background-image: url("/main/images/social-icon/telegramcolor.png");
-}
-
-.hover\:bg-aparat-hover:hover:hover {
-  background-image: url("/main/images/social-icon/aparatcolor.png");
-}
-
-.hover\:bg-gl-hover:hover:hover {
-  background-image: url("/main/images/social-icon/glcolor.png");
-}
-
-@media (max-width: 640px) {
-  .mobile\:bg-recipe-banner {
-    background-image: url("main/images/page1/recipe-baner-1.png");
-  }
-}
-
-@media (min-width: 1024px) {
-  .desktop\:bg-recipe-banner {
-    background-image: url("main/images/page1/recipe-baner-1.png");
-  }
-}
-
 .hover\:bg-gray-600:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(75 85 99 / var(--tw-bg-opacity, 1));
+}
+
+.hover\:bg-aparat-hover:hover {
+  background-image: url("/Golestan/main/images/social-icon/aparatcolor.png");
+}
+
+.hover\:bg-facebook-hover:hover {
+  background-image: url("/Golestan/main/images/social-icon/facebookcolor.png");
+}
+
+.hover\:bg-gl-hover:hover {
+  background-image: url("/Golestan/main/images/social-icon/glcolor.png");
+}
+
+.hover\:bg-insta-hover:hover {
+  background-image: url("/Golestan/main/images/social-icon/instagramcolor.png");
+}
+
+.hover\:bg-linkdin-hover:hover {
+  background-image: url("/Golestan/main/images/social-icon/linkdincolor.png");
+}
+
+.hover\:bg-telegram-hover:hover {
+  background-image: url("/Golestan/main/images/social-icon/telegramcolor.png");
 }
 
 .dark\:bg-gray-700:is(.dark *) {
@@ -2919,3 +2907,4 @@ html {
     background-color: rgb(220 38 38 / var(--tw-bg-opacity, 1));
   }
 }
+
