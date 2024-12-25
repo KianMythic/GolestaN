@@ -18,7 +18,7 @@ export default {
         'aparat-hover': 'url("/main/images/social-icon/aparatcolor.png")',
         'gl': 'url("/main/images/social-icon/gl.png")',
         'gl-hover': 'url("/main/images/social-icon/glcolor.png")',
-        'recipe-banner': "url('../images/page1/recipe-baner-1.png')",
+        'recipe-banner': "url('main/images/page1/recipe-baner-1.png')",
       },
 
       colors: {
