@@ -1,0 +1,1352 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./main/css/main.css" />
+    <link rel="shortcut icon" href="./main/images/logo-fr.png" />
+    <link
+      rel="stylesheet"
+      href="./main/node_module/animate.css/animate.min.css"
+    />
+
+    <title>main4</title>
+  </head>
+  <body
+    style="overflow-x: hidden"
+    class="bg-white text-black transition-colors duration-300 dark:bg-gray-900 dark:text-white font-[irlight]"
+  >
+    <!-- Header -->
+
+    <div class="main">
+      <div
+        class="mobile:fixed mobile:top-0 mobile:left-0 mobile:right-0 mobile:h-[160px] mobile:bg-customDark mobile:z-[999] desktop:fixed desktop:top-0 desktop:left-0 desktop:right-0 desktop:h-[105px] desktop:bg-customDark desktop:z-[999]"
+      >
+        <div
+          class="desktop:bg-customDark desktop:h-[100px] desktop:mx-auto desktop:flex desktop:items-center desktop:justify-between desktop:px-8 desktop:relative"
+        >
+          <!-- Logo -->
+          <div
+            class="mobile:h-[105px] mobile:w-full mobile:flex mobile:flex-col mobile:items-center mobile:justify-center desktop:absolute desktop:right-[320px] desktop:top-[50px] desktop:h-[105px] desktop:w-[170px] desktop:flex desktop:items-center desktop:justify-center desktop:rounded-full"
+          >
+            <img
+              class="mobile:w-[170px] mobile:h-[105px]"
+              src="./main/images/logo-fr.png"
+              alt="Logo"
+            />
+          </div>
+
+          <!-- Nav Toggle Button -->
+          <button
+            id="nav-toggle"
+            class="mobile:block desktop:hidden text-white p-4 rounded-full flex items-center justify-center h-[32px] w-[32px] mt-4"
+          >
+            <div class="h-[20px] w-[20px] flex items-center justify-center">
+              <img
+                src="./main/images/menu_icon.svg"
+                alt="Menu Icon"
+                class="h-full w-full"
+              />
+            </div>
+          </button>
+
+          <!-- Navigation Menu -->
+          <nav
+            id="mobile-nav"
+            class="hidden mobile:bg-customDark mobile:flex-col mobile:w-full mobile:items-center mobile:pt-2 mobile:overflow-hidden mobile:transition-all mobile:duration-300 mobile:ease-in-out mobile:h-0 desktop:flex desktop:gap-8 desktop:text-[#AFB2B4] desktop:text-[16px] desktop:text-sm desktop:pr-[140px] desktop:pt-[15px] desktop:justify-center desktop:items-center desktop:mx-auto"
+          >
+            <a
+              href="index.html"
+              class="mobile:w-full mobile:h-[44px] mobile:block mobile:pr-[20px] mobile:text-white mobile:text-[14px] mobile:pt-2 desktop:pr-4 desktop:flex desktop:items-center desktop:justify-center"
+              >صفحه اصلی</a
+            >
+            <a
+              href="index2.html"
+              class="mobile:w-full mobile:h-[44px] mobile:block mobile:pr-[20px] mobile:text-white mobile:text-[14px] mobile:pt-2 desktop:border-r desktop:pr-4 desktop:flex desktop:items-center desktop:justify-center"
+              >شرکت گلستان</a
+            >
+            <a
+              href="index3.html"
+              class="mobile:w-full mobile:h-[44px] mobile:block mobile:pr-[20px] mobile:text-white mobile:text-[14px] mobile:pt-2 desktop:border-r desktop:pr-4 desktop:flex desktop:items-center desktop:justify-center"
+              >محصولات</a
+            >
+            <a
+              href="index4.html"
+              class="mobile:w-full mobile:h-[44px] mobile:block mobile:pr-[20px] mobile:text-white mobile:text-[14px] mobile:pt-2 desktop:border-r desktop:pr-4 desktop:flex desktop:items-center desktop:justify-center"
+              >وبلاگ</a
+            >
+            <a
+              href="index5.html"
+              class="mobile:w-full mobile:h-[44px] mobile:block mobile:pr-[20px] mobile:text-white mobile:text-[14px] mobile:pt-2 desktop:border-r desktop:pr-4 desktop:flex desktop:items-center desktop:justify-center"
+              >قرعه کشی</a
+            >
+            <a
+              href="#"
+              class="mobile:w-full mobile:h-[44px] mobile:block mobile:pr-[20px] mobile:text-white desktop:text-white mobile:text-[14px] mobile:pt-2 desktop:border-r desktop:pr-4 desktop:flex desktop:items-center desktop:justify-center"
+              >استخدام</a
+            >
+            <a
+              href="index7.html"
+              class="mobile:w-full mobile:h-[44px] mobile:block mobile:pr-[20px] mobile:text-white mobile:text-[14px] mobile:pt-2 desktop:border-r desktop:pr-4 desktop:flex desktop:items-center desktop:justify-center"
+              >تماس با ما</a
+            >
+
+            <!-- Dark Mode Toggle -->
+            <div
+              id="theme-toggle-container"
+              class="mobile:flex mobile:items-center mobile:justify-center mobile:pt-2"
+            >
+              <button
+                id="theme-toggle"
+                class="bg-gray-800 text-white p-4 rounded-full hover:bg-gray-600 mt-4"
+              >
+                🌙
+              </button>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+
+    <div class="desktop:h-[105px] mobile:h-[170px]"></div>
+
+    <!-- 1 -->
+
+    <div class="desktop:w-[1600px] desktop:mx-auto">
+      <!-- Image Section -->
+      <div
+        class="desktop:w-[1600px] mobile:h-[230px] mobile:w-full desktop:h-[400px]"
+      >
+        <img
+          src="./main/images/page6/golestan-hr2.png"
+          alt="Office"
+          class="mobile:hidden desktop:w-full desktop:h-full desktop:object-cover"
+        />
+        <img
+          src="./main/images/page6/golestan-hrmob.png"
+          alt=""
+          class="mobile:object-cover mobile:h-[230px] mobile:w-full desktop:hidden"
+        />
+      </div>
+      <!-- Separator Line -->
+      <div
+        class="desktop:w-[1600px] desktop:h-[1px] desktop:bg-gray-300 desktop:mt-4"
+      ></div>
+    </div>
+
+    <!-- 1 -->
+    <!-- 2 -->
+    <div
+      class="mobile:w-full mobile:mx-0 mobile:mt-4 desktop:w-[1600px] desktop:mx-auto desktop:mt-8"
+    >
+      <!-- Title Section -->
+      <h2
+        class="mobile:text-[#FF0000] mobile:mb-[30px] mobile:text-lg mobile:font-bold mobile:w-[90%] mobile:h-auto mobile:mx-auto desktop:text-[#FF0000] desktop:text-xl desktop:font-bold desktop:w-[680px] desktop:h-[50px] desktop:mx-auto desktop:text-start"
+      >
+        فرصتهای شغلی
+      </h2>
+
+      <!-- Content Section -->
+      <div
+        class="mobile:w-[90%] mobile:mb-[50px] mobile:mx-auto mobile:text-[#7A7A7A] mobile:leading-10 desktop:w-[680px] desktop:mx-auto desktop:text-[#7A7A7A] desktop:text-start desktop:leading-relaxed"
+      >
+        <p
+          class="mobile:w-full mobile:h-auto mobile:mb-2 mobile:mx-0 desktop:w-[680px] desktop:h-[50px] desktop:mx-auto desktop:mb-4"
+        >
+          گلستان همواره پذیرای متخصصینی است که به
+          <span class="mobile:text-[#FF0000] desktop:text-[#FF0000]"
+            >پاورهای گلستان</span
+          >
+          در صورتی که کار در محیطی پویا و پرتحرک را دوست دارید و نمی‌خواهید بقیه
+          عمر خود را در انجام کاری تکراری سپری کنید، مشخصات خود را از طریق فرم
+          زیر تکمیل و ارسال نمایید.
+        </p>
+
+        <p
+          class="mobile:w-[341px] mobile:h-[105px] mobile:mx-auto mobile:text-center mobile:mb-2 mobile:mt-4 desktop:w-[544px] desktop:h-[70px] desktop:mx-auto desktop:mb-4 desktop:mt-[50px]"
+        >
+          <span class="mobile:text-[#FF0000] desktop:text-[#FF0000]"
+            >متقاضیان محترم،</span
+          >
+          خواهشمند است جهت ارسال درخواست، اطلاعات فرم الکترونیکی زیر را تکمیل و
+          ارسال نمایید.
+        </p>
+        <p
+          class="mobile:w-[341px] mobile:mx-auto mobile:h-[105px] desktop:w-[544px] desktop:h-[70px] desktop:mx-auto"
+        >
+          در صورتی که پیرو آگهی استخدام این شرکت، مبادرت به تکمیل فرم زیر
+          می‌نمایید، خواهشمند است شماره سریال و ردیف آگهی را نیز قید فرمایید.
+        </p>
+      </div>
+      <!-- Red Separator Line -->
+      <div
+        class="mobile:w-[341px] mobile:mb-[50px] mobile:h-[1px] mobile:bg-[#FF0000] mobile:mx-auto mobile:my-2 desktop:w-[590px] desktop:h-[1px] desktop:bg-[#FF0000] desktop:mx-auto desktop:my-4"
+      ></div>
+    </div>
+
+    <!-- 2 -->
+    <!-- 3 -->
+    <div
+      class="desktop:w-[680px] desktop:mx-auto desktop:mt-8 mobile:w-full mobile:px-4 mobile:mt-4 desktop:text-[#7A7A7A] mobile:text-[#7A7A7A] "
+    >
+      <label
+        for="serial-number"
+        class="desktop:block desktop:text-[#7A7A7A] desktop:mb-2 mobile:block mobile:text-[#7A7A7A] mobile:mb-1 mobile:text-sm"
+      >
+        شماره سریال آگهی
+      </label>
+      <select
+        id="serial-number"
+        name="serial-number"
+        class="desktop:block desktop:w-[200px] desktop:h-[40px] desktop:border desktop:border-gray-300 desktop:rounded-md desktop:text-[#7A7A7A] desktop:px-2 mobile:w-full mobile:h-[36px] mobile:border mobile:border-gray-300 mobile:rounded-md mobile:text-[#7A7A7A] mobile:px-2 mobile:text-sm"
+      >
+        <option value="" disabled selected>انتخاب کنید</option>
+        <option value="01">01</option>
+        <option value="02">02</option>
+        <option value="03">03</option>
+        <option value="04">04</option>
+        <option value="05">05</option>
+        <option value="06">06</option>
+        <option value="07">07</option>
+        <option value="08">08</option>
+        <option value="09">09</option>
+        <option value="10">10</option>
+        <option value="11">11</option>
+        <option value="12">12</option>
+        <option value="13">13</option>
+        <option value="14">14</option>
+        <option value="15">15</option>
+        <option value="16">16</option>
+        <option value="17">17</option>
+        <option value="18">18</option>
+        <option value="19">19</option>
+        <option value="20">20</option>
+        <option value="21">21</option>
+        <option value="22">22</option>
+        <option value="23">23</option>
+        <option value="24">24</option>
+        <option value="25">25</option>
+        <option value="26">26</option>
+        <option value="27">27</option>
+        <option value="28">28</option>
+        <option value="29">29</option>
+        <option value="30">30</option>
+        <option value="31">31</option>
+        <option value="32">32</option>
+        <option value="33">33</option>
+        <option value="34">34</option>
+        <option value="35">35</option>
+        <option value="36">36</option>
+        <option value="37">37</option>
+        <option value="38">38</option>
+        <option value="39">39</option>
+        <option value="40">40</option>
+        <option value="41">41</option>
+        <option value="42">42</option>
+        <option value="43">43</option>
+        <option value="44">44</option>
+        <option value="45">45</option>
+        <option value="46">46</option>
+        <option value="47">47</option>
+        <option value="48">48</option>
+        <option value="49">49</option>
+        <option value="50">50</option>
+        <option value="51">51</option>
+        <option value="52">52</option>
+        <option value="53">53</option>
+        <option value="54">54</option>
+        <option value="55">55</option>
+        <option value="56">56</option>
+        <option value="57">57</option>
+        <option value="58">58</option>
+        <option value="59">59</option>
+        <option value="60">60</option>
+        <option value="61">61</option>
+        <option value="62">62</option>
+        <option value="63">63</option>
+        <option value="64">64</option>
+        <option value="65">65</option>
+        <option value="66">66</option>
+        <option value="67">67</option>
+        <option value="68">68</option>
+        <option value="69">69</option>
+        <option value="70">70</option>
+        <option value="71">71</option>
+        <option value="72">72</option>
+        <option value="73">73</option>
+        <option value="74">74</option>
+        <option value="75">75</option>
+        <option value="76">76</option>
+        <option value="77">77</option>
+        <option value="78">78</option>
+        <option value="79">79</option>
+        <option value="80">80</option>
+        <option value="81">81</option>
+        <option value="82">82</option>
+        <option value="83">83</option>
+        <option value="84">84</option>
+        <option value="85">85</option>
+        <option value="86">86</option>
+        <option value="87">87</option>
+        <option value="88">88</option>
+        <option value="89">89</option>
+        <option value="90">90</option>
+        <option value="91">91</option>
+        <option value="92">92</option>
+        <option value="93">93</option>
+        <option value="94">94</option>
+        <option value="95">95</option>
+        <option value="96">96</option>
+        <option value="97">97</option>
+        <option value="98">98</option>
+        <option value="99">99</option>
+        <option value="100">100</option>
+      </select>
+    </div>
+
+    <!-- 3 -->
+    <!-- 4 -->
+    <div
+      class="desktop:w-[800px] desktop:mx-auto desktop:mt-8 mobile:w-full mobile:px-4 mobile:mt-4"
+    >
+      <!-- Title -->
+      <h2
+        class="desktop:text-[#FF0000] desktop:text-xl desktop:font-bold desktop:w-full desktop:mb-4 desktop:text-start mobile:text-[#FF0000] mobile:text-lg mobile:font-bold mobile:w-full mobile:mb-3 mobile:text-center"
+      >
+        مشخصات فردی
+      </h2>
+      <!-- Red Separator Line -->
+      <div
+        class="desktop:w-full desktop:h-[1px] desktop:bg-[#FF0000] desktop:mb-6 mobile:w-full mobile:h-[1px] mobile:bg-[#FF0000] mobile:mb-4"
+      ></div>
+
+      <!-- Form -->
+      <form
+        class="desktop:grid desktop:grid-cols-2 desktop:gap-4 mobile:grid mobile:grid-cols-1 mobile:gap-3"
+      >
+        <!-- Name -->
+        <div class="desktop:w-[350px] mobile:w-full">
+          <label
+            class="desktop:block desktop:text-[#7A7A7A] desktop:mb-2 mobile:block mobile:text-[#7A7A7A] mobile:mb-1"
+            >نام *</label
+          >
+          <input
+            type="text"
+            class="desktop:w-full desktop:border desktop:border-gray-300 desktop:rounded-md desktop:h-[40px] desktop:px-2 mobile:w-full mobile:border mobile:border-gray-300 mobile:rounded-md mobile:h-[40px] mobile:px-2"
+          />
+        </div>
+        <div class="desktop:w-[350px] mobile:w-full">
+          <label
+            class="desktop:block desktop:text-[#7A7A7A] desktop:mb-2 mobile:block mobile:text-[#7A7A7A] mobile:mb-1"
+            >نام خانوادگی *</label
+          >
+          <input
+            type="text"
+            class="desktop:w-full desktop:border desktop:border-gray-300 desktop:rounded-md desktop:h-[40px] desktop:px-2 mobile:w-full mobile:border mobile:border-gray-300 mobile:rounded-md mobile:h-[40px] mobile:px-2"
+          />
+        </div>
+
+        <!-- Year of Birth -->
+        <div class="desktop:w-[350px] mobile:w-full desktop:text-[#7A7A7A] mobile:text-[#7A7A7A]">
+          <label
+            class="desktop:block desktop:text-[#7A7A7A] desktop:mb-2 mobile:block mobile:text-[#7A7A7A] mobile:mb-1"
+            >سال تولد *</label
+          >
+          <select
+            class="desktop:w-full desktop:border desktop:border-gray-300 desktop:rounded-md desktop:h-[40px] desktop:px-2 mobile:w-full mobile:border mobile:border-gray-300 mobile:rounded-md mobile:h-[40px] mobile:px-2"
+          >
+            <option value="" disabled selected>انتخاب کنید</option>
+            <option value="1340">1340</option>
+            <option value="1341">1341</option>
+            <option value="1342">1342</option>
+            <option value="1343">1343</option>
+            <option value="1344">1344</option>
+            <option value="1345">1345</option>
+            <option value="1346">1346</option>
+            <option value="1347">1347</option>
+            <option value="1348">1348</option>
+            <option value="1349">1349</option>
+            <option value="1350">1350</option>
+            <option value="1351">1351</option>
+            <option value="1352">1352</option>
+            <option value="1353">1353</option>
+            <option value="1354">1354</option>
+            <option value="1355">1355</option>
+            <option value="1356">1356</option>
+            <option value="1357">1357</option>
+            <option value="1358">1358</option>
+            <option value="1359">1359</option>
+            <option value="1360">1360</option>
+            <option value="1361">1361</option>
+            <option value="1362">1362</option>
+            <option value="1363">1363</option>
+            <option value="1364">1364</option>
+            <option value="1365">1365</option>
+            <option value="1366">1366</option>
+            <option value="1367">1367</option>
+            <option value="1368">1368</option>
+            <option value="1369">1369</option>
+            <option value="1370">1370</option>
+            <option value="1371">1371</option>
+            <option value="1372">1372</option>
+            <option value="1373">1373</option>
+            <option value="1374">1374</option>
+            <option value="1375">1375</option>
+            <option value="1376">1376</option>
+            <option value="1377">1377</option>
+            <option value="1378">1378</option>
+            <option value="1379">1379</option>
+            <option value="1380">1380</option>
+            <option value="1381">1381</option>
+            <option value="1382">1382</option>
+            <option value="1383">1383</option>
+            <option value="1384">1384</option>
+            <option value="1385">1385</option>
+            <option value="1386">1386</option>
+            <option value="1387">1387</option>
+            <option value="1388">1388</option>
+            <option value="1389">1389</option>
+            <option value="1390">1390</option>
+            <option value="1391">1391</option>
+            <option value="1392">1392</option>
+            <option value="1393">1393</option>
+            <option value="1394">1394</option>
+            <option value="1395">1395</option>
+            <option value="1396">1396</option>
+            <option value="1397">1397</option>
+            <option value="1398">1398</option>
+            <option value="1399">1399</option>
+          </select>
+        </div>
+
+        <!-- Gender -->
+        <div class="desktop:w-[350px] mobile:w-full desktop:text-[#7A7A7A] mobile:text-[#7A7A7A]">
+          <label
+            class="desktop:block desktop:text-[#7A7A7A] desktop:mb-2 mobile:block mobile:text-[#7A7A7A] mobile:mb-1"
+            >جنسیت *</label
+          >
+          <select
+            class="desktop:w-full desktop:border desktop:border-gray-300 desktop:rounded-md desktop:h-[40px] desktop:px-2 mobile:w-full mobile:border mobile:border-gray-300 mobile:rounded-md mobile:h-[40px] mobile:px-2"
+          >
+            <option value="" disabled selected>انتخاب کنید</option>
+            <option value="male">مذکر</option>
+            <option value="female">مونث</option>
+          </select>
+        </div>
+
+        <!-- Marital Status -->
+        <div class="desktop:w-[350px] mobile:w-full desktop:text-[#7A7A7A] mobile:text-[#7A7A7A]">
+          <label
+            class="desktop:block desktop:text-[#7A7A7A] desktop:mb-2 mobile:block mobile:text-[#7A7A7A] mobile:mb-1"
+            >وضعیت تاهل *</label
+          >
+          <select
+            class="desktop:w-full desktop:border desktop:border-gray-300 desktop:rounded-md desktop:h-[40px] desktop:px-2 mobile:w-full mobile:border mobile:border-gray-300 mobile:rounded-md mobile:h-[40px] mobile:px-2"
+          >
+            <option value="" disabled selected>انتخاب کنید</option>
+            <option value="single">مجرد</option>
+            <option value="married">متاهل</option>
+            <option value="divorced">متارکه</option>
+            <option value="other">غیره</option>
+          </select>
+        </div>
+
+        <!-- Military Status -->
+        <div class="desktop:w-[350px] mobile:w-full desktop:text-[#7A7A7A] mobile:text-[#7A7A7A]">
+          <label
+            class="desktop:block desktop:text-[#7A7A7A] desktop:mb-2 mobile:block mobile:text-[#7A7A7A] mobile:mb-1"
+            >وضعیت نظام وظیفه *</label
+          >
+          <select
+            class="desktop:w-full desktop:border desktop:border-gray-300 desktop:rounded-md desktop:h-[40px] desktop:px-2 mobile:w-full mobile:border mobile:border-gray-300 mobile:rounded-md mobile:h-[40px] mobile:px-2"
+          >
+            <option value="" disabled selected>انتخاب کنید</option>
+            <option value="eligible">مشمول</option>
+            <option value="exempted">دارای کارت معافیت</option>
+            <option value="completed">دارای کارت پایان خدمت</option>
+          </select>
+        </div>
+
+        <!-- Phone -->
+        <div class="desktop:w-[350px] mobile:w-full">
+          <label
+            class="desktop:block desktop:text-[#7A7A7A] desktop:mb-2 mobile:block mobile:text-[#7A7A7A] mobile:mb-1"
+            >تلفن همراه *</label
+          >
+          <input
+            type="text"
+            class="desktop:w-full desktop:border desktop:border-gray-300 desktop:rounded-md desktop:h-[40px] desktop:px-2 mobile:w-full mobile:border mobile:border-gray-300 mobile:rounded-md mobile:h-[40px] mobile:px-2"
+          />
+        </div>
+        <div class="desktop:w-[350px] mobile:w-full">
+          <label
+            class="desktop:block desktop:text-[#7A7A7A] desktop:mb-2 mobile:block mobile:text-[#7A7A7A] mobile:mb-1"
+            >تلفن ثابت</label
+          >
+          <input
+            type="text"
+            class="desktop:w-full desktop:border desktop:border-gray-300 desktop:rounded-md desktop:h-[40px] desktop:px-2 mobile:w-full mobile:border mobile:border-gray-300 mobile:rounded-md mobile:h-[40px] mobile:px-2"
+          />
+        </div>
+
+        <!-- Email -->
+        <div class="desktop:w-[350px] mobile:w-full">
+          <label
+            class="desktop:block desktop:text-[#7A7A7A] desktop:mb-2 mobile:block mobile:text-[#7A7A7A] mobile:mb-1"
+            >آدرس ایمیل *</label
+          >
+          <input
+            type="email"
+            class="desktop:w-full desktop:border desktop:border-gray-300 desktop:rounded-md desktop:h-[40px] desktop:px-2 mobile:w-full mobile:border mobile:border-gray-300 mobile:rounded-md mobile:h-[40px] mobile:px-2"
+          />
+        </div>
+        <div class="desktop:w-[350px] mobile:w-full">
+          <label
+            class="desktop:block desktop:text-[#7A7A7A] desktop:mb-2 mobile:block mobile:text-[#7A7A7A] mobile:mb-1"
+            >کد ملی *</label
+          >
+          <input
+            type="text"
+            class="desktop:w-full desktop:border desktop:border-gray-300 desktop:rounded-md desktop:h-[40px] desktop:px-2 mobile:w-full mobile:border mobile:border-gray-300 mobile:rounded-md mobile:h-[40px] mobile:px-2"
+          />
+        </div>
+
+        <!-- Province and City -->
+        <div class="desktop:w-[350px] mobile:w-full desktop:text-[#7A7A7A] mobile:text-[#7A7A7A]">
+          <label
+            class="desktop:block desktop:text-[#7A7A7A] desktop:mb-2 mobile:block mobile:text-[#7A7A7A] mobile:mb-1"
+            >استان محل سکونت *</label
+          >
+          <select
+            class="desktop:w-full desktop:border desktop:border-gray-300 desktop:rounded-md desktop:h-[40px] desktop:px-2 mobile:w-full mobile:border mobile:border-gray-300 mobile:rounded-md mobile:h-[40px] mobile:px-2"
+          >
+            <option value="" disabled selected>انتخاب کنید</option>
+            <option value="tehran">تهران</option>
+            <option value="alborz">البرز</option>
+            <option value="qom">قم</option>
+            <option value="isfahan">اصفهان</option>
+            <option value="fars">فارس</option>
+            <option value="mashhad">خراسان رضوی</option>
+            <option value="north-khorasan">خراسان شمالی</option>
+            <option value="south-khorasan">خراسان جنوبی</option>
+            <option value="kerman">کرمان</option>
+            <option value="yazd">یزد</option>
+            <option value="kermanshah">کرمانشاه</option>
+            <option value="lorestan">لرستان</option>
+            <option value="zanjan">زنجان</option>
+            <option value="hamedan">همدان</option>
+            <option value="kurdistan">کردستان</option>
+            <option value="ardabil">اردبیل</option>
+            <option value="azerbaijan-east">آذربایجان شرقی</option>
+            <option value="azerbaijan-west">آذربایجان غربی</option>
+            <option value="gilan">گیلان</option>
+            <option value="mazandaran">مازندران</option>
+            <option value="golestan">گلستان</option>
+            <option value="semnan">سمنان</option>
+            <option value="markazi">مرکزی</option>
+            <option value="qazvin">قزوین</option>
+            <option value="bushehr">بوشهر</option>
+            <option value="hormozgan">هرمزگان</option>
+            <option value="sistan-baluchestan">سیستان و بلوچستان</option>
+            <option value="kohgiluyeh">کهگیلویه و بویراحمد</option>
+            <option value="chaharmahal">چهارمحال و بختیاری</option>
+            <option value="khuzestan">خوزستان</option>
+            <option value="ilam">ایلام</option>
+          </select>
+        </div>
+        <div class="desktop:w-[350px] mobile:w-full">
+          <label
+            class="desktop:block desktop:text-[#7A7A7A] desktop:mb-2 mobile:block mobile:text-[#7A7A7A] mobile:mb-1"
+            >شهر محل سکونت *</label
+          >
+          <input
+            type="text"
+            class="desktop:w-full desktop:border desktop:border-gray-300 desktop:rounded-md desktop:h-[40px] desktop:px-2 mobile:w-full mobile:border mobile:border-gray-300 mobile:rounded-md mobile:h-[40px] mobile:px-2"
+          />
+        </div>
+
+        <!-- Address and Postal Code -->
+        <div class="desktop:w-[350px] mobile:w-full">
+          <label
+            class="desktop:block desktop:text-[#7A7A7A] desktop:mb-2 mobile:block mobile:text-[#7A7A7A] mobile:mb-1"
+            >آدرس *</label
+          >
+          <input
+            type="text"
+            class="desktop:w-full desktop:border desktop:border-gray-300 desktop:rounded-md desktop:h-[40px] desktop:px-2 mobile:w-full mobile:border mobile:border-gray-300 mobile:rounded-md mobile:h-[40px] mobile:px-2"
+          />
+        </div>
+        <div class="desktop:w-[350px] mobile:w-full">
+          <label
+            class="desktop:block desktop:text-[#7A7A7A] desktop:mb-2 mobile:block mobile:text-[#7A7A7A] mobile:mb-1"
+            >کدپستی</label
+          >
+          <input
+            type="text"
+            class="desktop:w-full desktop:border desktop:border-gray-300 desktop:rounded-md desktop:h-[40px] desktop:px-2 mobile:w-full mobile:border mobile:border-gray-300 mobile:rounded-md mobile:h-[40px] mobile:px-2"
+          />
+        </div>
+      </form>
+    </div>
+
+    <!-- 4 -->
+    <!-- 5 -->
+    <div class="desktop:w-[800px] desktop:mx-auto desktop:mt-8 mobile:w-full mobile:px-4 mobile:mt-6">
+      <!-- Title -->
+      <h2 class="desktop:text-[#FF0000] desktop:text-xl desktop:font-bold desktop:w-full desktop:mb-4 desktop:text-start mobile:text-[#FF0000] mobile:text-lg mobile:font-bold mobile:mb-3">
+        تحصیلات
+      </h2>
+      <!-- Red Separator Line -->
+      <div class="desktop:w-full desktop:h-[1px] desktop:bg-[#FF0000] desktop:mb-6 mobile:w-full mobile:h-[1px] mobile:bg-[#FF0000] mobile:mb-4"></div>
+    
+      <!-- Form -->
+      <form class="desktop:grid desktop:grid-cols-2 desktop:gap-4 mobile:grid mobile:grid-cols-1 mobile:gap-3">
+        <!-- Last Degree -->
+        <div class="desktop:w-[350px] mobile:w-full desktop:text-[#7A7A7A] mobile:text-[#7A7A7A] ">
+          <label class="desktop:block desktop:text-[#7A7A7A] desktop:mb-2 mobile:block mobile:text-[#7A7A7A] mobile:mb-1">آخرین مدرک تحصیلی *</label>
+          <select class="desktop:w-full desktop:border desktop:border-gray-300 desktop:rounded-md desktop:h-[40px] desktop:px-2 mobile:w-full mobile:border mobile:border-gray-300 mobile:rounded-md mobile:h-[40px] mobile:px-2">
+            <option value="" disabled selected class="desktop:text-[#7A7A7A] mobile:text-[#7A7A7A] ">انتخاب کنید</option>
+            <option value="high-school">دیپلم</option>
+            <option value="associate">کاردانی</option>
+            <option value="bachelor">کارشناسی</option>
+            <option value="master">کارشناسی ارشد</option>
+            <option value="phd">دکتری</option>
+          </select>
+        </div>
+    
+        <!-- Field of Study -->
+        <div class="desktop:w-[350px] mobile:w-full desktop:text-[#7A7A7A] mobile:text-[#7A7A7A]">
+          <label class="desktop:block desktop:text-[#7A7A7A] desktop:mb-2 mobile:block mobile:text-[#7A7A7A] mobile:mb-1">رشته تحصیلی *</label>
+          <select class="desktop:w-full desktop:border desktop:border-gray-300 desktop:rounded-md desktop:h-[40px] desktop:px-2 mobile:w-full mobile:border mobile:border-gray-300 mobile:rounded-md mobile:h-[40px] mobile:px-2">
+            <option value="" disabled selected>انتخاب کنید</option>
+            <option value="math">ریاضی</option>
+            <option value="experimental">تجربی</option>
+            <option value="humanities">انسانی</option>
+            <option value="technical">فنی و حرفه ای</option>
+            <option value="vocational">کار و دانش</option>
+            <option value="management">مدیریت</option>
+            <option value="industry">صنایع</option>
+            <option value="mechanics">مکانیک</option>
+            <option value="electricity">برق</option>
+            <option value="civil">عمران</option>
+            <option value="statistics">آمار</option>
+            <option value="food-industry">صنایع غذایی</option>
+            <option value="agriculture">کشاورزی</option>
+            <option value="graphics">گرافیک</option>
+            <option value="economics">اقتصاد</option>
+            <option value="accounting">حسابداری</option>
+            <option value="mba">MBA</option>
+            <option value="architecture">معماری</option>
+            <option value="automation">اتومکانیک</option>
+            <option value="computer">کامپیوتر</option>
+            <option value="healthcare">بهداشت</option>
+            <option value="law">حقوق</option>
+            <option value="chemistry">شیمی</option>
+            <option value="physics">فیزیک</option>
+            <option value="other">سایر</option>
+          </select>
+        </div>
+    
+        <!-- University Name -->
+        <div class="desktop:w-[350px] mobile:w-full">
+          <label class="desktop:block desktop:text-[#7A7A7A] desktop:mb-2 mobile:block mobile:text-[#7A7A7A] mobile:mb-1">نام دانشگاه</label>
+          <input type="text" class="desktop:w-full desktop:border desktop:border-gray-300 desktop:rounded-md desktop:h-[40px] desktop:px-2 mobile:w-full mobile:border mobile:border-gray-300 mobile:rounded-md mobile:h-[40px] mobile:px-2" />
+        </div>
+    
+        <!-- University Location -->
+        <div class="desktop:w-[350px] mobile:w-full">
+          <label class="desktop:block desktop:text-[#7A7A7A] desktop:mb-2 mobile:block mobile:text-[#7A7A7A] mobile:mb-1">محلیت دانشگاه</label>
+          <input type="text" class="desktop:w-full desktop:border desktop:border-gray-300 desktop:rounded-md desktop:h-[40px] desktop:px-2 mobile:w-full mobile:border mobile:border-gray-300 mobile:rounded-md mobile:h-[40px] mobile:px-2" />
+        </div>
+    
+        <!-- GPA -->
+        <div class="desktop:w-[350px] mobile:w-full">
+          <label class="desktop:block desktop:text-[#7A7A7A] desktop:mb-2 mobile:block mobile:text-[#7A7A7A] mobile:mb-1">معدل *</label>
+          <input type="text" class="desktop:w-full desktop:border desktop:border-gray-300 desktop:rounded-md desktop:h-[40px] desktop:px-2 mobile:w-full mobile:border mobile:border-gray-300 mobile:rounded-md mobile:h-[40px] mobile:px-2" />
+        </div>
+      </form>
+    </div>
+    
+
+    <!-- 5 -->
+    <!-- 6 -->
+    <div class="desktop:w-[680px] desktop:mx-auto desktop:mt-8 mobile:w-full mobile:px-4 mobile:mt-6">
+      <!-- Title -->
+      <h2 class="desktop:text-[#FF0000] desktop:text-xl desktop:font-bold desktop:w-full desktop:mb-4 desktop:text-start mobile:text-[#FF0000] mobile:text-lg mobile:font-bold mobile:mb-3">
+        سوابق کاری
+      </h2>
+      <!-- Red Separator Line -->
+      <div class="desktop:w-full desktop:h-[1px] desktop:bg-[#FF0000] desktop:mb-6 mobile:w-full mobile:h-[1px] mobile:bg-[#FF0000] mobile:mb-4"></div>
+    
+      <!-- Form -->
+      <form class="desktop:grid desktop:grid-cols-4 desktop:gap-4 mobile:grid mobile:grid-cols-1 mobile:gap-3">
+        <!-- Job 1 -->
+        <div class="desktop:col-span-1 mobile:w-full">
+          <label class="desktop:block desktop:text-[#7A7A7A] desktop:mb-2 mobile:block mobile:text-[#7A7A7A] mobile:mb-1">نام شرکت</label>
+          <input type="text" class="desktop:w-full desktop:border desktop:border-gray-300 desktop:rounded-md desktop:h-[40px] desktop:px-2 mobile:w-full mobile:border mobile:border-gray-300 mobile:rounded-md mobile:h-[40px] mobile:px-2" />
+        </div>
+        <div class="desktop:col-span-1 mobile:w-full">
+          <label class="desktop:block desktop:text-[#7A7A7A] desktop:mb-2 mobile:block mobile:text-[#7A7A7A] mobile:mb-1">سمت</label>
+          <input type="text" class="desktop:w-full desktop:border desktop:border-gray-300 desktop:rounded-md desktop:h-[40px] desktop:px-2 mobile:w-full mobile:border mobile:border-gray-300 mobile:rounded-md mobile:h-[40px] mobile:px-2" />
+        </div>
+        <div class="desktop:col-span-1 mobile:w-full">
+          <label class="desktop:block desktop:text-[#7A7A7A] desktop:mb-2 mobile:block mobile:text-[#7A7A7A] mobile:mb-1">مدت همکاری</label>
+          <input type="text" class="desktop:w-full desktop:border desktop:border-gray-300 desktop:rounded-md desktop:h-[40px] desktop:px-2 mobile:w-full mobile:border mobile:border-gray-300 mobile:rounded-md mobile:h-[40px] mobile:px-2" />
+        </div>
+    
+        <!-- Job 2 -->
+        <div class="desktop:col-span-1 mobile:w-full">
+          <label class="desktop:block desktop:text-[#7A7A7A] desktop:mb-2 mobile:block mobile:text-[#7A7A7A] mobile:mb-1">نام شرکت</label>
+          <input type="text" class="desktop:w-full desktop:border desktop:border-gray-300 desktop:rounded-md desktop:h-[40px] desktop:px-2 mobile:w-full mobile:border mobile:border-gray-300 mobile:rounded-md mobile:h-[40px] mobile:px-2" />
+        </div>
+        <div class="desktop:col-span-1 mobile:w-full">
+          <label class="desktop:block desktop:text-[#7A7A7A] desktop:mb-2 mobile:block mobile:text-[#7A7A7A] mobile:mb-1">سمت</label>
+          <input type="text" class="desktop:w-full desktop:border desktop:border-gray-300 desktop:rounded-md desktop:h-[40px] desktop:px-2 mobile:w-full mobile:border mobile:border-gray-300 mobile:rounded-md mobile:h-[40px] mobile:px-2" />
+        </div>
+        <div class="desktop:col-span-1 mobile:w-full">
+          <label class="desktop:block desktop:text-[#7A7A7A] desktop:mb-2 mobile:block mobile:text-[#7A7A7A] mobile:mb-1">مدت همکاری</label>
+          <input type="text" class="desktop:w-full desktop:border desktop:border-gray-300 desktop:rounded-md desktop:h-[40px] desktop:px-2 mobile:w-full mobile:border mobile:border-gray-300 mobile:rounded-md mobile:h-[40px] mobile:px-2" />
+        </div>
+    
+        <!-- Job 3 -->
+        <div class="desktop:col-span-1 mobile:w-full">
+          <label class="desktop:block desktop:text-[#7A7A7A] desktop:mb-2 mobile:block mobile:text-[#7A7A7A] mobile:mb-1">نام شرکت</label>
+          <input type="text" class="desktop:w-full desktop:border desktop:border-gray-300 desktop:rounded-md desktop:h-[40px] desktop:px-2 mobile:w-full mobile:border mobile:border-gray-300 mobile:rounded-md mobile:h-[40px] mobile:px-2" />
+        </div>
+        <div class="desktop:col-span-1 mobile:w-full">
+          <label class="desktop:block desktop:text-[#7A7A7A] desktop:mb-2 mobile:block mobile:text-[#7A7A7A] mobile:mb-1">سمت</label>
+          <input type="text" class="desktop:w-full desktop:border desktop:border-gray-300 desktop:rounded-md desktop:h-[40px] desktop:px-2 mobile:w-full mobile:border mobile:border-gray-300 mobile:rounded-md mobile:h-[40px] mobile:px-2" />
+        </div>
+        <div class="desktop:col-span-1 mobile:w-full">
+          <label class="desktop:block desktop:text-[#7A7A7A] desktop:mb-2 mobile:block mobile:text-[#7A7A7A] mobile:mb-1">مدت همکاری</label>
+          <input type="text" class="desktop:w-full desktop:border desktop:border-gray-300 desktop:rounded-md desktop:h-[40px] desktop:px-2 mobile:w-full mobile:border mobile:border-gray-300 mobile:rounded-md mobile:h-[40px] mobile:px-2" />
+        </div>
+    
+        <!-- Additional Fields -->
+        <div class="desktop:col-span-1 mobile:w-full">
+          <label class="desktop:block desktop:text-[#7A7A7A] desktop:mb-2 mobile:block mobile:text-[#7A7A7A] mobile:mb-1">سابقه کار مفید</label>
+          <input type="text" class="desktop:w-full desktop:border desktop:border-gray-300 desktop:rounded-md desktop:h-[40px] desktop:px-2 mobile:w-full mobile:border mobile:border-gray-300 mobile:rounded-md mobile:h-[40px] mobile:px-2" />
+        </div>
+        <div class="desktop:col-span-1 mobile:w-full">
+          <label class="desktop:block desktop:text-[#7A7A7A] desktop:mb-2 mobile:block mobile:text-[#7A7A7A] mobile:mb-1">سابقه بیمه</label>
+          <input type="text" class="desktop:w-full desktop:border desktop:border-gray-300 desktop:rounded-md desktop:h-[40px] desktop:px-2 mobile:w-full mobile:border mobile:border-gray-300 mobile:rounded-md mobile:h-[40px] mobile:px-2" />
+        </div>
+      </form>
+    </div>
+    
+    <!-- 6 -->
+    <!-- 7 -->
+    <div class="desktop:w-[705px] desktop:mx-auto desktop:mt-8 mobile:w-full mobile:px-4 mobile:mt-4">
+      <!-- Title -->
+      <h2 class="desktop:text-[#FF0000] desktop:text-xl desktop:font-bold desktop:w-full desktop:mb-4 desktop:text-start mobile:text-[#FF0000] mobile:text-lg mobile:font-semibold mobile:text-start mobile:mb-2">
+        دوره های آموزشی
+      </h2>
+      <!-- Red Separator Line -->
+      <div class="desktop:w-full desktop:h-[1px] desktop:bg-[#FF0000] desktop:mb-6 mobile:h-[2px] mobile:bg-[#FF0000] mobile:mb-4"></div>
+    
+      <!-- Form -->
+      <form class="desktop:grid desktop:grid-cols-2 desktop:gap-4 mobile:flex mobile:flex-col mobile:gap-4">
+        <!-- Row 1 -->
+        <div class="desktop:w-[350px] mobile:w-full">
+          <label class="desktop:block desktop:text-[#7A7A7A] desktop:mb-2 desktop:text-sm mobile:block mobile:text-[#7A7A7A] mobile:mb-2 mobile:text-base">نام دوره</label>
+          <input
+            type="text"
+            class="desktop:w-full desktop:border desktop:border-gray-300 desktop:rounded-md desktop:h-[40px] desktop:px-2 mobile:w-full mobile:border mobile:border-gray-300 mobile:rounded-md mobile:h-[40px] mobile:px-3"
+          />
+        </div>
+        <div class="desktop:w-[350px] mobile:w-full">
+          <label class="desktop:block desktop:text-[#7A7A7A] desktop:mb-2 desktop:text-sm mobile:block mobile:text-[#7A7A7A] mobile:mb-2 mobile:text-base">نام موسسه</label>
+          <input
+            type="text"
+            class="desktop:w-full desktop:border desktop:border-gray-300 desktop:rounded-md desktop:h-[40px] desktop:px-2 mobile:w-full mobile:border mobile:border-gray-300 mobile:rounded-md mobile:h-[40px] mobile:px-3"
+          />
+        </div>
+    
+        <!-- Row 2 -->
+        <div class="desktop:w-[350px] mobile:w-full">
+          <label class="desktop:block desktop:text-[#7A7A7A] desktop:mb-2 desktop:text-sm mobile:block mobile:text-[#7A7A7A] mobile:mb-2 mobile:text-base">نام دوره</label>
+          <input
+            type="text"
+            class="desktop:w-full desktop:border desktop:border-gray-300 desktop:rounded-md desktop:h-[40px] desktop:px-2 mobile:w-full mobile:border mobile:border-gray-300 mobile:rounded-md mobile:h-[40px] mobile:px-3"
+          />
+        </div>
+        <div class="desktop:w-[350px] mobile:w-full">
+          <label class="desktop:block desktop:text-[#7A7A7A] desktop:mb-2 desktop:text-sm mobile:block mobile:text-[#7A7A7A] mobile:mb-2 mobile:text-base">نام موسسه</label>
+          <input
+            type="text"
+            class="desktop:w-full desktop:border desktop:border-gray-300 desktop:rounded-md desktop:h-[40px] desktop:px-2 mobile:w-full mobile:border mobile:border-gray-300 mobile:rounded-md mobile:h-[40px] mobile:px-3"
+          />
+        </div>
+    
+        <!-- Row 3 -->
+        <div class="desktop:w-[350px] mobile:w-full">
+          <label class="desktop:block desktop:text-[#7A7A7A] desktop:mb-2 desktop:text-sm mobile:block mobile:text-[#7A7A7A] mobile:mb-2 mobile:text-base">نام دوره</label>
+          <input
+            type="text"
+            class="desktop:w-full desktop:border desktop:border-gray-300 desktop:rounded-md desktop:h-[40px] desktop:px-2 mobile:w-full mobile:border mobile:border-gray-300 mobile:rounded-md mobile:h-[40px] mobile:px-3"
+          />
+        </div>
+        <div class="desktop:w-[350px] mobile:w-full">
+          <label class="desktop:block desktop:text-[#7A7A7A] desktop:mb-2 desktop:text-sm mobile:block mobile:text-[#7A7A7A] mobile:mb-2 mobile:text-base">نام موسسه</label>
+          <input
+            type="text"
+            class="desktop:w-full desktop:border desktop:border-gray-300 desktop:rounded-md desktop:h-[40px] desktop:px-2 mobile:w-full mobile:border mobile:border-gray-300 mobile:rounded-md mobile:h-[40px] mobile:px-3"
+          />
+        </div>
+    
+        <!-- Row 4 -->
+        <div class="desktop:w-[350px] mobile:w-full">
+          <label class="desktop:block desktop:text-[#7A7A7A] desktop:mb-2 desktop:text-sm mobile:block mobile:text-[#7A7A7A] mobile:mb-2 mobile:text-base">نام دوره</label>
+          <input
+            type="text"
+            class="desktop:w-full desktop:border desktop:border-gray-300 desktop:rounded-md desktop:h-[40px] desktop:px-2 mobile:w-full mobile:border mobile:border-gray-300 mobile:rounded-md mobile:h-[40px] mobile:px-3"
+          />
+        </div>
+        <div class="desktop:w-[350px] mobile:w-full">
+          <label class="desktop:block desktop:text-[#7A7A7A] desktop:mb-2 desktop:text-sm mobile:block mobile:text-[#7A7A7A] mobile:mb-2 mobile:text-base">نام موسسه</label>
+          <input
+            type="text"
+            class="desktop:w-full desktop:border desktop:border-gray-300 desktop:rounded-md desktop:h-[40px] desktop:px-2 mobile:w-full mobile:border mobile:border-gray-300 mobile:rounded-md mobile:h-[40px] mobile:px-3"
+          />
+        </div>
+      </form>
+    </div>
+    
+    
+    <!-- 7 -->
+    <!-- 8 -->
+    <div class="desktop:w-[700px] desktop:mx-auto desktop:mt-8 mobile:w-full mobile:px-4 mobile:mt-4">
+      <!-- Title -->
+      <h2 class="desktop:text-[#FF0000] desktop:text-xl desktop:font-bold desktop:w-full desktop:mb-4 desktop:text-start mobile:text-[#FF0000] mobile:text-lg mobile:font-semibold mobile:text-start mobile:mb-2">
+        مهارت های عمومی
+      </h2>
+      <!-- Red Separator Line -->
+      <div class="desktop:w-full desktop:h-[1px] desktop:bg-[#FF0000] desktop:mb-6 mobile:w-full mobile:h-[2px] mobile:bg-[#FF0000] mobile:mb-4"></div>
+    
+      <!-- Form -->
+      <form class="desktop:grid desktop:grid-cols-2 desktop:gap-4 mobile:flex mobile:flex-col mobile:gap-4">
+        <!-- English Proficiency -->
+        <div class="desktop:w-[350px] mobile:w-full desktop:text-[#7A7A7A] mobile:text-[#7A7A7A]">
+          <label class="desktop:block desktop:text-[#7A7A7A] desktop:mb-2 desktop:text-sm mobile:block mobile:text-[#7A7A7A] mobile:mb-2 mobile:text-base">
+            آشنایی به زبان انگلیسی *
+          </label>
+          <select
+            class="desktop:w-full desktop:border desktop:border-gray-300 desktop:rounded-md desktop:h-[40px] desktop:px-2 mobile:w-full mobile:border mobile:border-gray-300 mobile:rounded-md mobile:h-[40px] mobile:px-3"
+          >
+            <option value="" disabled selected>انتخاب کنید</option>
+            <option value="very-weak">خیلی ضعیف</option>
+            <option value="weak">ضعیف</option>
+            <option value="average">متوسط</option>
+            <option value="good">خوب</option>
+            <option value="excellent">عالی</option>
+          </select>
+        </div>
+    
+        <!-- Computer Proficiency -->
+        <div class="desktop:w-[350px] mobile:w-full desktop:text-[#7A7A7A] mobile:text-[#7A7A7A]">
+          <label class="desktop:block desktop:text-[#7A7A7A] desktop:mb-2 desktop:text-sm mobile:block mobile:text-[#7A7A7A] mobile:mb-2 mobile:text-base">
+            آشنایی با کامپیوتر *
+          </label>
+          <select
+            class="desktop:w-full desktop:border desktop:border-gray-300 desktop:rounded-md desktop:h-[40px] desktop:px-2 mobile:w-full mobile:border mobile:border-gray-300 mobile:rounded-md mobile:h-[40px] mobile:px-3"
+          >
+            <option value="" disabled selected>انتخاب کنید</option>
+            <option value="very-weak">خیلی ضعیف</option>
+            <option value="weak">ضعیف</option>
+            <option value="average">متوسط</option>
+            <option value="good">خوب</option>
+            <option value="excellent">عالی</option>
+          </select>
+        </div>
+    
+        <!-- Other Skills -->
+        <div class="desktop:col-span-2 mobile:w-full">
+          <label class="desktop:block desktop:text-[#7A7A7A] desktop:mb-2 desktop:text-sm mobile:block mobile:text-[#7A7A7A] mobile:mb-2 mobile:text-base">
+            سایر توانمندی ها
+          </label>
+          <input
+            type="text"
+            class="desktop:w-full desktop:border desktop:border-gray-300 desktop:rounded-md desktop:h-[40px] desktop:px-2 mobile:w-full mobile:border mobile:border-gray-300 mobile:rounded-md mobile:h-[40px] mobile:px-3"
+          />
+        </div>
+      </form>
+    </div>
+    
+
+    <!-- 8 -->
+    <!-- 9 -->
+    <div class="desktop:w-[700px] desktop:mx-auto desktop:mt-8 mobile:w-[90%] mobile:mx-4 mobile:mt-4">
+      <!-- Title -->
+      <h2 class="desktop:text-[#FF0000] desktop:text-xl desktop:font-bold desktop:w-full desktop:mb-4 desktop:text-start mobile:text-[#FF0000] mobile:text-lg mobile:font-bold mobile:w-full mobile:mb-3 mobile:text-start">
+        شرایط همکاری
+      </h2>
+      <!-- Red Separator Line -->
+      <div class="desktop:w-full desktop:h-[1px] desktop:bg-[#FF0000] desktop:mb-6 mobile:w-full mobile:h-[1px] mobile:bg-[#FF0000] mobile:mb-4"></div>
+    
+      <!-- Form -->
+      <form class="desktop:grid desktop:grid-cols-2 desktop:gap-4 mobile:flex mobile:flex-col mobile:gap-3">
+        <!-- Cooperation Type -->
+        <div class="desktop:w-[350px] mobile:w-full desktop:text-[#7A7A7A] mobile:text-[#7A7A7A]">
+          <label class="desktop:block desktop:text-[#7A7A7A] desktop:mb-2 desktop:text-sm desktop:pr-2 mobile:block mobile:text-[#7A7A7A] mobile:mb-2 mobile:text-sm mobile:pr-2">نحوه همکاری *</label>
+          <select
+            class="desktop:w-full desktop:border desktop:border-gray-300 desktop:rounded-md desktop:h-[40px] desktop:px-2 mobile:w-full mobile:border mobile:border-gray-300 mobile:rounded-md mobile:h-[35px] mobile:px-2"
+          >
+            <option value="" disabled selected>انتخاب کنید</option>
+            <option value="full-time">تمام وقت</option>
+            <option value="part-time">پاره وقت</option>
+            <option value="remote">دورکاری</option>
+            <option value="contract">قراردادی</option>
+          </select>
+        </div>
+    
+        <!-- Desired Salary -->
+        <div class="desktop:w-[350px] mobile:w-full">
+          <label class="desktop:block desktop:text-[#7A7A7A] desktop:mb-2 desktop:text-sm desktop:pr-2 mobile:block mobile:text-[#7A7A7A] mobile:mb-2 mobile:text-sm mobile:pr-2">
+            حقوق درخواستی (ریال) *</label>
+          <input
+            type="text"
+            class="desktop:w-full desktop:border desktop:border-gray-300 desktop:rounded-md desktop:h-[40px] desktop:px-2 mobile:w-full mobile:border mobile:border-gray-300 mobile:rounded-md mobile:h-[35px] mobile:px-2"
+          />
+        </div>
+    
+        <!-- Start Date and Resume Upload -->
+        <div class="desktop:col-span-2 desktop:flex desktop:gap-4 desktop:items-center mobile:flex mobile:flex-wrap mobile:gap-3 desktop:text-[#7A7A7A] mobile:text-[#7A7A7A]">
+          <!-- Date Group -->
+          <div class="desktop:flex desktop:gap-2 desktop:items-center mobile:flex mobile:gap-2 mobile:w-full">
+            <div class="desktop:w-[100px] mobile:w-full">
+              <label class="desktop:block desktop:text-[#7A7A7A] desktop:mb-2 desktop:text-sm desktop:pr-2 mobile:block mobile:text-[#7A7A7A] mobile:mb-2 mobile:text-sm mobile:pr-2">روز</label>
+              <select
+                class="desktop:w-full desktop:border desktop:border-gray-300 desktop:rounded-md desktop:h-[40px] desktop:px-2 mobile:w-full mobile:border mobile:border-gray-300 mobile:rounded-md mobile:h-[35px] mobile:px-2"
+              >
+                <option value="" disabled selected>روز</option>
+                <!-- Days from 1 to 30 -->
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+                <option value="21">21</option>
+                <option value="22">22</option>
+                <option value="23">23</option>
+                <option value="24">24</option>
+                <option value="25">25</option>
+                <option value="26">26</option>
+                <option value="27">27</option>
+                <option value="28">28</option>
+                <option value="29">29</option>
+                <option value="30">30</option>
+              </select>
+            </div>
+        
+            <!-- Month -->
+            <div class="desktop:w-[100px] mobile:w-full desktop:text-[#7A7A7A] mobile:text-[#7A7A7A]">
+              <label class="desktop:block desktop:text-[#7A7A7A] desktop:mb-2 desktop:text-sm desktop:pr-2 mobile:block mobile:text-[#7A7A7A] mobile:mb-2 mobile:text-sm mobile:pr-2">ماه</label>
+              <select
+                class="desktop:w-full desktop:border desktop:border-gray-300 desktop:rounded-md desktop:h-[40px] desktop:px-2 mobile:w-full mobile:border mobile:border-gray-300 mobile:rounded-md mobile:h-[35px] mobile:px-2"
+              >
+                <option value="" disabled selected>ماه</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+              </select>
+            </div>
+        
+            <!-- Year -->
+            <div class="desktop:w-[100px] mobile:w-full desktop:text-[#7A7A7A] mobile:text-[#7A7A7A]">
+              <label class="desktop:block desktop:text-[#7A7A7A] desktop:mb-2 desktop:text-sm desktop:pr-2 mobile:block mobile:text-[#7A7A7A] mobile:mb-2 mobile:text-sm mobile:pr-2">سال</label>
+              <select
+                class="desktop:w-full desktop:border desktop:border-gray-300 desktop:rounded-md desktop:h-[40px] desktop:px-2 mobile:w-full mobile:border mobile:border-gray-300 mobile:rounded-md mobile:h-[35px] mobile:px-2"
+              >
+                <option value="" disabled selected>سال</option>
+                <!-- Years from 1300 to 1424 -->
+                <option value="1300">1300</option>
+                <option value="1301">1301</option>
+                <option value="1302">1302</option>
+                <option value="1303">1303</option>
+                <option value="1304">1304</option>
+                <option value="1305">1305</option>
+                <option value="1306">1306</option>
+                <option value="1307">1307</option>
+                <option value="1308">1308</option>
+                <option value="1309">1309</option>
+                <option value="1310">1310</option>
+                <option value="1311">1311</option>
+                <option value="1312">1312</option>
+                <option value="1313">1313</option>
+                <option value="1314">1314</option>
+                <option value="1315">1315</option>
+                <option value="1316">1316</option>
+                <option value="1317">1317</option>
+                <option value="1318">1318</option>
+                <option value="1319">1319</option>
+                <option value="1320">1320</option>
+                <option value="1321">1321</option>
+                <option value="1322">1322</option>
+                <option value="1323">1323</option>
+                <option value="1324">1324</option>
+                <option value="1325">1325</option>
+                <option value="1326">1326</option>
+                <option value="1327">1327</option>
+                <option value="1328">1328</option>
+                <option value="1329">1329</option>
+                <option value="1330">1330</option>
+              </select>
+            </div>
+          </div>
+    
+          <!-- Resume Upload -->
+          <div class="desktop:w-[250px] mobile:w-full">
+            <label class="desktop:block desktop:text-[#7A7A7A] desktop:mb-2 desktop:text-sm desktop:pr-2 mobile:block mobile:text-[#7A7A7A] mobile:mb-2 mobile:text-sm mobile:pr-2">ارسال رزومه</label>
+            <input
+              type="file"
+              class="desktop:w-full desktop:border desktop:border-gray-300 desktop:rounded-md desktop:h-[40px] desktop:px-2 mobile:w-full mobile:border mobile:border-gray-300 mobile:rounded-md mobile:h-[35px] mobile:px-2"
+            />
+          </div>
+        </div>
+    
+        <!-- Submit Button -->
+      </form>
+      <div class="desktop:col-span-2 desktop:flex desktop:justify-start desktop:mt-[80px] desktop:mr-[20px] mobile:flex mobile:justify-start mobile:mt-[40px] mobile:mr-[20px]">
+        <button
+          type="submit"
+          class="desktop:bg-[#FF0000] desktop:text-white desktop:px-6 desktop:py-2 desktop:rounded-md desktop:hover:bg-red-700 mobile:bg-[#FF0000] mobile:text-white mobile:px-4 mobile:py-2 mobile:rounded-md mobile:hover:bg-red-700"
+        >
+          ارسال اطلاعات
+        </button>
+      </div>
+    </div>
+
+
+
+    
+
+    <!-- 9 -->
+    <!-- social -->
+    <div
+      class="abute bg-[#EEEFEF] h-24 w-full mt-24 flex items-center justify-center gap-2"
+    >
+      <div
+        class="socialBox facebookBox w-12 h-12 rounded-full transition-all duration-100 ease-in-out relative"
+      >
+        <a
+          href="#"
+          class="absolute inset-0 bg-facebook bg-cover bg-center hover:bg-facebook-hover"
+        ></a>
+      </div>
+      <div
+        class="socialBox linkdinBox w-12 h-12 rounded-full transition-all duration-100 ease-in-out relative"
+      >
+        <a
+          href="#"
+          class="absolute inset-0 bg-linkdin bg-cover bg-center hover:bg-linkdin-hover"
+        ></a>
+      </div>
+      <div
+        class="socialBox instaBox w-12 h-12 rounded-full transition-all duration-100 ease-in-out relative"
+      >
+        <a
+          href="#"
+          class="absolute inset-0 bg-insta bg-cover bg-center hover:bg-insta-hover"
+        ></a>
+      </div>
+      <div
+        class="socialBox telegramBox w-12 h-12 rounded-full transition-all duration-100 ease-in-out relative"
+      >
+        <a
+          href="#"
+          class="absolute inset-0 bg-telegram bg-cover bg-center hover:bg-telegram-hover"
+        ></a>
+      </div>
+      <div
+        class="socialBox aparatBox w-12 h-12 rounded-full transition-all duration-100 ease-in-out relative"
+      >
+        <a
+          href="#"
+          class="absolute inset-0 bg-aparat bg-cover bg-center hover:bg-aparat-hover"
+        ></a>
+      </div>
+      <div
+        class="socialBox glBox w-12 h-12 rounded-full transition-all duration-100 ease-in-out relative"
+      >
+        <a
+          href="#"
+          class="absolute inset-0 bg-gl bg-cover bg-center hover:bg-gl-hover"
+        ></a>
+      </div>
+    </div>
+
+    <!-- social -->
+    <div class="h-[25px] bg-[#ED1C24]"></div>
+
+    <!-- footer -->
+    <div
+      class="mobile:bg-customDark mobile:text-white mobile:w-full mobile:h-[490px] mobile:flex mobile:flex-col mobile:justify-between desktop:bg-customDark desktop:text-white desktop:w-full desktop:h-[490px] desktop:flex desktop:flex-col desktop:justify-between"
+    >
+      <div
+        class="mobile:flex mobile:flex-col-reverse mobile:items-center mobile:gap-0 desktop:flex desktop:flex-row-reverse desktop:justify-center desktop:items-start desktop:pt-8 desktop:gap-12"
+      >
+        <!-- Box 1 -->
+        <div
+          class="mobile:flex mobile:flex-col mobile:items-center mobile:w-full mobile:h-[344px] mobile:bg-customDark mobile:rounded-none mobile:p-4 desktop:flex desktop:flex-col desktop:items-center desktop:gap-3"
+        >
+          <div
+            class="mobile:h-[90px] mobile:w-[115px] mobile:flex mobile:items-center mobile:justify-center desktop:h-[90px] desktop:w-[115px] desktop:flex desktop:items-center desktop:justify-center"
+          >
+            <span
+              ><img
+                class="mobile:h-[90px] mobile:w-[115px] desktop:h-[90px] desktop:w-[115px]"
+                src="./main/images/footer/footer-icon2.png"
+                alt=""
+            /></span>
+          </div>
+          <div
+            class="mobile:border-t mobile:border-gray-600 mobile:w-full mobile:mt-2 desktop:border-t desktop:border-gray-600 desktop:pt-[10px] desktop:h-[5px] desktop:w-[150px]"
+          ></div>
+          <h3
+            class="mobile:text-white mobile:text-lg desktop:text-lg desktop:font-semibold"
+          >
+            حبوبات گلستان
+          </h3>
+          <div
+            class="mobile:border-t mobile:border-gray-600 mobile:w-full mobile:mt-2 desktop:border-t desktop:border-gray-600 desktop:pt-[10px] desktop:h-[5px] desktop:w-[150px]"
+          ></div>
+          <div
+            class="mobile:text-white mobile:text-sm mobile:mt-4 desktop:text-gray-400 desktop:text-sm desktop:space-y-2"
+          >
+            <a
+              href="#"
+              class="mobile:opacity-[0.5] hover:mobile:opacity-[1] mobile:mb-3 block"
+              >لوبیا قرمز ممتاز</a
+            >
+            <a
+              href="#"
+              class="mobile:opacity-[0.5] hover:mobile:opacity-[1] mobile:mb-3 block"
+              >لوبیا چیتی گلستان</a
+            >
+            <a
+              href="#"
+              class="mobile:opacity-[0.5] hover:mobile:opacity-[1] mobile:mb-3 block"
+              >عدس کانادایی</a
+            >
+            <a
+              href="#"
+              class="mobile:opacity-[0.5] hover:mobile:opacity-[1] mobile:mb-3 block"
+              >نخود زودپز کرمانشاه</a
+            >
+            <a
+              href="#"
+              class="mobile:opacity-[0.5] hover:mobile:opacity-[1] mobile:mb-3 block"
+              >لوبیا سفید گلستان</a
+            >
+          </div>
+        </div>
+        <!-- Box 2 -->
+        <div
+          class="mobile:flex mobile:flex-col mobile:items-center mobile:w-full mobile:h-[344px] mobile:bg-customDark mobile:rounded-none mobile:p-4 desktop:flex desktop:flex-col desktop:items-center desktop:gap-3"
+        >
+          <div
+            class="mobile:h-[90px] mobile:w-[115px] mobile:flex mobile:items-center mobile:justify-center desktop:h-[90px] desktop:w-[115px] desktop:flex desktop:items-center desktop:justify-center"
+          >
+            <span
+              ><img
+                class="mobile:h-[90px] mobile:w-[115px] desktop:h-[90px] desktop:w-[115px]"
+                src="./main/images/footer/footer-icon3.png"
+                alt=""
+            /></span>
+          </div>
+          <div
+            class="mobile:border-t mobile:border-gray-600 mobile:w-full mobile:mt-2 desktop:border-t desktop:border-gray-600 desktop:pt-[10px] desktop:h-[5px] desktop:w-[150px]"
+          ></div>
+          <h3
+            class="mobile:text-white mobile:text-lg desktop:text-lg desktop:font-semibold"
+          >
+            ادویه گلستان
+          </h3>
+          <div
+            class="mobile:border-t mobile:border-gray-600 mobile:w-full mobile:mt-2 desktop:border-t desktop:border-gray-600 desktop:pt-[10px] desktop:h-[5px] desktop:w-[150px]"
+          ></div>
+          <div
+            class="mobile:text-white mobile:text-sm mobile:mt-4 desktop:text-gray-400 desktop:text-sm desktop:space-y-2"
+          >
+            <a
+              href="#"
+              class="mobile:opacity-[0.5] hover:mobile:opacity-[1] mobile:mb-3 block"
+              >زعفران ممتاز خراسان</a
+            >
+            <a
+              href="#"
+              class="mobile:opacity-[0.5] hover:mobile:opacity-[1] mobile:mb-3 block"
+              >ادویه کاری</a
+            >
+            <a
+              href="#"
+              class="mobile:opacity-[0.5] hover:mobile:opacity-[1] mobile:mb-3 block"
+              >ادویه ماست و خیار</a
+            >
+            <a
+              href="#"
+              class="mobile:opacity-[0.5] hover:mobile:opacity-[1] mobile:mb-3 block"
+              >فلفل سیاه خالص</a
+            >
+            <a
+              href="#"
+              class="mobile:opacity-[0.5] hover:mobile:opacity-[1] mobile:mb-3 block"
+              >زرچوبه ممتاز</a
+            >
+          </div>
+        </div>
+        <!-- Box 3 -->
+        <div
+          class="mobile:flex mobile:flex-col mobile:items-center mobile:w-full mobile:h-[344px] mobile:bg-customDark mobile:rounded-none mobile:p-4 desktop:flex desktop:flex-col desktop:items-center desktop:gap-3"
+        >
+          <div
+            class="mobile:h-[90px] mobile:w-[115px] mobile:flex mobile:items-center mobile:justify-center desktop:h-[90px] desktop:w-[115px] desktop:flex desktop:items-center desktop:justify-center"
+          >
+            <span
+              ><img
+                class="mobile:h-[90px] mobile:w-[115px] desktop:h-[90px] desktop:w-[115px]"
+                src="./main/images/footer/footer-icon4.png"
+                alt=""
+            /></span>
+          </div>
+          <div
+            class="mobile:border-t mobile:border-gray-600 mobile:w-full mobile:mt-2 desktop:border-t desktop:border-gray-600 desktop:pt-[10px] desktop:h-[5px] desktop:w-[150px]"
+          ></div>
+          <h3
+            class="mobile:text-white mobile:text-lg desktop:text-lg desktop:font-semibold"
+          >
+            تی بگ گلستان
+          </h3>
+          <div
+            class="mobile:border-t mobile:border-gray-600 mobile:w-full mobile:mt-2 desktop:border-t desktop:border-gray-600 desktop:pt-[10px] desktop:h-[5px] desktop:w-[150px]"
+          ></div>
+          <div
+            class="mobile:text-white mobile:text-sm mobile:mt-4 desktop:text-gray-400 desktop:text-sm desktop:space-y-2"
+          >
+            <a
+              href="#"
+              class="mobile:opacity-[0.5] hover:mobile:opacity-[1] mobile:mb-3 block"
+              >تی بگ بلک لاین</a
+            >
+            <a
+              href="#"
+              class="mobile:opacity-[0.5] hover:mobile:opacity-[1] mobile:mb-3 block"
+              >تی بگ ارل گری</a
+            >
+            <a
+              href="#"
+              class="mobile:opacity-[0.5] hover:mobile:opacity-[1] mobile:mb-3 block"
+              >دمنوش نعناع</a
+            >
+            <a
+              href="#"
+              class="mobile:opacity-[0.5] hover:mobile:opacity-[1] mobile:mb-3 block"
+              >دمنوش بابونه</a
+            >
+            <a
+              href="#"
+              class="mobile:opacity-[0.5] hover:mobile:opacity-[1] mobile:mb-3 block"
+              >منوی چای سبز</a
+            >
+          </div>
+        </div>
+        <!-- Box 4 -->
+        <div
+          class="mobile:flex mobile:flex-col mobile:items-center mobile:w-full mobile:h-[344px] mobile:bg-customDark mobile:rounded-none mobile:p-4 desktop:flex desktop:flex-col desktop:items-center desktop:gap-3"
+        >
+          <div
+            class="mobile:h-[90px] mobile:w-[115px] mobile:flex mobile:items-center mobile:justify-center desktop:h-[90px] desktop:w-[115px] desktop:flex desktop:items-center desktop:justify-center"
+          >
+            <span
+              ><img
+                class="mobile:h-[90px] mobile:w-[115px] desktop:h-[90px] desktop:w-[115px]"
+                src="./main/images/footer/footer-icon1.png"
+                alt=""
+            /></span>
+          </div>
+          <div
+            class="mobile:border-t mobile:border-gray-600 mobile:w-full mobile:mt-2 desktop:border-t desktop:border-gray-600 desktop:pt-[10px] desktop:h-[5px] desktop:w-[150px]"
+          ></div>
+          <h3
+            class="mobile:text-white mobile:text-lg desktop:text-lg desktop:font-semibold"
+          >
+            چای گلستان
+          </h3>
+          <div
+            class="mobile:border-t mobile:border-gray-600 mobile:w-full mobile:mt-2 desktop:border-t desktop:border-gray-600 desktop:pt-[10px] desktop:h-[5px] desktop:w-[150px]"
+          ></div>
+          <div
+            class="mobile:text-white mobile:text-sm mobile:mt-4 desktop:text-gray-400 desktop:text-sm desktop:space-y-2"
+          >
+            <a
+              href="#"
+              class="mobile:opacity-[0.5] hover:mobile:opacity-[1] mobile:mb-3 block"
+              >چای ممتاز هندوستان</a
+            >
+            <a
+              href="#"
+              class="mobile:opacity-[0.5] hover:mobile:opacity-[1] mobile:mb-3 block"
+              >چای ممتاز ارل گری</a
+            >
+            <a
+              href="#"
+              class="mobile:opacity-[0.5] hover:mobile:opacity-[1] mobile:mb-3 block"
+              >چای سیلان عطری</a
+            >
+            <a
+              href="#"
+              class="mobile:opacity-[0.5] hover:mobile:opacity-[1] mobile:mb-3 block"
+              >چای ممتاز سیلان</a
+            >
+            <a
+              href="#"
+              class="mobile:opacity-[0.5] hover:mobile:opacity-[1] mobile:mb-3 block"
+              >چای صبحانه گلستان</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <div
+        class="mobile:bg-customDark mobile:border-t mobile:border-gray-600 mobile:py-4 mobile:text-center mobile:w-full mobile:h-[95px] desktop:bg-customDark desktop:border-t desktop:border-gray-600 desktop:py-4 desktop:text-center"
+      >
+        <p
+          class="mobile:text-gray-400 mobile:text-[15px] desktop:text-gray-400 desktop:text-[15px]"
+        >
+          All Right Reserved Golestan Company 2022-2025
+        </p>
+        <p
+          class="mobile:text-gray-500 mobile:text-[14px] desktop:text-gray-500 desktop:text-[14px]"
+        >
+          Design By: Golestan Studio
+        </p>
+      </div>
+    </div>
+
+    <script src="./main/js/main.js"></script>
+  </body>
+</html>

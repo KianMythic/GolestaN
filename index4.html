@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html  lang="en" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./main/css/main.css" />
+    <link rel="shortcut icon" href="./main/images/logo-fr.png" />
+    <link
+      rel="stylesheet"
+      href="./main/node_module/animate.css/animate.min.css"
+    />
+
+    <title>main4</title>
+  </head>
+  <body
+    style="overflow-x: hidden"
+    class="bg-white text-black transition-colors duration-300 dark:bg-gray-900 dark:text-white font-[irlight]"
+  >
+    <!-- Header -->
+
+    <div class="main">
+      <div
+        class="mobile:fixed mobile:top-0 mobile:left-0 mobile:right-0 mobile:h-[160px] mobile:bg-customDark mobile:z-[999] desktop:fixed desktop:top-0 desktop:left-0 desktop:right-0 desktop:h-[105px] desktop:bg-customDark desktop:z-[999]"
+      >
+        <div
+          class="desktop:bg-customDark desktop:h-[100px] desktop:mx-auto desktop:flex desktop:items-center desktop:justify-between desktop:px-8 desktop:relative"
+        >
+          <!-- Logo -->
+          <div
+            class="mobile:h-[105px] mobile:w-full mobile:flex mobile:flex-col mobile:items-center mobile:justify-center desktop:absolute desktop:right-[320px] desktop:top-[50px] desktop:h-[105px] desktop:w-[170px] desktop:flex desktop:items-center desktop:justify-center desktop:rounded-full"
+          >
+            <img
+              class="mobile:w-[170px] mobile:h-[105px]"
+              src="./main/images/logo-fr.png"
+              alt="Logo"
+            />
+          </div>
+
+          <!-- Nav Toggle Button -->
+          <button
+            id="nav-toggle"
+            class="mobile:block desktop:hidden text-white p-4 rounded-full flex items-center justify-center h-[32px] w-[32px] mt-4"
+          >
+            <div class="h-[20px] w-[20px] flex items-center justify-center">
+              <img
+                src="./main/images/menu_icon.svg"
+                alt="Menu Icon"
+                class="h-full w-full"
+              />
+            </div>
+          </button>
+
+          <!-- Navigation Menu -->
+          <nav
+            id="mobile-nav"
+            class="hidden mobile:bg-customDark mobile:flex-col mobile:w-full mobile:items-center mobile:pt-2 mobile:overflow-hidden mobile:transition-all mobile:duration-300 mobile:ease-in-out mobile:h-0 desktop:flex desktop:gap-8 desktop:text-[#AFB2B4] desktop:text-[16px] desktop:text-sm desktop:pr-[140px] desktop:pt-[15px] desktop:justify-center desktop:items-center desktop:mx-auto"
+          >
+            <a
+              href="index.html"
+              class="mobile:w-full mobile:h-[44px] mobile:block mobile:pr-[20px] mobile:text-white mobile:text-[14px] mobile:pt-2 desktop:pr-4 desktop:flex desktop:items-center desktop:justify-center"
+              >صفحه اصلی</a
+            >
+            <a
+              href="index2.html"
+              class="mobile:w-full mobile:h-[44px] mobile:block mobile:pr-[20px] mobile:text-white mobile:text-[14px] mobile:pt-2 desktop:border-r desktop:pr-4 desktop:flex desktop:items-center desktop:justify-center"
+              >شرکت گلستان</a
+            >
+            <a
+              href="index3.html"
+              class="mobile:w-full mobile:h-[44px] mobile:block mobile:pr-[20px] mobile:text-white  mobile:text-[14px] mobile:pt-2 desktop:border-r desktop:pr-4 desktop:flex desktop:items-center desktop:justify-center"
+              >محصولات</a
+            >
+            <a
+              href="#"
+              class="mobile:w-full mobile:h-[44px] mobile:block mobile:pr-[20px] mobile:text-white  desktop:text-white mobile:text-[14px] mobile:pt-2 desktop:border-r desktop:pr-4 desktop:flex desktop:items-center desktop:justify-center"
+              >وبلاگ</a
+            >
+            <a
+              href="index5.html"
+              class="mobile:w-full mobile:h-[44px] mobile:block mobile:pr-[20px] mobile:text-white mobile:text-[14px] mobile:pt-2 desktop:border-r desktop:pr-4 desktop:flex desktop:items-center desktop:justify-center"
+              >قرعه کشی</a
+            >
+            <a
+              href="index6.html"
+              class="mobile:w-full mobile:h-[44px] mobile:block mobile:pr-[20px] mobile:text-white mobile:text-[14px] mobile:pt-2 desktop:border-r desktop:pr-4 desktop:flex desktop:items-center desktop:justify-center"
+              >استخدام</a
+            >
+            <a
+              href="index7.html"
+              class="mobile:w-full mobile:h-[44px] mobile:block mobile:pr-[20px] mobile:text-white mobile:text-[14px] mobile:pt-2 desktop:border-r desktop:pr-4 desktop:flex desktop:items-center desktop:justify-center"
+              >تماس با ما</a
+            >
+
+            <!-- Dark Mode Toggle -->
+            <div
+              id="theme-toggle-container"
+              class="mobile:flex mobile:items-center mobile:justify-center mobile:pt-2"
+            >
+              <button
+                id="theme-toggle"
+                class="bg-gray-800 text-white p-4 rounded-full hover:bg-gray-600 mt-4"
+              >
+                🌙
+              </button>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+
+    <div class="desktop:h-[105px] mobile:h-[170px]"></div>
+
+
+
+    <!-- 1 -->
+    <div class="
+    mobile:flex-col-reverse  mobile:w-[348px] mobile:h-[1780px] mobile:mt-[50px]
+    flex justify-between desktop:w-[1000px] desktop:h-[606px] mx-auto desktop:mt-[100px] desktop:flex-row-reverse ">
+      <!-- Card 1 -->
+      <div class="w-[322px] h-[570px] bg-white  shadow-md overflow-hidden">
+          <img src="./main/images/page4/how-to-cook-brown-rice-easiest-s.png" alt="Image 1" class="w-[322px] h-[286px] object-cover">
+          <h2 class="w-[247px] h-[61px]  mx-auto text-[20px] text-[#FF0000] mt-[30px]">چگونه برنج قهوه‌ای را به درستی بپزیم؟</h2>
+          <p class="w-[274px] h-[90px] mx-auto text-[14px] text-[#7C7D7E]  mt-[20px]">
+              چطور برنج قهوه‌ای را به درستی بپزیم؟ برنج قهوه‌ای به دلیل حفظ سبوس و لایه‌های مغذی خود، نسبت به برنج سفید ارزش غذایی بالاتری دارد.
+          </p>
+          <div class="mobile:h-[52px] mobile:bg-white mobile:border mobile:opacity-[0.8] mobile:hover:bg-red-600 mobile:hover:opacity-[1] mobile:w-[100px] mobile:mt-[20px] mobile:mr-[20px] mobile:hover:text-white mobile:rounded-lg flex items-center justify-center desktop:bg-white desktop:dark:bg-gray-700 desktop:border desktop:opacity-[0.5] desktop:hover:bg-red-600 desktop:hover:opacity-[1] desktop:w-[115px] desktop:hover:text-white desktop:rounded-[10px] desktop:mr-[30px]">
+            <a class="mobile:py-2 mobile:px-4 mobile:text-center mobile:text-sm mobile:hover:text-white mobile:text-gray-700 desktop:py-[12px] desktop:px-[24px] desktop:text-center desktop:flex desktop:text-[14px] desktop:text-gray-700 desktop:dark:text-gray-200 desktop:hover:text-white">
+              ادامه مطلب
+            </a>
+          </div>
+      </div>
+      <!-- Card 2 -->
+      <div class="w-[322px] h-[570px] bg-white  shadow-md overflow-hidden">
+          <img src="./main/images/page4/imagezaferon.png" alt="Image 2" class="w-[322px] h-[286px] object-cover">
+          <h2 class="w-[247px] h-[61px]  mx-auto text-[20px] text-[#FF0000] mt-[30px]">چطور زعفران تبدیل به گران‌ترین ادویه جهان شد</h2>
+          <p class="w-[274px] h-[90px] mx-auto text-[14px] text-[#7C7D7E]  mt-[20px]">
+              چگونه زعفران به گران‌ترین ادویه جهان تبدیل شد؟ "طلای سرخ" مشهور است. گران‌ترین ادویه جهان به‌شمار می‌رود.
+          </p>
+          <div class="mobile:h-[52px] mobile:bg-white mobile:border mobile:opacity-[0.8] mobile:hover:bg-red-600 mobile:hover:opacity-[1] mobile:w-[100px] mobile:mt-[20px] mobile:mr-[20px] mobile:hover:text-white mobile:rounded-lg flex items-center justify-center desktop:bg-white desktop:dark:bg-gray-700 desktop:border desktop:opacity-[0.5] desktop:hover:bg-red-600 desktop:hover:opacity-[1] desktop:w-[115px] desktop:hover:text-white desktop:rounded-[10px] desktop:mr-[20px]">
+            <a class="mobile:py-2 mobile:px-4 mobile:text-center mobile:text-sm mobile:text-gray-700 mobile:hover:text-white desktop:py-[12px] desktop:px-[24px] desktop:text-center desktop:flex desktop:text-[14px] desktop:text-gray-700 desktop:dark:text-gray-200 desktop:hover:text-white">
+              ادامه مطلب
+            </a>
+          </div>
+      </div>
+      <!-- Card 3 -->
+      <div class="w-[322px] h-[570px] bg-white  shadow-md overflow-hidden">
+          <img src="./main/images/page4/Nutmeg@2440x1200px.png" alt="Image 3" class="w-[322px] h-[286px] object-cover">
+          <h2 class="w-[247px] h-[61px]  mx-auto text-[20px] text-[#FF0000] mt-[30px]">طرز تهیه شیرینی کرمای با عطر جوز هندی</h2>
+          <p class="w-[274px] h-[90px] mx-auto text-[14px] text-[#7C7D7E]  mt-[20px]">
+              حبوبات: منبع پروتئین و انرژی. اگر به دنبال یک شیرینی ساده خوشمزه و متفاوت هستید، این دستور را امتحان کنید.
+          </p>
+          <div class="mobile:h-[52px] mobile:bg-white mobile:border mobile:opacity-[0.8] mobile:hover:bg-red-600 mobile:hover:opacity-[1] mobile:w-[100px] mobile:mt-[20px] mobile:mr-[20px] mobile:hover:text-white mobile:rounded-lg flex items-center justify-center desktop:bg-white desktop:dark:bg-gray-700 desktop:border desktop:opacity-[0.5] desktop:hover:bg-red-600 desktop:hover:opacity-[1] desktop:w-[115px] desktop:hover:text-white desktop:rounded-[10px] desktop:mr-[20px] ">
+            <a class="mobile:py-2 mobile:px-4 mobile:text-center mobile:text-sm mobile:hover:text-white mobile:text-gray-700 desktop:py-[12px] desktop:px-[24px] desktop:text-center desktop:flex desktop:text-[14px] desktop:text-gray-700 desktop:dark:text-gray-200 desktop:hover:text-white">
+              ادامه مطلب
+            </a>
+          </div>
+      </div>
+  </div>
+    <!-- 1 -->
+    <!-- 2 -->
+    <div class="
+    mobile:flex-col-reverse  mobile:w-[348px] mobile:h-[1780px] mobile:mt-[50px]
+    flex justify-between desktop:w-[1000px] desktop:h-[606px] mx-auto desktop:mt-[100px] desktop:flex-row-reverse ">
+      <!-- Card 1 -->
+      <div class="w-[322px] h-[570px] bg-white  shadow-md overflow-hidden">
+          <img src="./main/images/page4/tea-quotes-and-caption-ideas.png" alt="Image 1" class="w-[322px] h-[286px] object-cover">
+          <h2 class="w-[247px] h-[61px]  mx-auto text-[20px] text-[#FF0000] mt-[30px]">
+            اولین بار چه کسی دمنوش را کشف کرد؟			</h2>
+          <p class="w-[274px] h-[90px] mx-auto text-[14px] text-[#7C7D7E]  mt-[20px]">
+            اولین بار چه کسی دمنوش را کشف کرد؟ دمنوش‌ها، نوشیدنی‌هایی هستند که از دم کردن یا جوشاندن گیاهان، ادویه‌ها و میوه‌ها در آب داغ تهیه
+          </p>
+          <div class="mobile:h-[52px] mobile:bg-white mobile:border mobile:opacity-[0.8] mobile:hover:bg-red-600 mobile:hover:opacity-[1] mobile:w-[100px] mobile:mt-[20px] mobile:mr-[20px] mobile:hover:text-white mobile:rounded-lg flex items-center justify-center desktop:bg-white desktop:dark:bg-gray-700 desktop:border desktop:opacity-[0.5] desktop:hover:bg-red-600 desktop:hover:opacity-[1] desktop:w-[115px] desktop:hover:text-white desktop:rounded-[10px] desktop:mr-[30px]">
+            <a class="mobile:py-2 mobile:px-4 mobile:text-center mobile:text-sm mobile:hover:text-white mobile:text-gray-700 desktop:py-[12px] desktop:px-[24px] desktop:text-center desktop:flex desktop:text-[14px] desktop:text-gray-700 desktop:dark:text-gray-200 desktop:hover:text-white">
+              ادامه مطلب
+            </a>
+          </div>
+      </div>
+      <!-- Card 2 -->
+      <div class="w-[322px] h-[570px] bg-white  shadow-md overflow-hidden">
+          <img src="./main/images/page4/health-benefits-cinnamon-1296x72.png" alt="Image 2" class="w-[322px] h-[286px] object-cover">
+          <h2 class="w-[247px] h-[61px]  mx-auto text-[20px] text-[#FF0000] mt-[30px]">
+            فواید و خواص دارچین: طعمی قدرتمند			</h2>
+          <p class="w-[274px] h-[90px] mx-auto text-[14px] text-[#7C7D7E]  mt-[20px]">
+            فواید و خواص دارچین ادویه با طعم قوی دارچین یکی از پرکاربردترین ادویه‌ها در آشپزی و طب سنتی است که علاوه بر عطر و طعم
+          </p>
+          <div class="mobile:h-[52px] mobile:bg-white mobile:border mobile:opacity-[0.8] mobile:hover:bg-red-600 mobile:hover:opacity-[1] mobile:w-[100px] mobile:mt-[20px] mobile:mr-[20px] mobile:hover:text-white mobile:rounded-lg flex items-center justify-center desktop:bg-white desktop:dark:bg-gray-700 desktop:border desktop:opacity-[0.5] desktop:hover:bg-red-600 desktop:hover:opacity-[1] desktop:w-[115px] desktop:hover:text-white desktop:rounded-[10px] desktop:mr-[20px]">
+            <a class="mobile:py-2 mobile:px-4 mobile:text-center mobile:text-sm mobile:text-gray-700 mobile:hover:text-white desktop:py-[12px] desktop:px-[24px] desktop:text-center desktop:flex desktop:text-[14px] desktop:text-gray-700 desktop:dark:text-gray-200 desktop:hover:text-white">
+              ادامه مطلب
+            </a>
+          </div>
+      </div>
+      <!-- Card 3 -->
+      <div class="w-[322px] h-[570px] bg-white  shadow-md overflow-hidden">
+          <img src="./main/images/page4/Cup-of-tea-scaled.png" alt="Image 3" class="w-[322px] h-[286px] object-cover">
+          <h2 class="w-[247px] h-[61px]  mx-auto text-[20px] text-[#FF0000] mt-[30px]">
+            چرا چای ارل گری به این نام شناخته می‌شود؟			</h2>
+          <p class="w-[274px] h-[90px] mx-auto text-[14px] text-[#7C7D7E]  mt-[20px]">
+            چای ارل گری چرا به این نام شناخته می‌شود چای ارل گری یکی از محبوب‌ترین انواع چای در جهان است که به دلیل طعم منحصر‌به‌فرد
+          </p>
+          <div class="mobile:h-[52px] mobile:bg-white mobile:border mobile:opacity-[0.8] mobile:hover:bg-red-600 mobile:hover:opacity-[1] mobile:w-[100px] mobile:mt-[20px] mobile:mr-[20px] mobile:hover:text-white mobile:rounded-lg flex items-center justify-center desktop:bg-white desktop:dark:bg-gray-700 desktop:border desktop:opacity-[0.5] desktop:hover:bg-red-600 desktop:hover:opacity-[1] desktop:w-[115px] desktop:hover:text-white desktop:rounded-[10px] desktop:mr-[20px] ">
+            <a class="mobile:py-2 mobile:px-4 mobile:text-center mobile:text-sm mobile:hover:text-white mobile:text-gray-700 desktop:py-[12px] desktop:px-[24px] desktop:text-center desktop:flex desktop:text-[14px] desktop:text-gray-700 desktop:dark:text-gray-200 desktop:hover:text-white">
+              ادامه مطلب
+            </a>
+          </div>
+      </div>
+  </div>
+    <!-- 2 -->
+    <!-- 3 -->
+    <div class="
+    mobile:flex-col-reverse  mobile:w-[348px] mobile:h-[1780px] mobile:mt-[50px]
+    flex justify-between desktop:w-[1000px] desktop:h-[606px] mx-auto desktop:mt-[100px] desktop:flex-row-reverse ">
+      <!-- Card 1 -->
+      <div class="w-[322px] h-[570px] bg-white  shadow-md overflow-hidden">
+          <img src="./main/images/page4/rice-a941d59.png" alt="Image 1" class="w-[322px] h-[286px] object-cover">
+          <h2 class="w-[247px] h-[61px]  mx-auto text-[20px] text-[#FF0000] mt-[30px]">تاریخچه برنج</h2>
+          <p class="w-[274px] h-[90px] mx-auto text-[14px] text-[#7C7D7E]  mt-[20px]">
+            تاریخچه برنج برنج ماده اصلی غذایی بیش از یک سوم جمعیت جهان است، در شرق آسیا و منطقه خاورمیانه نیز برنج یکی از پر اهمیت‌ترین
+          </p>
+          <div class="mobile:h-[52px] mobile:bg-white mobile:border mobile:opacity-[0.8] mobile:hover:bg-red-600 mobile:hover:opacity-[1] mobile:w-[100px] mobile:mt-[20px] mobile:mr-[20px] mobile:hover:text-white mobile:rounded-lg flex items-center justify-center desktop:bg-white desktop:dark:bg-gray-700 desktop:border desktop:opacity-[0.5] desktop:hover:bg-red-600 desktop:hover:opacity-[1] desktop:w-[115px] desktop:hover:text-white desktop:rounded-[10px] desktop:mr-[30px]">
+            <a class="mobile:py-2 mobile:px-4 mobile:text-center mobile:text-sm mobile:hover:text-white mobile:text-gray-700 desktop:py-[12px] desktop:px-[24px] desktop:text-center desktop:flex desktop:text-[14px] desktop:text-gray-700 desktop:dark:text-gray-200 desktop:hover:text-white">
+              ادامه مطلب
+            </a>
+          </div>
+      </div>
+      <!-- Card 2 -->
+      <div class="w-[322px] h-[570px] bg-white  shadow-md overflow-hidden">
+          <img src="./main/images/page4/Legumes-1.png" alt="Image 2" class="w-[322px] h-[286px] object-cover">
+          <h2 class="w-[247px] h-[61px]  mx-auto text-[20px] text-[#FF0000] mt-[30px]">راهنمای کامل روش پخت انواع حبوبات</h2>
+          <p class="w-[274px] h-[90px] mx-auto text-[14px] text-[#7C7D7E]  mt-[20px]">
+            راهنمای کامل روش پخت حبوبات مختلف حبوبات در هر آشپزخانه‌ای جایگاه ویژه‌ای دارند. این دانه‌های مغذی در وعده‌های غذایی روزمره ما انسان‎ها نقشی پررنگ دارند
+          </p>
+          <div class="mobile:h-[52px] mobile:bg-white mobile:border mobile:opacity-[0.8] mobile:hover:bg-red-600 mobile:hover:opacity-[1] mobile:w-[100px] mobile:mt-[20px] mobile:mr-[20px] mobile:hover:text-white mobile:rounded-lg flex items-center justify-center desktop:bg-white desktop:dark:bg-gray-700 desktop:border desktop:opacity-[0.5] desktop:hover:bg-red-600 desktop:hover:opacity-[1] desktop:w-[115px] desktop:hover:text-white desktop:rounded-[10px] desktop:mr-[20px]">
+            <a class="mobile:py-2 mobile:px-4 mobile:text-center mobile:text-sm mobile:text-gray-700 mobile:hover:text-white desktop:py-[12px] desktop:px-[24px] desktop:text-center desktop:flex desktop:text-[14px] desktop:text-gray-700 desktop:dark:text-gray-200 desktop:hover:text-white">
+              ادامه مطلب
+            </a>
+          </div>
+      </div>
+      <!-- Card 3 -->
+      <div class="w-[322px] h-[570px] bg-white  shadow-md overflow-hidden">
+          <img src="./main/images/page4/Loin-New-York-Steak-Uncooked1-50.png" alt="Image 3" class="w-[322px] h-[286px] object-cover">
+          <h2 class="w-[247px] h-[61px]  mx-auto text-[20px] text-[#FF0000] mt-[30px]">انواع ادویه و مرینیت کردن گوشت برای کباب: راز طعم‌های بی‌نظیر</h2>
+          <p class="w-[274px] h-[90px] mx-auto text-[14px] text-[#7C7D7E]  mt-[20px]">
+            چای ارل گری چرا به این نام شناخته می‌شود چای ارل گری یکی از محبوب‌ترین انواع چای در جهان است که به دلیل طعم منحصر‌به‌فرد
+          </p>
+          <div class="mobile:h-[52px] mobile:bg-white mobile:border mobile:opacity-[0.8] mobile:hover:bg-red-600 mobile:hover:opacity-[1] mobile:w-[100px] mobile:mt-[20px] mobile:mr-[20px] mobile:hover:text-white mobile:rounded-lg flex items-center justify-center desktop:bg-white desktop:dark:bg-gray-700 desktop:border desktop:opacity-[0.5] desktop:hover:bg-red-600 desktop:hover:opacity-[1] desktop:w-[115px] desktop:hover:text-white desktop:rounded-[10px] desktop:mr-[20px] ">
+            <a class="mobile:py-2 mobile:px-4 mobile:text-center mobile:text-sm mobile:hover:text-white mobile:text-gray-700 desktop:py-[12px] desktop:px-[24px] desktop:text-center desktop:flex desktop:text-[14px] desktop:text-gray-700 desktop:dark:text-gray-200 desktop:hover:text-white">
+              ادامه مطلب
+            </a>
+          </div>
+      </div>
+  </div>
+    <!-- 3 -->
+    
+    <!-- social -->
+    <div
+      class="abute bg-[#EEEFEF] h-24 w-full mt-24 flex items-center justify-center gap-2 "
+    >
+      <div
+        class="socialBox facebookBox w-12 h-12 rounded-full transition-all duration-100 ease-in-out relative"
+      >
+        <a
+          href="#"
+          class="absolute inset-0 bg-facebook bg-cover bg-center hover:bg-facebook-hover"
+        ></a>
+      </div>
+      <div
+        class="socialBox linkdinBox w-12 h-12 rounded-full transition-all duration-100 ease-in-out relative"
+      >
+        <a
+          href="#"
+          class="absolute inset-0 bg-linkdin bg-cover bg-center hover:bg-linkdin-hover"
+        ></a>
+      </div>
+      <div
+        class="socialBox instaBox w-12 h-12 rounded-full transition-all duration-100 ease-in-out relative"
+      >
+        <a
+          href="#"
+          class="absolute inset-0 bg-insta bg-cover bg-center hover:bg-insta-hover"
+        ></a>
+      </div>
+      <div
+        class="socialBox telegramBox w-12 h-12 rounded-full transition-all duration-100 ease-in-out relative"
+      >
+        <a
+          href="#"
+          class="absolute inset-0 bg-telegram bg-cover bg-center hover:bg-telegram-hover"
+        ></a>
+      </div>
+      <div
+        class="socialBox aparatBox w-12 h-12 rounded-full transition-all duration-100 ease-in-out relative"
+      >
+        <a
+          href="#"
+          class="absolute inset-0 bg-aparat bg-cover bg-center hover:bg-aparat-hover"
+        ></a>
+      </div>
+      <div
+        class="socialBox glBox w-12 h-12 rounded-full transition-all duration-100 ease-in-out relative"
+      >
+        <a
+          href="#"
+          class="absolute inset-0 bg-gl bg-cover bg-center hover:bg-gl-hover"
+        ></a>
+      </div>
+    </div>
+
+    <!-- social -->
+    <div
+      class="h-[25px] bg-[#ED1C24] "
+    ></div>
+
+    <!-- footer -->
+    <div
+      class="mobile:bg-customDark mobile:text-white mobile:w-full mobile:h-[490px] mobile:flex mobile:flex-col mobile:justify-between desktop:bg-customDark desktop:text-white desktop:w-full desktop:h-[490px] desktop:flex desktop:flex-col "
+    >
+      <div
+        class="mobile:flex mobile:flex-col-reverse mobile:items-center mobile:gap-0 desktop:flex desktop:flex-row-reverse desktop:justify-center desktop:items-start desktop:pt-8 desktop:gap-12"
+      >
+        <!-- Box 1 -->
+        <div
+          class="mobile:flex mobile:flex-col mobile:items-center mobile:w-full mobile:h-[344px] mobile:bg-customDark mobile:rounded-none mobile:p-4 desktop:flex desktop:flex-col desktop:items-center desktop:gap-3"
+        >
+          <div
+            class="mobile:h-[90px] mobile:w-[115px] mobile:flex mobile:items-center mobile:justify-center desktop:h-[90px] desktop:w-[115px] desktop:flex desktop:items-center desktop:justify-center"
+          >
+            <span
+              ><img
+                class="mobile:h-[90px] mobile:w-[115px] desktop:h-[90px] desktop:w-[115px]"
+                src="./main/images/footer/footer-icon2.png"
+                alt=""
+            /></span>
+          </div>
+          <div
+            class="mobile:border-t mobile:border-gray-600 mobile:w-full mobile:mt-2 desktop:border-t desktop:border-gray-600 desktop:pt-[10px] desktop:h-[5px] desktop:w-[150px]"
+          ></div>
+          <h3
+            class="mobile:text-white mobile:text-lg desktop:text-lg desktop:font-semibold"
+          >
+            حبوبات گلستان
+          </h3>
+          <div
+            class="mobile:border-t mobile:border-gray-600 mobile:w-full mobile:mt-2 desktop:border-t desktop:border-gray-600 desktop:pt-[10px] desktop:h-[5px] desktop:w-[150px]"
+          ></div>
+          <div
+            class="mobile:text-white mobile:text-sm mobile:mt-4 desktop:text-gray-400 desktop:text-sm desktop:space-y-2"
+          >
+            <a
+              href="#"
+              class="mobile:opacity-[0.5] hover:mobile:opacity-[1] mobile:mb-3 block"
+              >لوبیا قرمز ممتاز</a
+            >
+            <a
+              href="#"
+              class="mobile:opacity-[0.5] hover:mobile:opacity-[1] mobile:mb-3 block"
+              >لوبیا چیتی گلستان</a
+            >
+            <a
+              href="#"
+              class="mobile:opacity-[0.5] hover:mobile:opacity-[1] mobile:mb-3 block"
+              >عدس کانادایی</a
+            >
+            <a
+              href="#"
+              class="mobile:opacity-[0.5] hover:mobile:opacity-[1] mobile:mb-3 block"
+              >نخود زودپز کرمانشاه</a
+            >
+            <a
+              href="#"
+              class="mobile:opacity-[0.5] hover:mobile:opacity-[1] mobile:mb-3 block"
+              >لوبیا سفید گلستان</a
+            >
+          </div>
+        </div>
+        <!-- Box 2 -->
+        <div
+          class="mobile:flex mobile:flex-col mobile:items-center mobile:w-full mobile:h-[344px] mobile:bg-customDark mobile:rounded-none mobile:p-4 desktop:flex desktop:flex-col desktop:items-center desktop:gap-3"
+        >
+          <div
+            class="mobile:h-[90px] mobile:w-[115px] mobile:flex mobile:items-center mobile:justify-center desktop:h-[90px] desktop:w-[115px] desktop:flex desktop:items-center desktop:justify-center"
+          >
+            <span
+              ><img
+                class="mobile:h-[90px] mobile:w-[115px] desktop:h-[90px] desktop:w-[115px]"
+                src="./main/images/footer/footer-icon3.png"
+                alt=""
+            /></span>
+          </div>
+          <div
+            class="mobile:border-t mobile:border-gray-600 mobile:w-full mobile:mt-2 desktop:border-t desktop:border-gray-600 desktop:pt-[10px] desktop:h-[5px] desktop:w-[150px]"
+          ></div>
+          <h3
+            class="mobile:text-white mobile:text-lg desktop:text-lg desktop:font-semibold"
+          >
+            ادویه گلستان
+          </h3>
+          <div
+            class="mobile:border-t mobile:border-gray-600 mobile:w-full mobile:mt-2 desktop:border-t desktop:border-gray-600 desktop:pt-[10px] desktop:h-[5px] desktop:w-[150px]"
+          ></div>
+          <div
+            class="mobile:text-white mobile:text-sm mobile:mt-4 desktop:text-gray-400 desktop:text-sm desktop:space-y-2"
+          >
+            <a
+              href="#"
+              class="mobile:opacity-[0.5] hover:mobile:opacity-[1] mobile:mb-3 block"
+              >زعفران ممتاز خراسان</a
+            >
+            <a
+              href="#"
+              class="mobile:opacity-[0.5] hover:mobile:opacity-[1] mobile:mb-3 block"
+              >ادویه کاری</a
+            >
+            <a
+              href="#"
+              class="mobile:opacity-[0.5] hover:mobile:opacity-[1] mobile:mb-3 block"
+              >ادویه ماست و خیار</a
+            >
+            <a
+              href="#"
+              class="mobile:opacity-[0.5] hover:mobile:opacity-[1] mobile:mb-3 block"
+              >فلفل سیاه خالص</a
+            >
+            <a
+              href="#"
+              class="mobile:opacity-[0.5] hover:mobile:opacity-[1] mobile:mb-3 block"
+              >زرچوبه ممتاز</a
+            >
+          </div>
+        </div>
+        <!-- Box 3 -->
+        <div
+          class="mobile:flex mobile:flex-col mobile:items-center mobile:w-full mobile:h-[344px] mobile:bg-customDark mobile:rounded-none mobile:p-4 desktop:flex desktop:flex-col desktop:items-center desktop:gap-3"
+        >
+          <div
+            class="mobile:h-[90px] mobile:w-[115px] mobile:flex mobile:items-center mobile:justify-center desktop:h-[90px] desktop:w-[115px] desktop:flex desktop:items-center desktop:justify-center"
+          >
+            <span
+              ><img
+                class="mobile:h-[90px] mobile:w-[115px] desktop:h-[90px] desktop:w-[115px]"
+                src="./main/images/footer/footer-icon4.png"
+                alt=""
+            /></span>
+          </div>
+          <div
+            class="mobile:border-t mobile:border-gray-600 mobile:w-full mobile:mt-2 desktop:border-t desktop:border-gray-600 desktop:pt-[10px] desktop:h-[5px] desktop:w-[150px]"
+          ></div>
+          <h3
+            class="mobile:text-white mobile:text-lg desktop:text-lg desktop:font-semibold"
+          >
+            تی بگ گلستان
+          </h3>
+          <div
+            class="mobile:border-t mobile:border-gray-600 mobile:w-full mobile:mt-2 desktop:border-t desktop:border-gray-600 desktop:pt-[10px] desktop:h-[5px] desktop:w-[150px]"
+          ></div>
+          <div
+            class="mobile:text-white mobile:text-sm mobile:mt-4 desktop:text-gray-400 desktop:text-sm desktop:space-y-2"
+          >
+            <a
+              href="#"
+              class="mobile:opacity-[0.5] hover:mobile:opacity-[1] mobile:mb-3 block"
+              >تی بگ بلک لاین</a
+            >
+            <a
+              href="#"
+              class="mobile:opacity-[0.5] hover:mobile:opacity-[1] mobile:mb-3 block"
+              >تی بگ ارل گری</a
+            >
+            <a
+              href="#"
+              class="mobile:opacity-[0.5] hover:mobile:opacity-[1] mobile:mb-3 block"
+              >دمنوش نعناع</a
+            >
+            <a
+              href="#"
+              class="mobile:opacity-[0.5] hover:mobile:opacity-[1] mobile:mb-3 block"
+              >دمنوش بابونه</a
+            >
+            <a
+              href="#"
+              class="mobile:opacity-[0.5] hover:mobile:opacity-[1] mobile:mb-3 block"
+              >منوی چای سبز</a
+            >
+          </div>
+        </div>
+        <!-- Box 4 -->
+        <div
+          class="mobile:flex mobile:flex-col mobile:items-center mobile:w-full mobile:h-[344px] mobile:bg-customDark mobile:rounded-none mobile:p-4 desktop:flex desktop:flex-col desktop:items-center desktop:gap-3"
+        >
+          <div
+            class="mobile:h-[90px] mobile:w-[115px] mobile:flex mobile:items-center mobile:justify-center desktop:h-[90px] desktop:w-[115px] desktop:flex desktop:items-center desktop:justify-center"
+          >
+            <span
+              ><img
+                class="mobile:h-[90px] mobile:w-[115px] desktop:h-[90px] desktop:w-[115px]"
+                src="./main/images/footer/footer-icon1.png"
+                alt=""
+            /></span>
+          </div>
+          <div
+            class="mobile:border-t mobile:border-gray-600 mobile:w-full mobile:mt-2 desktop:border-t desktop:border-gray-600 desktop:pt-[10px] desktop:h-[5px] desktop:w-[150px]"
+          ></div>
+          <h3
+            class="mobile:text-white mobile:text-lg desktop:text-lg desktop:font-semibold"
+          >
+            چای گلستان
+          </h3>
+          <div
+            class="mobile:border-t mobile:border-gray-600 mobile:w-full mobile:mt-2 desktop:border-t desktop:border-gray-600 desktop:pt-[10px] desktop:h-[5px] desktop:w-[150px]"
+          ></div>
+          <div
+            class="mobile:text-white mobile:text-sm mobile:mt-4 desktop:text-gray-400 desktop:text-sm desktop:space-y-2"
+          >
+            <a
+              href="#"
+              class="mobile:opacity-[0.5] hover:mobile:opacity-[1] mobile:mb-3 block"
+              >چای ممتاز هندوستان</a
+            >
+            <a
+              href="#"
+              class="mobile:opacity-[0.5] hover:mobile:opacity-[1] mobile:mb-3 block"
+              >چای ممتاز ارل گری</a
+            >
+            <a
+              href="#"
+              class="mobile:opacity-[0.5] hover:mobile:opacity-[1] mobile:mb-3 block"
+              >چای سیلان عطری</a
+            >
+            <a
+              href="#"
+              class="mobile:opacity-[0.5] hover:mobile:opacity-[1] mobile:mb-3 block"
+              >چای ممتاز سیلان</a
+            >
+            <a
+              href="#"
+              class="mobile:opacity-[0.5] hover:mobile:opacity-[1] mobile:mb-3 block"
+              >چای صبحانه گلستان</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <div
+        class="mobile:bg-customDark mobile:border-t mobile:border-gray-600 mobile:py-4 mobile:text-center mobile:w-full mobile:h-[95px] desktop:bg-customDark desktop:border-t desktop:border-gray-600 desktop:py-4 desktop:text-center"
+      >
+        <p
+          class="mobile:text-gray-400 mobile:text-[15px] desktop:text-gray-400 desktop:text-[15px]"
+        >
+          All Right Reserved Golestan Company 2022-2025
+        </p>
+        <p
+          class="mobile:text-gray-500 mobile:text-[14px] desktop:text-gray-500 desktop:text-[14px]"
+        >
+          Design By: Golestan Studio
+        </p>
+      </div>
+    </div>
+
+    <script src="./main/js/main.js"></script>
+  </body>
+</html>
