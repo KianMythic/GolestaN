@@ -764,6 +764,10 @@ html {
   src: url(../font/IRANSansLight.woff);
 }
 
+.dir-ltr {
+  direction: ltr;
+}
+
 @media (hover:hover) {
   .label a:hover {
     --tw-text-opacity: 1;
@@ -1207,10 +1211,6 @@ html {
   margin-top: 1.5rem;
 }
 
-.mt-\[100px\] {
-  margin-top: 100px;
-}
-
 .mt-\[20px\] {
   margin-top: 20px;
 }
@@ -1223,44 +1223,12 @@ html {
   margin-top: 50px;
 }
 
-.mt-3 {
-  margin-top: 0.75rem;
-}
-
-.mb-\[\] {
-  margin-bottom: ;
-}
-
-.mb-\[30px\] {
-  margin-bottom: 30px;
-}
-
-.mt-\[\] {
-  margin-top: ;
-}
-
-.mt-8 {
-  margin-top: 2rem;
-}
-
-.mr-\[50px\] {
-  margin-right: 50px;
-}
-
-.mb-2 {
-  margin-bottom: 0.5rem;
-}
-
 .block {
   display: block;
 }
 
 .flex {
   display: flex;
-}
-
-.grid {
-  display: grid;
 }
 
 .hidden {
@@ -1299,14 +1267,6 @@ html {
   height: 32px;
 }
 
-.h-\[405px\] {
-  height: 405px;
-}
-
-.h-\[45px\] {
-  height: 45px;
-}
-
 .h-\[570px\] {
   height: 570px;
 }
@@ -1327,36 +1287,8 @@ html {
   height: 100%;
 }
 
-.h-\[140px\] {
-  height: 140px;
-}
-
-.h-\[97px\] {
-  height: 97px;
-}
-
-.h-\[27px\] {
-  height: 27px;
-}
-
-.h-\[47px\] {
-  height: 47px;
-}
-
-.h-\[58px\] {
-  height: 58px;
-}
-
-.h-\[2px\] {
-  height: 2px;
-}
-
 .w-12 {
   width: 3rem;
-}
-
-.w-\[1600px\] {
-  width: 1600px;
 }
 
 .w-\[20px\] {
@@ -1379,56 +1311,8 @@ html {
   width: 32px;
 }
 
-.w-\[680px\] {
-  width: 680px;
-}
-
-.w-\[688px\] {
-  width: 688px;
-}
-
 .w-full {
   width: 100%;
-}
-
-.w-\[\] {
-  width: ;
-}
-
-.w-\[10px\] {
-  width: 10px;
-}
-
-.w-\[2px\] {
-  width: 2px;
-}
-
-.w-\[3px\] {
-  width: 3px;
-}
-
-.max-w-\[1600px\] {
-  max-width: 1600px;
-}
-
-.max-w-\[680px\] {
-  max-width: 680px;
-}
-
-.max-w-\[900px\] {
-  max-width: 900px;
-}
-
-.flex-1 {
-  flex: 1 1 0%;
-}
-
-.grid-cols-3 {
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-}
-
-.flex-col {
-  flex-direction: column;
 }
 
 .items-center {
@@ -1469,10 +1353,6 @@ html {
   border-right-width: 4px;
 }
 
-.border-r {
-  border-right-width: 1px;
-}
-
 .border-gray-300 {
   --tw-border-opacity: 1;
   border-color: rgb(209 213 219 / var(--tw-border-opacity, 1));
@@ -1481,11 +1361,6 @@ html {
 .border-red-500 {
   --tw-border-opacity: 1;
   border-color: rgb(239 68 68 / var(--tw-border-opacity, 1));
-}
-
-.border-white {
-  --tw-border-opacity: 1;
-  border-color: rgb(255 255 255 / var(--tw-border-opacity, 1));
 }
 
 .bg-\[\#4A4A4A\] {
@@ -1533,43 +1408,28 @@ html {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
 }
 
-.bg-gray-100 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(243 244 246 / var(--tw-bg-opacity, 1));
-}
-
-.bg-\[\#FF0000\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 0 0 / var(--tw-bg-opacity, 1));
-}
-
-.bg-red-600 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(220 38 38 / var(--tw-bg-opacity, 1));
-}
-
 .bg-aparat {
-  background-image: url("/main/images/social-icon/aparat.png");
+  background-image: url("GolestaN/main/images/social-icon/aparat.png");
 }
 
 .bg-facebook {
-  background-image: url("/main/images/social-icon/facebook.png");
+  background-image: url("GolestaN/main/images/social-icon/facebook.png");
 }
 
 .bg-gl {
-  background-image: url("/main/images/social-icon/gl.png");
+  background-image: url("GolestaN/main/images/social-icon/gl.png");
 }
 
 .bg-insta {
-  background-image: url("/main/images/social-icon/instagram.png");
+  background-image: url("GolestaN/main/images/social-icon/instagram.png");
 }
 
 .bg-linkdin {
-  background-image: url("/main/images/social-icon/linkidin.png");
+  background-image: url("GolestaN/main/images/social-icon/linkidin.png");
 }
 
 .bg-telegram {
-  background-image: url("/main/images/social-icon/telegram.png");
+  background-image: url("GolestaN/main/images/social-icon/telegram.png");
 }
 
 .bg-cover {
@@ -1594,21 +1454,6 @@ html {
   padding-right: 1.25rem;
 }
 
-.py-8 {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-}
-
-.px-4 {
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-
-.py-2 {
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-}
-
 .pr-\[20px\] {
   padding-right: 20px;
 }
@@ -1619,14 +1464,6 @@ html {
 
 .pt-\[43px\] {
   padding-top: 43px;
-}
-
-.pr-\[50px\] {
-  padding-right: 50px;
-}
-
-.text-center {
-  text-align: center;
 }
 
 .text-start {
@@ -1649,21 +1486,9 @@ html {
   font-size: 20px;
 }
 
-.text-\[24px\] {
-  font-size: 24px;
-}
-
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
-}
-
-.text-\[45px\] {
-  font-size: 45px;
-}
-
-.text-\[30px\] {
-  font-size: 30px;
 }
 
 .font-bold {
@@ -1672,18 +1497,6 @@ html {
 
 .leading-8 {
   line-height: 2rem;
-}
-
-.leading-\[2\] {
-  line-height: 2;
-}
-
-.leading-\[35px\] {
-  line-height: 35px;
-}
-
-.leading-\[45px\] {
-  line-height: 45px;
 }
 
 .text-\[\#636467\] {
@@ -1714,11 +1527,6 @@ html {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
-}
-
-.text-\[\#000000\] {
-  --tw-text-opacity: 1;
-  color: rgb(0 0 0 / var(--tw-text-opacity, 1));
 }
 
 .opacity-\[0\.5\] {
@@ -1761,7 +1569,7 @@ html {
 }
 
 .hover\:bg-aparat-hover:hover {
-  background-image: url("/main/images/social-icon/aparatcolor.png");
+  background-image: url("GolestaN/main/images/social-icon/aparatcolor.png");
 }
 
 .hover\:bg-facebook-hover:hover {
@@ -1769,23 +1577,27 @@ html {
 }
 
 .hover\:bg-gl-hover:hover {
-  background-image: url("/main/images/social-icon/glcolor.png");
+  background-image: url("GolestaN/main/images/social-icon/glcolor.png");
 }
 
 .hover\:bg-insta-hover:hover {
-  background-image: url("/main/images/social-icon/instagramcolor.png");
+  background-image: url("GolestaN/main/images/social-icon/instagramcolor.png");
 }
 
 .hover\:bg-linkdin-hover:hover {
-  background-image: url("/main/images/social-icon/linkdincolor.png");
+  background-image: url("GolestaN/main/images/social-icon/linkdincolor.png");
 }
 
 .hover\:bg-telegram-hover:hover {
-  background-image: url("/main/images/social-icon/telegramcolor.png");
+  background-image: url("GolestaN/main/images/social-icon/telegramcolor.png");
 }
 
 .hover\:underline:hover {
   text-decoration-line: underline;
+}
+
+.group:hover .group-hover\:block {
+  display: block;
 }
 
 .dark\:bg-gray-700:is(.dark *) {
@@ -1913,12 +1725,20 @@ html {
     margin-bottom: 1rem;
   }
 
+  .mobile\:mb-\[10px\] {
+    margin-bottom: 10px;
+  }
+
   .mobile\:mb-\[30px\] {
     margin-bottom: 30px;
   }
 
   .mobile\:mb-\[50px\] {
     margin-bottom: 50px;
+  }
+
+  .mobile\:ml-\[10px\] {
+    margin-left: 10px;
   }
 
   .mobile\:ml-\[20px\] {
@@ -2083,6 +1903,10 @@ html {
 
   .mobile\:h-\[250px\] {
     height: 250px;
+  }
+
+  .mobile\:h-\[264px\] {
+    height: 264px;
   }
 
   .mobile\:h-\[288px\] {
@@ -2329,6 +2153,10 @@ html {
     width: 457px;
   }
 
+  .mobile\:w-\[5px\] {
+    width: 5px;
+  }
+
   .mobile\:w-\[60\%\] {
     width: 60%;
   }
@@ -2347,6 +2175,10 @@ html {
 
   .mobile\:w-full {
     width: 100%;
+  }
+
+  .mobile\:flex-1 {
+    flex: 1 1 0%;
   }
 
   .mobile\:flex-shrink-0 {
@@ -2484,6 +2316,11 @@ html {
     background-color: rgb(218 218 218 / var(--tw-bg-opacity, 1));
   }
 
+  .mobile\:bg-\[\#F2F2F2\] {
+    --tw-bg-opacity: 1;
+    background-color: rgb(242 242 242 / var(--tw-bg-opacity, 1));
+  }
+
   .mobile\:bg-\[\#FF0000\] {
     --tw-bg-opacity: 1;
     background-color: rgb(255 0 0 / var(--tw-bg-opacity, 1));
@@ -2530,7 +2367,7 @@ html {
   }
 
   .mobile\:bg-recipe-banner {
-    background-image: url('/main/images/page1/recipe-baner-1.png');
+    background-image: url('GolestaN/main/images/page1/recipe-baner-1.png');
   }
 
   .mobile\:bg-scroll {
@@ -2580,6 +2417,11 @@ html {
   .mobile\:px-6 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
+  }
+
+  .mobile\:px-\[10px\] {
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
   .mobile\:px-\[20px\] {
@@ -2686,6 +2528,10 @@ html {
     font-size: 24px;
   }
 
+  .mobile\:text-\[25px\] {
+    font-size: 25px;
+  }
+
   .mobile\:text-\[29px\] {
     font-size: 29px;
   }
@@ -2731,6 +2577,14 @@ html {
 
   .mobile\:leading-9 {
     line-height: 2.25rem;
+  }
+
+  .mobile\:leading-\[1\.5\] {
+    line-height: 1.5;
+  }
+
+  .mobile\:leading-\[1\.8\] {
+    line-height: 1.8;
   }
 
   .mobile\:leading-\[36px\] {
@@ -3057,6 +2911,14 @@ html {
     margin-bottom: 200px;
   }
 
+  .desktop\:mb-\[20px\] {
+    margin-bottom: 20px;
+  }
+
+  .desktop\:mb-\[30px\] {
+    margin-bottom: 30px;
+  }
+
   .desktop\:ml-\[100px\] {
     margin-left: 100px;
   }
@@ -3097,12 +2959,20 @@ html {
     margin-top: 0.5rem;
   }
 
+  .desktop\:mt-3 {
+    margin-top: 0.75rem;
+  }
+
   .desktop\:mt-4 {
     margin-top: 1rem;
   }
 
   .desktop\:mt-5 {
     margin-top: 1.25rem;
+  }
+
+  .desktop\:mt-6 {
+    margin-top: 1.5rem;
   }
 
   .desktop\:mt-8 {
@@ -3249,6 +3119,10 @@ html {
     height: 266px;
   }
 
+  .desktop\:h-\[27px\] {
+    height: 27px;
+  }
+
   .desktop\:h-\[28px\] {
     height: 28px;
   }
@@ -3289,6 +3163,10 @@ html {
     height: 400px;
   }
 
+  .desktop\:h-\[405px\] {
+    height: 405px;
+  }
+
   .desktop\:h-\[40px\] {
     height: 40px;
   }
@@ -3313,6 +3191,14 @@ html {
     height: 450px;
   }
 
+  .desktop\:h-\[45px\] {
+    height: 45px;
+  }
+
+  .desktop\:h-\[47px\] {
+    height: 47px;
+  }
+
   .desktop\:h-\[490px\] {
     height: 490px;
   }
@@ -3327,6 +3213,10 @@ html {
 
   .desktop\:h-\[520px\] {
     height: 520px;
+  }
+
+  .desktop\:h-\[58px\] {
+    height: 58px;
   }
 
   .desktop\:h-\[5px\] {
@@ -3371,6 +3261,14 @@ html {
 
   .desktop\:h-full {
     height: 100%;
+  }
+
+  .desktop\:h-\[120px\] {
+    height: 120px;
+  }
+
+  .desktop\:h-\[130px\] {
+    height: 130px;
   }
 
   .desktop\:w-\[1000px\] {
@@ -3473,6 +3371,10 @@ html {
     width: 395px;
   }
 
+  .desktop\:w-\[3px\] {
+    width: 3px;
+  }
+
   .desktop\:w-\[400px\] {
     width: 400px;
   }
@@ -3501,6 +3403,10 @@ html {
     width: 680px;
   }
 
+  .desktop\:w-\[688px\] {
+    width: 688px;
+  }
+
   .desktop\:w-\[700px\] {
     width: 700px;
   }
@@ -3517,6 +3423,18 @@ html {
     width: 100%;
   }
 
+  .desktop\:max-w-\[1600px\] {
+    max-width: 1600px;
+  }
+
+  .desktop\:max-w-\[900px\] {
+    max-width: 900px;
+  }
+
+  .desktop\:flex-1 {
+    flex: 1 1 0%;
+  }
+
   .desktop\:flex-shrink-0 {
     flex-shrink: 0;
   }
@@ -3528,6 +3446,10 @@ html {
 
   .desktop\:transform {
     transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  }
+
+  .desktop\:cursor-pointer {
+    cursor: pointer;
   }
 
   .desktop\:grid-cols-2 {
@@ -3666,6 +3588,11 @@ html {
     background-color: rgb(16 81 83 / var(--tw-bg-opacity, 1));
   }
 
+  .desktop\:bg-\[\#2D2D2D\] {
+    --tw-bg-opacity: 1;
+    background-color: rgb(45 45 45 / var(--tw-bg-opacity, 1));
+  }
+
   .desktop\:bg-\[\#CDE4B0\] {
     --tw-bg-opacity: 1;
     background-color: rgb(205 228 176 / var(--tw-bg-opacity, 1));
@@ -3674,6 +3601,11 @@ html {
   .desktop\:bg-\[\#DADADA\] {
     --tw-bg-opacity: 1;
     background-color: rgb(218 218 218 / var(--tw-bg-opacity, 1));
+  }
+
+  .desktop\:bg-\[\#F2F2F2\] {
+    --tw-bg-opacity: 1;
+    background-color: rgb(242 242 242 / var(--tw-bg-opacity, 1));
   }
 
   .desktop\:bg-\[\#FF0000\] {
@@ -3727,7 +3659,7 @@ html {
   }
 
   .desktop\:bg-recipe-banner {
-    background-image: url('/main/images/page1/recipe-baner-1.png');
+    background-image: url('GolestaN/main/images/page1/recipe-baner-1.png');
   }
 
   .desktop\:bg-cover {
@@ -3792,6 +3724,11 @@ html {
   .desktop\:py-4 {
     padding-top: 1rem;
     padding-bottom: 1rem;
+  }
+
+  .desktop\:py-8 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
   }
 
   .desktop\:py-\[10px\] {
@@ -3897,6 +3834,10 @@ html {
     font-size: 23px;
   }
 
+  .desktop\:text-\[24px\] {
+    font-size: 24px;
+  }
+
   .desktop\:text-\[28px\] {
     font-size: 28px;
   }
@@ -3937,10 +3878,6 @@ html {
     font-weight: 400;
   }
 
-  .desktop\:font-semibold {
-    font-weight: 600;
-  }
-
   .desktop\:not-italic {
     font-style: normal;
   }
@@ -3949,12 +3886,24 @@ html {
     line-height: 2rem;
   }
 
+  .desktop\:leading-\[2\] {
+    line-height: 2;
+  }
+
+  .desktop\:leading-\[35px\] {
+    line-height: 35px;
+  }
+
   .desktop\:leading-\[36px\] {
     line-height: 36px;
   }
 
   .desktop\:leading-\[3\] {
     line-height: 3;
+  }
+
+  .desktop\:leading-\[45px\] {
+    line-height: 45px;
   }
 
   .desktop\:leading-relaxed {
@@ -4076,10 +4025,31 @@ html {
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   }
 
+  .desktop\:transition {
+    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
+    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+  }
+
   .desktop\:transition-colors {
     transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-duration: 150ms;
+  }
+
+  .desktop\:duration-300 {
+    transition-duration: 300ms;
+  }
+
+  .desktop\:ease-in {
+    transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
+  }
+
+  .desktop\:hover\:bg-\[\#2D2D2D\]:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgb(45 45 45 / var(--tw-bg-opacity, 1));
   }
 
   .desktop\:hover\:bg-green-500:hover {
@@ -4170,4 +4140,3 @@ html {
     background-color: rgb(220 38 38 / var(--tw-bg-opacity, 1));
   }
 }
-

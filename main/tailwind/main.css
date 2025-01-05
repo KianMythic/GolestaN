@@ -3,8 +3,15 @@
 @tailwind utilities;
 @layer base {
     @font-face {
-        font-family: irlight;
-        src: url(../font/IRANSansLight.woff);
+      font-family: irlight;
+      src: url(../font/IRANSansLight.woff);
     }
-}
-
+  
+    .dir-ltr {
+      direction: ltr;
+    }
+  
+    .dir-rtl {
+      direction: rtl;
+    }
+  }
