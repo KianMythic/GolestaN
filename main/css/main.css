@@ -2544,6 +2544,10 @@ html {
     padding-right: 0px;
   }
 
+  .mobile\:pl-4 {
+    padding-left: 1rem;
+  }
+
   .mobile\:text-center {
     text-align: center;
   }
