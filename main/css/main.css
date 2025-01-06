@@ -2568,6 +2568,10 @@ html {
     padding-left: 1rem;
   }
 
+  .mobile\:pl-0 {
+    padding-left: 0px;
+  }
+
   .mobile\:text-center {
     text-align: center;
   }
