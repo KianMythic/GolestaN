@@ -1809,6 +1809,10 @@ html {
     margin-top: 50px;
   }
 
+  .mobile\:mt-\[100px\] {
+    margin-top: 100px;
+  }
+
   .mobile\:block {
     display: block;
   }
@@ -2075,6 +2079,10 @@ html {
 
   .mobile\:h-\[430px\] {
     height: 430px;
+  }
+
+  .mobile\:h-\[80px\] {
+    height: 80px;
   }
 
   .mobile\:w-\[100px\] {
