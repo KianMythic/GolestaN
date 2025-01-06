@@ -2221,6 +2221,10 @@ html {
     width: 130px;
   }
 
+  .mobile\:w-\[100\%\] {
+    width: 100%;
+  }
+
   .mobile\:max-w-full {
     max-width: 100%;
   }
