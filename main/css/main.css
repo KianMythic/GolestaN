@@ -2101,6 +2101,10 @@ html {
     height: 161px;
   }
 
+  .mobile\:h-\[16px\] {
+    height: 16px;
+  }
+
   .mobile\:w-\[100px\] {
     width: 100px;
   }
