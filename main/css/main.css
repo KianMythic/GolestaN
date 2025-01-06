@@ -1409,27 +1409,27 @@ html {
 }
 
 .bg-aparat {
-  background-image: url("./main/images/social-icon/aparat.png");
+  background-image: url("/main/images/social-icon/aparat.png");
 }
 
 .bg-facebook {
-  background-image: url("./main/images/social-icon/facebook.png");
+  background-image: url("/main/images/social-icon/facebook.png");
 }
 
 .bg-gl {
-  background-image: url("./main/images/social-icon/gl.png");
+  background-image: url("/main/images/social-icon/gl.png");
 }
 
 .bg-insta {
-  background-image: url("./main/images/social-icon/instagram.png");
+  background-image: url("/main/images/social-icon/instagram.png");
 }
 
 .bg-linkdin {
-  background-image: url("./main/images/social-icon/linkidin.png");
+  background-image: url("/main/images/social-icon/linkidin.png");
 }
 
 .bg-telegram {
-  background-image: url("./main/images/social-icon/telegram.png");
+  background-image: url("/main/images/social-icon/telegram.png");
 }
 
 .bg-cover {
@@ -1464,6 +1464,22 @@ html {
 
 .pt-\[43px\] {
   padding-top: 43px;
+}
+
+.pt-\[\] {
+  padding-top: ;
+}
+
+.pt-\[100px\] {
+  padding-top: 100px;
+}
+
+.pt-\[10px\] {
+  padding-top: 10px;
+}
+
+.pt-\[50px\] {
+  padding-top: 50px;
 }
 
 .text-start {
@@ -1569,27 +1585,23 @@ html {
 }
 
 .hover\:bg-aparat-hover:hover {
-  background-image: url("./main/images/social-icon/aparatcolor.png");
+  background-image: url("/main/images/social-icon/aparatcolor.png");
 }
 
 .hover\:bg-facebook-hover:hover {
-  background-image: url("./main/images/social-icon/facebookcolor.png");
+  background-image: url("/main/images/social-icon/facebookcolor.png");
 }
 
 .hover\:bg-gl-hover:hover {
-  background-image: url("./main/images/social-icon/glcolor.png");
+  background-image: url("/main/images/social-icon/glcolor.png");
 }
 
 .hover\:bg-insta-hover:hover {
-  background-image: url("./main/images/social-icon/instagramcolor.png");
-}
-
-.hover\:bg-linkdin-hover:hover {
-  background-image: url("./main/images/social-icon/linkdincolor.png");
+  background-image: url("/main/images/social-icon/instagramcolor.png");
 }
 
 .hover\:bg-telegram-hover:hover {
-  background-image: url("./main/images/social-icon/telegramcolor.png");
+  background-image: url("/main/images/social-icon/telegramcolor.png");
 }
 
 .hover\:underline:hover {
@@ -2061,6 +2073,10 @@ html {
     height: 100%;
   }
 
+  .mobile\:h-\[430px\] {
+    height: 430px;
+  }
+
   .mobile\:w-\[100px\] {
     width: 100px;
   }
@@ -2175,6 +2191,26 @@ html {
 
   .mobile\:w-full {
     width: 100%;
+  }
+
+  .mobile\:w-\[160px\] {
+    width: 160px;
+  }
+
+  .mobile\:w-\[196px\] {
+    width: 196px;
+  }
+
+  .mobile\:w-\[195px\] {
+    width: 195px;
+  }
+
+  .mobile\:w-\[120px\] {
+    width: 120px;
+  }
+
+  .mobile\:w-\[130px\] {
+    width: 130px;
   }
 
   .mobile\:flex-1 {
@@ -2367,7 +2403,7 @@ html {
   }
 
   .mobile\:bg-recipe-banner {
-    background-image: url('./main/images/page1/recipe-baner-1.png');
+    background-image: url('/main/images/page1/recipe-baner-1.png');
   }
 
   .mobile\:bg-scroll {
@@ -3031,6 +3067,26 @@ html {
     margin-top: 80px;
   }
 
+  .desktop\:mr-\[200px\] {
+    margin-right: 200px;
+  }
+
+  .desktop\:mr-\[400px\] {
+    margin-right: 400px;
+  }
+
+  .desktop\:mr-\[500px\] {
+    margin-right: 500px;
+  }
+
+  .desktop\:mr-\[450px\] {
+    margin-right: 450px;
+  }
+
+  .desktop\:mt-\[10px\] {
+    margin-top: 10px;
+  }
+
   .desktop\:block {
     display: block;
   }
@@ -3271,6 +3327,18 @@ html {
     height: 100%;
   }
 
+  .desktop\:h-\[430px\] {
+    height: 430px;
+  }
+
+  .desktop\:h-\[150px\] {
+    height: 150px;
+  }
+
+  .desktop\:h-\[190px\] {
+    height: 190px;
+  }
+
   .desktop\:w-\[1000px\] {
     width: 1000px;
   }
@@ -3421,6 +3489,22 @@ html {
 
   .desktop\:w-full {
     width: 100%;
+  }
+
+  .desktop\:w-\[\] {
+    width: ;
+  }
+
+  .desktop\:w-\[300px\] {
+    width: 300px;
+  }
+
+  .desktop\:w-\[180px\] {
+    width: 180px;
+  }
+
+  .desktop\:w-\[190px\] {
+    width: 190px;
   }
 
   .desktop\:max-w-\[1600px\] {
@@ -3659,7 +3743,7 @@ html {
   }
 
   .desktop\:bg-recipe-banner {
-    background-image: url('./main/images/page1/recipe-baner-1.png');
+    background-image: url('/main/images/page1/recipe-baner-1.png');
   }
 
   .desktop\:bg-cover {
@@ -3870,6 +3954,14 @@ html {
     line-height: 1.75rem;
   }
 
+  .desktop\:text-\[18px\] {
+    font-size: 18px;
+  }
+
+  .desktop\:text-\[187px\] {
+    font-size: 187px;
+  }
+
   .desktop\:font-bold {
     font-weight: 700;
   }
@@ -4013,6 +4105,10 @@ html {
   .desktop\:text-white {
     --tw-text-opacity: 1;
     color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+  }
+
+  .desktop\:text-\[\] {
+    color: ;
   }
 
   .desktop\:opacity-\[0\.5\] {
