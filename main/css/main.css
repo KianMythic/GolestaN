@@ -2540,6 +2540,10 @@ html {
     padding-left: 20px;
   }
 
+  .mobile\:pr-0 {
+    padding-right: 0px;
+  }
+
   .mobile\:text-center {
     text-align: center;
   }
